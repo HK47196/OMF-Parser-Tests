@@ -1,0 +1,13 @@
+# Editor backups
+*~
+*.swp
+*.swo
+.*.swp
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db

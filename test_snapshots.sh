@@ -38,7 +38,7 @@ for snapshot in "${snapshots[@]}"; do
     fi
 
     tmpfile=$(mktemp)
-    if ! PYTHONPATH=src python3 -m omf_parser.cli "$corpus_file" --json 2>/dev/null | sed 's|"filepath": "[^"]*"|"filepath": "'"$rel_path"'"|' > "$tmpfile"; then
+    if ! PYTHONPATH=src python3 -m omf_parser.cli "$corpus_file" --json 2>/dev/null | jq --arg path "$rel_path" '.filepath = $path' > "$tmpfile"; then
         echo "[$current/$total] ERROR: $rel_path"
         rm -f "$tmpfile"
         failed=$((failed + 1))

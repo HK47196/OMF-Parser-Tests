@@ -27,7 +27,7 @@ find "$CORPUS_DIR" -type f \( -name "*.LIB" -o -name "*.lib" -o -name "*.OBJ" -o
 
     mkdir -p "$(dirname "$snapshot_path")"
 
-    if PYTHONPATH=src python3 -m omf_parser.cli "$file" --json 2>/dev/null | sed 's|"filepath": "[^"]*"|"filepath": "'"$rel_path"'"|' > "$snapshot_path"; then
+    if PYTHONPATH=src python3 -m omf_parser.cli "$file" --json 2>/dev/null | jq --arg path "$rel_path" '.filepath = $path' > "$snapshot_path"; then
         echo "[$current/$total] $rel_path"
     else
         echo "[$current/$total] FAILED: $rel_path"
