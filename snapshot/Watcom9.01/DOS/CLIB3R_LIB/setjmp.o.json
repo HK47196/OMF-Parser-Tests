@@ -1,0 +1,187 @@
+{
+  "filepath": "Watcom9.01/DOS/CLIB3R_LIB/setjmp.o",
+  "file_size": 197,
+  "is_library": false,
+  "variant": "PharLap Easy OMF-386",
+  "mixed_variants": false,
+  "seen_variants": null,
+  "features": [
+    "easy_omf",
+    "pharlap"
+  ],
+  "records": [
+    {
+      "type": 128,
+      "type_hex": "0x80",
+      "name": "THEADR",
+      "offset": 0,
+      "length": 8,
+      "checksum": 223,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "THEADR",
+        "module_name": "setjmp"
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 11,
+      "length": 8,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 170,
+        "class_name": "Easy OMF",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "marker": "80386",
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 22,
+      "length": 13,
+      "checksum": 149,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 1,
+        "end_index": 3,
+        "names": [
+          [
+            1,
+            "",
+            false
+          ],
+          [
+            2,
+            "_TEXT",
+            false
+          ],
+          [
+            3,
+            "CODE",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 38,
+      "length": 9,
+      "checksum": 84,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 93,
+        "segment_name": "'_TEXT'",
+        "class_name": "'CODE'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 50,
+      "length": 17,
+      "checksum": 209,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "longjmp_",
+            "offset": 47,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 70,
+      "length": 17,
+      "checksum": 5,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "_setjmp_",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 90,
+      "length": 99,
+      "checksum": 13,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_TEXT",
+        "segment_index": 1,
+        "offset": 0,
+        "data_length": 93,
+        "data_preview": "891889480489500889700c8978108968"
+      }
+    },
+    {
+      "type": 138,
+      "type_hex": "0x8A",
+      "name": "MODEND",
+      "offset": 192,
+      "length": 2,
+      "checksum": 116,
+      "checksum_valid": true,
+      "parsed": {
+        "mod_type": 0,
+        "is_main": false,
+        "has_start": false,
+        "is_relocatable": false,
+        "start_address": null,
+        "warnings": []
+      }
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}

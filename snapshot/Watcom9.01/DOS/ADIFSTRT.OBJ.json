@@ -1,0 +1,1900 @@
+{
+  "filepath": "Watcom9.01/DOS/ADIFSTRT.OBJ",
+  "file_size": 2057,
+  "is_library": false,
+  "variant": "PharLap Easy OMF-386",
+  "mixed_variants": false,
+  "seen_variants": null,
+  "features": [
+    "easy_omf",
+    "pharlap"
+  ],
+  "records": [
+    {
+      "type": 128,
+      "type_hex": "0x80",
+      "name": "THEADR",
+      "offset": 0,
+      "length": 10,
+      "checksum": 8,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "THEADR",
+        "module_name": "adsstart"
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 13,
+      "length": 8,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 170,
+        "class_name": "Easy OMF",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "marker": "80386",
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 24,
+      "length": 118,
+      "checksum": 62,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 1,
+        "end_index": 22,
+        "names": [
+          [
+            1,
+            "",
+            false
+          ],
+          [
+            2,
+            "BEGTEXT",
+            false
+          ],
+          [
+            3,
+            "CODE",
+            false
+          ],
+          [
+            4,
+            "_TEXT",
+            false
+          ],
+          [
+            5,
+            "_NULL",
+            false
+          ],
+          [
+            6,
+            "DGROUP",
+            false
+          ],
+          [
+            7,
+            "BEGDATA",
+            false
+          ],
+          [
+            8,
+            "_AFTERNULL",
+            false
+          ],
+          [
+            9,
+            "CONST",
+            false
+          ],
+          [
+            10,
+            "DATA",
+            false
+          ],
+          [
+            11,
+            "XIB",
+            false
+          ],
+          [
+            12,
+            "XI",
+            false
+          ],
+          [
+            13,
+            "XIE",
+            false
+          ],
+          [
+            14,
+            "YIB",
+            false
+          ],
+          [
+            15,
+            "YI",
+            false
+          ],
+          [
+            16,
+            "YIE",
+            false
+          ],
+          [
+            17,
+            "_DATA",
+            false
+          ],
+          [
+            18,
+            "DATA",
+            false
+          ],
+          [
+            19,
+            "_BSS",
+            false
+          ],
+          [
+            20,
+            "BSS",
+            false
+          ],
+          [
+            21,
+            "STACK",
+            false
+          ],
+          [
+            22,
+            "STACK",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 145,
+      "length": 9,
+      "checksum": 15,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 2,
+        "segment_name": "'BEGTEXT'",
+        "class_name": "'CODE'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 157,
+      "length": 9,
+      "checksum": 40,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 741,
+        "segment_name": "'_TEXT'",
+        "class_name": "'CODE'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 169,
+      "length": 9,
+      "checksum": 230,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 104,
+        "alignment": "Paragraph",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 4,
+        "segment_name": "'_NULL'",
+        "class_name": "'BEGDATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 181,
+      "length": 9,
+      "checksum": 7,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'_AFTERNULL'",
+        "class_name": "'BEGDATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 193,
+      "length": 9,
+      "checksum": 3,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'CONST'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 205,
+      "length": 9,
+      "checksum": 1,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'XIB'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 217,
+      "length": 9,
+      "checksum": 0,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'XI'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 229,
+      "length": 9,
+      "checksum": 255,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'XIE'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 241,
+      "length": 9,
+      "checksum": 254,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'YIB'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 253,
+      "length": 9,
+      "checksum": 253,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'YI'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 265,
+      "length": 9,
+      "checksum": 252,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'YIE'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 277,
+      "length": 9,
+      "checksum": 84,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 71,
+        "segment_name": "'_DATA'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 289,
+      "length": 9,
+      "checksum": 250,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'DATA'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 301,
+      "length": 9,
+      "checksum": 239,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'_BSS'",
+        "class_name": "'BSS'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 313,
+      "length": 9,
+      "checksum": 127,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 116,
+        "alignment": "Paragraph",
+        "combine": "Stack",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 16384,
+        "segment_name": "'STACK'",
+        "class_name": "'STACK'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 154,
+      "type_hex": "0x9A",
+      "name": "GRPDEF",
+      "offset": 325,
+      "length": 28,
+      "checksum": 220,
+      "checksum_valid": true,
+      "parsed": {
+        "name": "'DGROUP'",
+        "name_index": 6,
+        "is_flat": false,
+        "components": [
+          "Seg:_NULL",
+          "Seg:_AFTERNULL",
+          "Seg:CONST",
+          "Seg:_DATA",
+          "Seg:DATA",
+          "Seg:XIB",
+          "Seg:XI",
+          "Seg:XIE",
+          "Seg:YIB",
+          "Seg:YI",
+          "Seg:YIE",
+          "Seg:_BSS",
+          "Seg:STACK"
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 356,
+      "length": 16,
+      "checksum": 67,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__GETDS",
+            "offset": 733,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 375,
+      "length": 24,
+      "checksum": 95,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__exit_with_msg",
+            "offset": 685,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 402,
+      "length": 21,
+      "checksum": 194,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "exit_to_acad",
+            "offset": 677,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 426,
+      "length": 15,
+      "checksum": 52,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__exit",
+            "offset": 683,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 444,
+      "length": 17,
+      "checksum": 6,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "_cstart_",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 464,
+      "length": 16,
+      "checksum": 117,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "cbufadr",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 483,
+      "length": 17,
+      "checksum": 222,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__fsavcw",
+            "offset": 36,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 503,
+      "length": 17,
+      "checksum": 231,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "info_sel",
+            "offset": 20,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 523,
+      "length": 17,
+      "checksum": 244,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "info_off",
+            "offset": 16,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 543,
+      "length": 15,
+      "checksum": 183,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "stkflg",
+            "offset": 12,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 561,
+      "length": 15,
+      "checksum": 206,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_DATA",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "brkflg",
+            "offset": 8,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 579,
+      "length": 19,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "DGROUP",
+        "base_segment": "_NULL",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__nullarea",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 601,
+      "length": 10,
+      "checksum": 133,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 1,
+            "name": "_Envptr",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 614,
+      "length": 10,
+      "checksum": 156,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 2,
+            "name": "_Envseg",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 627,
+      "length": 12,
+      "checksum": 193,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 3,
+            "name": "_Extender",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 642,
+      "length": 13,
+      "checksum": 166,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 4,
+            "name": "_LpCmdLine",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 658,
+      "length": 13,
+      "checksum": 157,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 5,
+            "name": "_LpPgmName",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 674,
+      "length": 12,
+      "checksum": 152,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 6,
+            "name": "_STACKLOW",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 689,
+      "length": 12,
+      "checksum": 151,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 7,
+            "name": "_STACKTOP",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 704,
+      "length": 10,
+      "checksum": 221,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 8,
+            "name": "__CMain",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 717,
+      "length": 13,
+      "checksum": 188,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 9,
+            "name": "__DOSseg__",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 733,
+      "length": 16,
+      "checksum": 129,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 10,
+            "name": "__FPE_handler",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 752,
+      "length": 13,
+      "checksum": 114,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 11,
+            "name": "__FiniRtns",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 768,
+      "length": 13,
+      "checksum": 100,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 12,
+            "name": "__InitRtns",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 784,
+      "length": 17,
+      "checksum": 32,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 13,
+            "name": "___FPE_handler",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 804,
+      "length": 9,
+      "checksum": 91,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 14,
+            "name": "__no87",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 816,
+      "length": 9,
+      "checksum": 2,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 15,
+            "name": "_child",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 828,
+      "length": 10,
+      "checksum": 123,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 16,
+            "name": "_curbrk",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 841,
+      "length": 10,
+      "checksum": 130,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 17,
+            "name": "_dynend",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 854,
+      "length": 9,
+      "checksum": 7,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 18,
+            "name": "_edata",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 866,
+      "length": 7,
+      "checksum": 211,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 19,
+            "name": "_end",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 876,
+      "length": 11,
+      "checksum": 7,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 20,
+            "name": "_osmajor",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 890,
+      "length": 11,
+      "checksum": 251,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 21,
+            "name": "_osminor",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 904,
+      "length": 7,
+      "checksum": 183,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 22,
+            "name": "_psp",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 914,
+      "length": 13,
+      "checksum": 64,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 23,
+            "name": "child_exit",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 930,
+      "length": 15,
+      "checksum": 90,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 24,
+            "name": "map_phys_mem",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 948,
+      "length": 8,
+      "checksum": 110,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "BEGTEXT",
+        "segment_index": 1,
+        "offset": 0,
+        "data_length": 2,
+        "data_preview": "ebfe"
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 959,
+      "length": 10,
+      "checksum": 80,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_NULL",
+        "segment_index": 3,
+        "offset": 0,
+        "data_length": 4,
+        "data_preview": "01010100"
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 972,
+      "length": 77,
+      "checksum": 12,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_DATA",
+        "segment_index": 12,
+        "offset": 0,
+        "data_length": 71,
+        "data_preview": "00000000000000000000000000000000"
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 1052,
+      "length": 747,
+      "checksum": 0,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_TEXT",
+        "segment_index": 2,
+        "offset": 0,
+        "data_length": 741,
+        "data_preview": "eb67574154434f4d2043203338362052"
+      }
+    },
+    {
+      "type": 156,
+      "type_hex": "0x9C",
+      "name": "FIXUPP",
+      "offset": 1802,
+      "length": 245,
+      "checksum": 126,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 108,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 36
+          },
+          {
+            "data_offset": 125,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 12,
+            "displacement": 38
+          },
+          {
+            "data_offset": 141,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 16
+          },
+          {
+            "data_offset": 148,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 20
+          },
+          {
+            "data_offset": 159,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 28
+          },
+          {
+            "data_offset": 168,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 4
+          },
+          {
+            "data_offset": 178,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 22
+          },
+          {
+            "data_offset": 186,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 26
+          },
+          {
+            "data_offset": 192,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 34
+          },
+          {
+            "data_offset": 202,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 22,
+            "displacement": null
+          },
+          {
+            "data_offset": 215,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 7,
+            "displacement": null
+          },
+          {
+            "data_offset": 221,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 16,
+            "displacement": null
+          },
+          {
+            "data_offset": 237,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 20,
+            "displacement": null
+          },
+          {
+            "data_offset": 243,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 21,
+            "displacement": null
+          },
+          {
+            "data_offset": 300,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 22,
+            "displacement": null
+          },
+          {
+            "data_offset": 305,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 3,
+            "displacement": null
+          },
+          {
+            "data_offset": 311,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 22,
+            "displacement": null
+          },
+          {
+            "data_offset": 316,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 19,
+            "displacement": null
+          },
+          {
+            "data_offset": 377,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 3,
+            "displacement": null
+          },
+          {
+            "data_offset": 407,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 2,
+            "displacement": null
+          },
+          {
+            "data_offset": 420,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 1,
+            "displacement": null
+          },
+          {
+            "data_offset": 472,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 14,
+            "displacement": null
+          },
+          {
+            "data_offset": 478,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 6,
+            "displacement": null
+          },
+          {
+            "data_offset": 500,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 4
+          },
+          {
+            "data_offset": 517,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T4:SEGDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": null
+          },
+          {
+            "data_offset": 522,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 24,
+            "displacement": null
+          },
+          {
+            "data_offset": 535,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 17,
+            "displacement": null
+          },
+          {
+            "data_offset": 541,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 16,
+            "displacement": null
+          },
+          {
+            "data_offset": 546,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 19,
+            "displacement": null
+          },
+          {
+            "data_offset": 551,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 18,
+            "displacement": null
+          },
+          {
+            "data_offset": 574,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 19,
+            "displacement": null
+          },
+          {
+            "data_offset": 586,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 4,
+            "displacement": null
+          },
+          {
+            "data_offset": 592,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 5,
+            "displacement": null
+          },
+          {
+            "data_offset": 597,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 12,
+            "displacement": null
+          },
+          {
+            "data_offset": 673,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 8,
+            "displacement": null
+          },
+          {
+            "data_offset": 679,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F1:GRPDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 1,
+            "target_datum": 12,
+            "displacement": 22
+          },
+          {
+            "data_offset": 688,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 2,
+            "displacement": 101
+          },
+          {
+            "data_offset": 722,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 11,
+            "displacement": null
+          },
+          {
+            "data_offset": 728,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F0:SEGDEF",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": 2,
+            "target_datum": 23,
+            "displacement": null
+          },
+          {
+            "data_offset": 736,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F0:SEGDEF",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": 2,
+            "target_datum": 12,
+            "displacement": 34
+          }
+        ]
+      }
+    },
+    {
+      "type": 138,
+      "type_hex": "0x8A",
+      "name": "MODEND",
+      "offset": 2050,
+      "length": 4,
+      "checksum": 91,
+      "checksum_valid": true,
+      "parsed": {
+        "mod_type": 193,
+        "is_main": true,
+        "has_start": true,
+        "is_relocatable": true,
+        "start_address": {
+          "frame_method": 5,
+          "p_bit": 1,
+          "target_method": 0,
+          "frame_datum": null,
+          "target_datum": 2,
+          "target_displacement": null
+        },
+        "warnings": [
+          "MODEND uses secondary target (P=1): valid per Intel OMF, not TIS OMF 1.1"
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "MODEND uses secondary target (P=1): valid per Intel OMF, not TIS OMF 1.1"
+  ],
+  "errors": []
+}

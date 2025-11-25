@@ -1,0 +1,557 @@
+{
+  "filepath": "Watcom9.01/DOS/CLIB3R_LIB/printf.o",
+  "file_size": 304,
+  "is_library": false,
+  "variant": "PharLap Easy OMF-386",
+  "mixed_variants": false,
+  "seen_variants": null,
+  "features": [
+    "easy_omf",
+    "pharlap"
+  ],
+  "records": [
+    {
+      "type": 128,
+      "type_hex": "0x80",
+      "name": "THEADR",
+      "offset": 0,
+      "length": 8,
+      "checksum": 223,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "THEADR",
+        "module_name": "printf"
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 11,
+      "length": 8,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 170,
+        "class_name": "Easy OMF",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "marker": "80386",
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 22,
+      "length": 3,
+      "checksum": 84,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 161,
+        "class_name": "New OMF Extension",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "data": null
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 28,
+      "length": 7,
+      "checksum": 254,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 155,
+        "class_name": "Watcom Processor/Model",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "processor": "80386+",
+          "processor_raw": "3",
+          "mem_model": "Small",
+          "mem_model_raw": "s",
+          "optimized": true,
+          "fp_mode": "Emulator calls",
+          "fp_mode_raw": "c",
+          "pic": false
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 38,
+      "length": 7,
+      "checksum": 105,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 254,
+        "class_name": "Watcom Linker Directive",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "directive_code": "D",
+          "directive_name": "Source Language",
+          "content": {
+            "major_version": 1,
+            "minor_version": 2,
+            "language": "C"
+          },
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 48,
+      "length": 23,
+      "checksum": 84,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 1,
+        "end_index": 5,
+        "names": [
+          [
+            1,
+            "",
+            false
+          ],
+          [
+            2,
+            "CODE",
+            false
+          ],
+          [
+            3,
+            "DATA",
+            false
+          ],
+          [
+            4,
+            "BSS",
+            false
+          ],
+          [
+            5,
+            "DGROUP",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 74,
+      "length": 7,
+      "checksum": 186,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 6,
+        "end_index": 6,
+        "names": [
+          [
+            6,
+            "_TEXT",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 84,
+      "length": 9,
+      "checksum": 14,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 40,
+        "alignment": "Byte",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 32,
+        "segment_name": "'_TEXT'",
+        "class_name": "'CODE'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 96,
+      "length": 5,
+      "checksum": 165,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 254,
+        "class_name": "Watcom Linker Directive",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "directive_code": "O",
+          "directive_name": "Optimize Far Calls",
+          "content": {
+            "segment_index": 1,
+            "segment_name": "_TEXT"
+          },
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 104,
+      "length": 7,
+      "checksum": 215,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 7,
+        "end_index": 7,
+        "names": [
+          [
+            7,
+            "CONST",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 114,
+      "length": 9,
+      "checksum": 172,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'CONST'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 126,
+      "length": 8,
+      "checksum": 163,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 8,
+        "end_index": 8,
+        "names": [
+          [
+            8,
+            "CONST2",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 137,
+      "length": 9,
+      "checksum": 171,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'CONST2'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 149,
+      "length": 7,
+      "checksum": 229,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 9,
+        "end_index": 9,
+        "names": [
+          [
+            9,
+            "_DATA",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 159,
+      "length": 9,
+      "checksum": 170,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'_DATA'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 171,
+      "length": 6,
+      "checksum": 25,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 10,
+        "end_index": 10,
+        "names": [
+          [
+            10,
+            "_BSS",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 180,
+      "length": 9,
+      "checksum": 168,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'_BSS'",
+        "class_name": "'BSS'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 154,
+      "type_hex": "0x9A",
+      "name": "GRPDEF",
+      "offset": 192,
+      "length": 10,
+      "checksum": 77,
+      "checksum_valid": true,
+      "parsed": {
+        "name": "'DGROUP'",
+        "name_index": 5,
+        "is_flat": false,
+        "components": [
+          "Seg:CONST",
+          "Seg:CONST2",
+          "Seg:_DATA",
+          "Seg:_BSS"
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "type": 140,
+      "type_hex": "0x8C",
+      "name": "EXTDEF",
+      "offset": 205,
+      "length": 19,
+      "checksum": 189,
+      "checksum_valid": true,
+      "parsed": {
+        "is_local": false,
+        "externals": [
+          {
+            "index": 1,
+            "name": "___iob",
+            "type_index": 0
+          },
+          {
+            "index": 2,
+            "name": "__fprtf_",
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 227,
+      "length": 38,
+      "checksum": 208,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_TEXT",
+        "segment_index": 1,
+        "offset": 0,
+        "data_length": 32,
+        "data_preview": "53525589e5508d5d14895dfcb81a0000"
+      }
+    },
+    {
+      "type": 156,
+      "type_hex": "0x9C",
+      "name": "FIXUPP",
+      "offset": 268,
+      "length": 9,
+      "checksum": 31,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 13,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 1,
+            "displacement": null
+          },
+          {
+            "data_offset": 24,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Self-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T6:EXTDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 2,
+            "displacement": null
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 280,
+      "length": 16,
+      "checksum": 102,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "printf_",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 138,
+      "type_hex": "0x8A",
+      "name": "MODEND",
+      "offset": 299,
+      "length": 2,
+      "checksum": 116,
+      "checksum_valid": true,
+      "parsed": {
+        "mod_type": 0,
+        "is_main": false,
+        "has_start": false,
+        "is_relocatable": false,
+        "start_address": null,
+        "warnings": []
+      }
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}

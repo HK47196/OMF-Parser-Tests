@@ -1,0 +1,539 @@
+{
+  "filepath": "Watcom9.01/NOEMU387.LIB",
+  "file_size": 1024,
+  "is_library": true,
+  "variant": "PharLap Easy OMF-386",
+  "mixed_variants": true,
+  "seen_variants": [
+    "PharLap Easy OMF-386",
+    "TIS Standard"
+  ],
+  "features": [
+    "easy_omf",
+    "pharlap"
+  ],
+  "records": [
+    {
+      "type": 240,
+      "type_hex": "0xF0",
+      "name": "LIBHDR",
+      "offset": 0,
+      "length": 13,
+      "checksum": null,
+      "checksum_valid": null,
+      "parsed": {
+        "page_size": 16,
+        "dict_offset": 512,
+        "dict_blocks": 1,
+        "flags": 0,
+        "case_sensitive": false
+      }
+    },
+    {
+      "type": 128,
+      "type_hex": "0x80",
+      "name": "THEADR",
+      "offset": 16,
+      "length": 10,
+      "checksum": 180,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "THEADR",
+        "module_name": "386inite"
+      }
+    },
+    {
+      "type": 136,
+      "type_hex": "0x88",
+      "name": "COMENT",
+      "offset": 29,
+      "length": 8,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "comment_class": 170,
+        "class_name": "Easy OMF",
+        "no_purge": true,
+        "no_list": false,
+        "content": {
+          "marker": "80386",
+          "warnings": []
+        },
+        "raw_data": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 150,
+      "type_hex": "0x96",
+      "name": "LNAMES",
+      "offset": 40,
+      "length": 53,
+      "checksum": 19,
+      "checksum_valid": true,
+      "parsed": {
+        "record_name": "LNAMES",
+        "start_index": 1,
+        "end_index": 12,
+        "names": [
+          [
+            1,
+            "",
+            false
+          ],
+          [
+            2,
+            "_DATA",
+            false
+          ],
+          [
+            3,
+            "DGROUP",
+            false
+          ],
+          [
+            4,
+            "DATA",
+            false
+          ],
+          [
+            5,
+            "XIB",
+            false
+          ],
+          [
+            6,
+            "XI",
+            false
+          ],
+          [
+            7,
+            "XIE",
+            false
+          ],
+          [
+            8,
+            "YIB",
+            false
+          ],
+          [
+            9,
+            "YI",
+            false
+          ],
+          [
+            10,
+            "YIE",
+            false
+          ],
+          [
+            11,
+            "_TEXT",
+            false
+          ],
+          [
+            12,
+            "CODE",
+            false
+          ]
+        ]
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 96,
+      "length": 9,
+      "checksum": 176,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 168,
+        "alignment": "DWord",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'_DATA'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 108,
+      "length": 9,
+      "checksum": 13,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'XIB'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 120,
+      "length": 9,
+      "checksum": 6,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 6,
+        "segment_name": "'XI'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 132,
+      "length": 9,
+      "checksum": 11,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'XIE'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 144,
+      "length": 9,
+      "checksum": 10,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'YIB'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 156,
+      "length": 9,
+      "checksum": 3,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 6,
+        "segment_name": "'YI'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 168,
+      "length": 9,
+      "checksum": 8,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 0,
+        "segment_name": "'YIE'",
+        "class_name": "'DATA'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 152,
+      "type_hex": "0x98",
+      "name": "SEGDEF",
+      "offset": 180,
+      "length": 9,
+      "checksum": 253,
+      "checksum_valid": true,
+      "parsed": {
+        "acbp": 72,
+        "alignment": "Word",
+        "combine": "Public",
+        "big": false,
+        "use32": false,
+        "absolute_frame": null,
+        "absolute_offset": null,
+        "length": 2,
+        "segment_name": "'_TEXT'",
+        "class_name": "'CODE'",
+        "overlay_name": "''",
+        "access": null,
+        "access_byte": null
+      }
+    },
+    {
+      "type": 154,
+      "type_hex": "0x9A",
+      "name": "GRPDEF",
+      "offset": 192,
+      "length": 16,
+      "checksum": 62,
+      "checksum_valid": true,
+      "parsed": {
+        "name": "'DGROUP'",
+        "name_index": 3,
+        "is_flat": false,
+        "components": [
+          "Seg:_DATA",
+          "Seg:XIB",
+          "Seg:XI",
+          "Seg:XIE",
+          "Seg:YIB",
+          "Seg:YI",
+          "Seg:YIE"
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 211,
+      "length": 28,
+      "checksum": 11,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__fini_387_emulator",
+            "offset": 1,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 144,
+      "type_hex": "0x90",
+      "name": "PUBDEF",
+      "offset": 242,
+      "length": 28,
+      "checksum": 254,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "_TEXT",
+        "absolute_frame": null,
+        "frame_note": null,
+        "symbols": [
+          {
+            "name": "__init_387_emulator",
+            "offset": 0,
+            "type_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 273,
+      "length": 12,
+      "checksum": 80,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "XI",
+        "segment_index": 3,
+        "offset": 0,
+        "data_length": 6,
+        "data_preview": "000100000000"
+      }
+    },
+    {
+      "type": 156,
+      "type_hex": "0x9C",
+      "name": "FIXUPP",
+      "offset": 288,
+      "length": 5,
+      "checksum": 45,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 2,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T4:SEGDEF(0)",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 8,
+            "displacement": null
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 296,
+      "length": 12,
+      "checksum": 77,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "YI",
+        "segment_index": 6,
+        "offset": 0,
+        "data_length": 6,
+        "data_preview": "000100000000"
+      }
+    },
+    {
+      "type": 156,
+      "type_hex": "0x9C",
+      "name": "FIXUPP",
+      "offset": 311,
+      "length": 9,
+      "checksum": 44,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 2,
+            "location": "Loader-resolved Offset(16)",
+            "mode": "Segment-relative",
+            "frame_method": "F5:Target",
+            "frame_source": "Explicit",
+            "target_method": "T0:SEGDEF",
+            "target_source": "Explicit",
+            "frame_datum": null,
+            "target_datum": 8,
+            "displacement": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": 160,
+      "type_hex": "0xA0",
+      "name": "LEDATA",
+      "offset": 323,
+      "length": 8,
+      "checksum": 202,
+      "checksum_valid": true,
+      "parsed": {
+        "is_32bit": false,
+        "segment": "_TEXT",
+        "segment_index": 8,
+        "offset": 0,
+        "data_length": 2,
+        "data_preview": "c3c3"
+      }
+    },
+    {
+      "type": 138,
+      "type_hex": "0x8A",
+      "name": "MODEND",
+      "offset": 334,
+      "length": 2,
+      "checksum": 116,
+      "checksum_valid": true,
+      "parsed": {
+        "mod_type": 0,
+        "is_main": false,
+        "has_start": false,
+        "is_relocatable": false,
+        "start_address": null,
+        "warnings": []
+      }
+    },
+    {
+      "type": 241,
+      "type_hex": "0xF1",
+      "name": "LIBEND",
+      "offset": 352,
+      "length": 157,
+      "checksum": null,
+      "checksum_valid": null,
+      "parsed": {}
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
