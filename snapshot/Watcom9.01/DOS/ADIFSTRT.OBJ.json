@@ -2272,7 +2272,6 @@
             5,
             "F5:Target"
           ],
-          "p_bit": 1,
           "target_method": [
             4,
             "T4:SEGDEF(0)"

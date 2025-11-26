@@ -420,8 +420,10 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": "Scalar",
-            "var_type_raw": 123,
+            "var_type": [
+              123,
+              "Scalar"
+            ],
             "size_bits": 32,
             "size_bytes": 4
           }
@@ -474,8 +476,10 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": "Scalar",
-            "var_type_raw": 123,
+            "var_type": [
+              123,
+              "Scalar"
+            ],
             "size_bits": 16,
             "size_bytes": 2
           }
@@ -833,8 +837,10 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": "Scalar",
-            "var_type_raw": 123,
+            "var_type": [
+              123,
+              "Scalar"
+            ],
             "size_bits": 8,
             "size_bytes": 1
           }
