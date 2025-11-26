@@ -2128,9 +2128,15 @@
         "has_start": true,
         "is_relocatable": true,
         "start_address": {
-          "frame_method": 5,
+          "frame_method": [
+            5,
+            "F5:Target"
+          ],
           "p_bit": 1,
-          "target_method": 0,
+          "target_method": [
+            0,
+            "T0:SEGDEF"
+          ],
           "target_datum": 2
         }
       },
