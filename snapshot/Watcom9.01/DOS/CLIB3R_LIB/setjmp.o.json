@@ -89,9 +89,9 @@
         "big": false,
         "use32": false,
         "length": 93,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },

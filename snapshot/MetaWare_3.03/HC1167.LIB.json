@@ -113,9 +113,9 @@
         "big": false,
         "use32": false,
         "length": 73,
-        "segment_name": "'_MW_ADD2'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_ADD2",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -128,7 +128,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -403,9 +403,9 @@
         "big": false,
         "use32": false,
         "length": 300,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -418,7 +418,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -681,9 +681,9 @@
         "big": false,
         "use32": false,
         "length": 332,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -696,7 +696,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -974,9 +974,9 @@
         "big": false,
         "use32": false,
         "length": 296,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -989,7 +989,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -1213,9 +1213,9 @@
         "big": false,
         "use32": false,
         "length": 228,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1228,7 +1228,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -1457,9 +1457,9 @@
         "big": false,
         "use32": false,
         "length": 352,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1472,7 +1472,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -1792,9 +1792,9 @@
         "big": false,
         "use32": false,
         "length": 172,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1807,7 +1807,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -2069,9 +2069,9 @@
         "big": false,
         "use32": false,
         "length": 1100,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2090,9 +2090,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2105,7 +2105,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -2123,7 +2123,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -2649,9 +2649,9 @@
         "big": false,
         "use32": false,
         "length": 109,
-        "segment_name": "'_MW_DCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_DCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2664,7 +2664,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -2855,9 +2855,9 @@
         "big": false,
         "use32": false,
         "length": 99,
-        "segment_name": "'_MW_DCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_DCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2870,7 +2870,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -3099,9 +3099,9 @@
         "big": false,
         "use32": false,
         "length": 864,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3114,7 +3114,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -3513,9 +3513,9 @@
         "big": false,
         "use32": false,
         "length": 196,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3528,7 +3528,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -3790,9 +3790,9 @@
         "big": false,
         "use32": false,
         "length": 192,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3805,7 +3805,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -4029,9 +4029,9 @@
         "big": false,
         "use32": false,
         "length": 13,
-        "segment_name": "'_MW_DIV211'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_DIV211",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4044,7 +4044,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -4235,9 +4235,9 @@
         "big": false,
         "use32": false,
         "length": 92,
-        "segment_name": "'_MW_DIV422'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_DIV422",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4250,7 +4250,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -4479,9 +4479,9 @@
         "big": false,
         "use32": false,
         "length": 136,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4494,7 +4494,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -4723,9 +4723,9 @@
         "big": false,
         "use32": false,
         "length": 780,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4738,7 +4738,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -5142,9 +5142,9 @@
         "big": false,
         "use32": false,
         "length": 224,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5157,7 +5157,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -5415,9 +5415,9 @@
         "big": false,
         "use32": false,
         "length": 224,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5430,7 +5430,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -5703,9 +5703,9 @@
         "big": false,
         "use32": false,
         "length": 324,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5724,9 +5724,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5739,7 +5739,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -5757,7 +5757,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -6121,9 +6121,9 @@
         "big": false,
         "use32": false,
         "length": 660,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6136,7 +6136,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -6375,9 +6375,9 @@
         "big": false,
         "use32": false,
         "length": 42,
-        "segment_name": "'_MW_FCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_FCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6390,7 +6390,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -6581,9 +6581,9 @@
         "big": false,
         "use32": false,
         "length": 38,
-        "segment_name": "'_MW_FCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_FCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6596,7 +6596,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -6825,9 +6825,9 @@
         "big": false,
         "use32": false,
         "length": 372,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6840,7 +6840,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -7128,9 +7128,9 @@
         "big": false,
         "use32": false,
         "length": 124,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -7143,7 +7143,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -7390,9 +7390,9 @@
         "big": false,
         "use32": false,
         "length": 112,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -7405,7 +7405,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -7652,9 +7652,9 @@
         "big": false,
         "use32": false,
         "length": 88,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -7667,7 +7667,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -7896,9 +7896,9 @@
         "big": false,
         "use32": false,
         "length": 376,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -7911,7 +7911,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -8231,9 +8231,9 @@
         "big": false,
         "use32": false,
         "length": 140,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8246,7 +8246,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -8455,9 +8455,9 @@
         "big": false,
         "use32": false,
         "length": 140,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8470,7 +8470,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -8679,9 +8679,9 @@
         "big": false,
         "use32": false,
         "length": 156,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8694,7 +8694,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -8903,9 +8903,9 @@
         "big": false,
         "use32": false,
         "length": 18,
-        "segment_name": "'_MW_MUL112'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_MUL112",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8918,7 +8918,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -9109,9 +9109,9 @@
         "big": false,
         "use32": false,
         "length": 72,
-        "segment_name": "'_MW_MUL224'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_MUL224",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9124,7 +9124,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -9315,9 +9315,9 @@
         "big": false,
         "use32": false,
         "length": 17,
-        "segment_name": "'_MW_SHLD'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_SHLD",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9330,7 +9330,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -9521,9 +9521,9 @@
         "big": false,
         "use32": false,
         "length": 17,
-        "segment_name": "'_MW_SHRD'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_SHRD",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9536,7 +9536,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -9765,9 +9765,9 @@
         "big": false,
         "use32": false,
         "length": 660,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9780,7 +9780,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -10141,9 +10141,9 @@
         "big": false,
         "use32": false,
         "length": 147,
-        "segment_name": "'_MW_XCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_XCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10156,7 +10156,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -10347,9 +10347,9 @@
         "big": false,
         "use32": false,
         "length": 137,
-        "segment_name": "'_MW_XCMP'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_XCMP",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10362,7 +10362,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -10591,9 +10591,9 @@
         "big": false,
         "use32": false,
         "length": 488,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10606,7 +10606,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -10914,9 +10914,9 @@
         "big": false,
         "use32": false,
         "length": 88,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10929,7 +10929,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -11196,9 +11196,9 @@
         "big": false,
         "use32": false,
         "length": 84,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11211,7 +11211,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -11478,9 +11478,9 @@
         "big": false,
         "use32": false,
         "length": 136,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11493,7 +11493,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -11727,9 +11727,9 @@
         "big": false,
         "use32": false,
         "length": 456,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11742,7 +11742,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -12066,9 +12066,9 @@
         "big": false,
         "use32": false,
         "length": 60,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12081,7 +12081,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -12290,9 +12290,9 @@
         "big": false,
         "use32": false,
         "length": 60,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12305,7 +12305,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -12476,9 +12476,9 @@
         "big": false,
         "use32": false,
         "length": 13,
-        "segment_name": "'_MW_ZEROS'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_MW_ZEROS",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12491,7 +12491,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -12707,9 +12707,9 @@
         "big": false,
         "use32": true,
         "length": 65536,
-        "segment_name": "'WTLSEG'",
-        "class_name": "'DATA'",
-        "overlay_name": "''",
+        "segment_name": "WTLSEG",
+        "class_name": "DATA",
+        "overlay_name": "",
         "access": "Read/write",
         "access_byte": 7
       },
@@ -12730,9 +12730,9 @@
         "big": false,
         "use32": false,
         "length": 768,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12751,9 +12751,9 @@
         "big": false,
         "use32": false,
         "length": 286,
-        "segment_name": "'CODESEG'",
-        "class_name": "''",
-        "overlay_name": "''"
+        "segment_name": "CODESEG",
+        "class_name": "",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12772,9 +12772,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWIFC'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWIFC",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12793,9 +12793,9 @@
         "big": false,
         "use32": false,
         "length": 12,
-        "segment_name": "'_MWIMC'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWIMC",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12814,9 +12814,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWILC'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWILC",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12829,7 +12829,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -13289,9 +13289,9 @@
         "big": false,
         "use32": false,
         "length": 448,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13310,9 +13310,9 @@
         "big": false,
         "use32": false,
         "length": 88,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13325,7 +13325,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -13343,7 +13343,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -13791,9 +13791,9 @@
         "big": false,
         "use32": false,
         "length": 76,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13806,7 +13806,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -14068,9 +14068,9 @@
         "big": false,
         "use32": false,
         "length": 76,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14083,7 +14083,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -14365,9 +14365,9 @@
         "big": false,
         "use32": false,
         "length": 592,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14386,9 +14386,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14407,9 +14407,9 @@
         "big": false,
         "use32": false,
         "length": 128,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14422,7 +14422,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -14440,7 +14440,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -14899,9 +14899,9 @@
         "big": false,
         "use32": false,
         "length": 636,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14920,9 +14920,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14941,9 +14941,9 @@
         "big": false,
         "use32": false,
         "length": 128,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14956,7 +14956,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -14974,7 +14974,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -15413,9 +15413,9 @@
         "big": false,
         "use32": false,
         "length": 460,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15428,7 +15428,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -15759,9 +15759,9 @@
         "big": false,
         "use32": false,
         "length": 276,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15780,9 +15780,9 @@
         "big": false,
         "use32": false,
         "length": 176,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15795,7 +15795,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -15813,7 +15813,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -16199,9 +16199,9 @@
         "big": false,
         "use32": false,
         "length": 276,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16220,9 +16220,9 @@
         "big": false,
         "use32": false,
         "length": 168,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16235,7 +16235,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -16253,7 +16253,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -16624,9 +16624,9 @@
         "big": false,
         "use32": false,
         "length": 100,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16639,7 +16639,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -16878,9 +16878,9 @@
         "big": false,
         "use32": false,
         "length": 836,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16899,9 +16899,9 @@
         "big": false,
         "use32": false,
         "length": 182,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16914,7 +16914,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -16932,7 +16932,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -17481,9 +17481,9 @@
         "big": false,
         "use32": false,
         "length": 892,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17502,9 +17502,9 @@
         "big": false,
         "use32": false,
         "length": 182,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17517,7 +17517,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -17535,7 +17535,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -18084,9 +18084,9 @@
         "big": false,
         "use32": false,
         "length": 628,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18105,9 +18105,9 @@
         "big": false,
         "use32": false,
         "length": 30,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18120,7 +18120,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -18138,7 +18138,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -18557,9 +18557,9 @@
         "big": false,
         "use32": false,
         "length": 668,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18578,9 +18578,9 @@
         "big": false,
         "use32": false,
         "length": 120,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18599,9 +18599,9 @@
         "big": false,
         "use32": false,
         "length": 52,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18614,7 +18614,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -18632,7 +18632,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -19132,9 +19132,9 @@
         "big": false,
         "use32": false,
         "length": 96,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19153,9 +19153,9 @@
         "big": false,
         "use32": false,
         "length": 52,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19168,7 +19168,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -19186,7 +19186,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -19486,9 +19486,9 @@
         "big": false,
         "use32": false,
         "length": 312,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19507,9 +19507,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19528,9 +19528,9 @@
         "big": false,
         "use32": false,
         "length": 54,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19543,7 +19543,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -19561,7 +19561,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -19926,9 +19926,9 @@
         "big": false,
         "use32": false,
         "length": 116,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19941,7 +19941,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -20218,9 +20218,9 @@
         "big": false,
         "use32": false,
         "length": 840,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20239,9 +20239,9 @@
         "big": false,
         "use32": false,
         "length": 64,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20254,7 +20254,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -20272,7 +20272,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -20696,9 +20696,9 @@
         "big": false,
         "use32": false,
         "length": 28,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20711,7 +20711,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -20935,9 +20935,9 @@
         "big": false,
         "use32": false,
         "length": 132,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20950,7 +20950,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -21212,9 +21212,9 @@
         "big": false,
         "use32": false,
         "length": 208,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21227,7 +21227,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -21489,9 +21489,9 @@
         "big": false,
         "use32": false,
         "length": 500,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21504,7 +21504,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -21848,9 +21848,9 @@
         "big": false,
         "use32": false,
         "length": 756,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21869,9 +21869,9 @@
         "big": false,
         "use32": false,
         "length": 64,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21884,7 +21884,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -21902,7 +21902,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -22364,9 +22364,9 @@
         "big": false,
         "use32": false,
         "length": 80,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22379,7 +22379,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -22701,9 +22701,9 @@
         "big": false,
         "use32": false,
         "length": 92,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22716,7 +22716,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -22993,9 +22993,9 @@
         "big": false,
         "use32": false,
         "length": 3036,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23014,9 +23014,9 @@
         "big": false,
         "use32": false,
         "length": 144,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23029,7 +23029,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -23047,7 +23047,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -23754,9 +23754,9 @@
         "big": false,
         "use32": false,
         "length": 1496,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23775,9 +23775,9 @@
         "big": false,
         "use32": false,
         "length": 192,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23790,7 +23790,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -23808,7 +23808,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -24413,9 +24413,9 @@
         "big": false,
         "use32": false,
         "length": 1004,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24434,9 +24434,9 @@
         "big": false,
         "use32": false,
         "length": 78,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24449,7 +24449,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -24467,7 +24467,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -24904,9 +24904,9 @@
         "big": false,
         "use32": false,
         "length": 572,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24925,9 +24925,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24940,7 +24940,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -24958,7 +24958,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -25303,9 +25303,9 @@
         "big": false,
         "use32": false,
         "length": 592,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25324,9 +25324,9 @@
         "big": false,
         "use32": false,
         "length": 76,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25339,7 +25339,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -25357,7 +25357,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -25753,9 +25753,9 @@
         "big": false,
         "use32": false,
         "length": 468,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25774,9 +25774,9 @@
         "big": false,
         "use32": false,
         "length": 56,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25789,7 +25789,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -25807,7 +25807,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -26160,9 +26160,9 @@
         "big": false,
         "use32": false,
         "length": 1616,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26181,9 +26181,9 @@
         "big": false,
         "use32": false,
         "length": 32,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26196,7 +26196,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -26214,7 +26214,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -26769,9 +26769,9 @@
         "big": false,
         "use32": false,
         "length": 2392,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26790,9 +26790,9 @@
         "big": false,
         "use32": false,
         "length": 128,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26805,7 +26805,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -26823,7 +26823,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -27395,9 +27395,9 @@
         "big": false,
         "use32": false,
         "length": 264,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27410,7 +27410,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -27718,9 +27718,9 @@
         "big": false,
         "use32": false,
         "length": 880,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27739,9 +27739,9 @@
         "big": false,
         "use32": false,
         "length": 96,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27754,7 +27754,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -27772,7 +27772,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -28166,9 +28166,9 @@
         "big": false,
         "use32": false,
         "length": 392,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28187,9 +28187,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28208,9 +28208,9 @@
         "big": false,
         "use32": false,
         "length": 96,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28223,7 +28223,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -28241,7 +28241,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -28651,9 +28651,9 @@
         "big": false,
         "use32": false,
         "length": 384,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28672,9 +28672,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28687,7 +28687,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -28705,7 +28705,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -29230,9 +29230,9 @@
         "big": false,
         "use32": false,
         "length": 40,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29251,9 +29251,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29266,7 +29266,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -29284,7 +29284,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -29610,9 +29610,9 @@
         "big": false,
         "use32": false,
         "length": 384,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29631,9 +29631,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29646,7 +29646,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -29664,7 +29664,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -30116,9 +30116,9 @@
         "big": false,
         "use32": false,
         "length": 5072,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30137,9 +30137,9 @@
         "big": false,
         "use32": false,
         "length": 184,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30158,9 +30158,9 @@
         "big": false,
         "use32": false,
         "length": 92,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30173,7 +30173,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -30191,7 +30191,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -33528,9 +33528,9 @@
         "big": false,
         "use32": false,
         "length": 17364,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33549,9 +33549,9 @@
         "big": false,
         "use32": false,
         "length": 1580,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33570,9 +33570,9 @@
         "big": false,
         "use32": false,
         "length": 116,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33591,9 +33591,9 @@
         "big": false,
         "use32": false,
         "length": 838,
-        "segment_name": "'_DATA1'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA1",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33606,7 +33606,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -33624,7 +33624,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -46276,9 +46276,9 @@
         "big": false,
         "use32": false,
         "length": 120,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -46297,9 +46297,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -46312,7 +46312,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -46330,7 +46330,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -46692,9 +46692,9 @@
         "big": false,
         "use32": false,
         "length": 172,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -46713,9 +46713,9 @@
         "big": false,
         "use32": false,
         "length": 100,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -46728,7 +46728,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -46746,7 +46746,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -47187,9 +47187,9 @@
         "big": false,
         "use32": false,
         "length": 172,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -47208,9 +47208,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -47229,9 +47229,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -47244,7 +47244,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -47262,7 +47262,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -47688,9 +47688,9 @@
         "big": false,
         "use32": false,
         "length": 1104,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -47709,9 +47709,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -47724,7 +47724,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -47742,7 +47742,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -48351,9 +48351,9 @@
         "big": false,
         "use32": false,
         "length": 40,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -48372,9 +48372,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -48387,7 +48387,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -48405,7 +48405,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -48741,9 +48741,9 @@
         "big": false,
         "use32": false,
         "length": 1984,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -48762,9 +48762,9 @@
         "big": false,
         "use32": false,
         "length": 88,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -48783,9 +48783,9 @@
         "big": false,
         "use32": false,
         "length": 176,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -48798,7 +48798,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -48816,7 +48816,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -50956,9 +50956,9 @@
         "big": false,
         "use32": false,
         "length": 224,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -50977,9 +50977,9 @@
         "big": false,
         "use32": false,
         "length": 96,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -50992,7 +50992,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -51010,7 +51010,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -51247,9 +51247,9 @@
         "big": false,
         "use32": false,
         "length": 105,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -51262,7 +51262,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [
@@ -51608,9 +51608,9 @@
         "big": false,
         "use32": false,
         "length": 272,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -51623,7 +51623,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -51882,9 +51882,9 @@
         "big": false,
         "use32": false,
         "length": 488,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -51903,9 +51903,9 @@
         "big": false,
         "use32": false,
         "length": 130,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -51924,9 +51924,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'_DATA1'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA1",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -51939,7 +51939,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -51957,7 +51957,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -52481,9 +52481,9 @@
         "big": false,
         "use32": false,
         "length": 116,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -52496,7 +52496,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -52735,9 +52735,9 @@
         "big": false,
         "use32": false,
         "length": 724,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -52756,9 +52756,9 @@
         "big": false,
         "use32": false,
         "length": 46,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -52771,7 +52771,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -52789,7 +52789,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -53178,9 +53178,9 @@
         "big": false,
         "use32": false,
         "length": 220,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -53199,9 +53199,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -53214,7 +53214,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -53232,7 +53232,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -53494,9 +53494,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWFLOATER'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWFLOATER",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -53682,9 +53682,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWFLOATER'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWFLOATER",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -53913,9 +53913,9 @@
         "big": false,
         "use32": false,
         "length": 24,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -53928,7 +53928,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -54182,9 +54182,9 @@
         "big": false,
         "use32": false,
         "length": 32,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54203,9 +54203,9 @@
         "big": false,
         "use32": false,
         "length": 4,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54218,7 +54218,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -54236,7 +54236,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -54509,9 +54509,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWFLOATER'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWFLOATER",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54694,9 +54694,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_MWFLOATER'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_MWFLOATER",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54935,9 +54935,9 @@
         "big": false,
         "use32": false,
         "length": 228,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54956,9 +54956,9 @@
         "big": false,
         "use32": false,
         "length": 248,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -54971,7 +54971,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -54989,7 +54989,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -55646,9 +55646,9 @@
         "big": false,
         "use32": false,
         "length": 16,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -55661,7 +55661,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -55933,9 +55933,9 @@
         "big": false,
         "use32": false,
         "length": 916,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -55954,9 +55954,9 @@
         "big": false,
         "use32": false,
         "length": 80,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -55969,7 +55969,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -55987,7 +55987,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -56478,9 +56478,9 @@
         "big": false,
         "use32": false,
         "length": 1296,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -56499,9 +56499,9 @@
         "big": false,
         "use32": false,
         "length": 24,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -56520,9 +56520,9 @@
         "big": false,
         "use32": false,
         "length": 2,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -56535,7 +56535,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -56553,7 +56553,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -57212,9 +57212,9 @@
         "big": false,
         "use32": false,
         "length": 2988,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -57233,9 +57233,9 @@
         "big": false,
         "use32": false,
         "length": 16,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -57254,9 +57254,9 @@
         "big": false,
         "use32": false,
         "length": 212,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -57275,9 +57275,9 @@
         "big": false,
         "use32": false,
         "length": 38,
-        "segment_name": "'_DATA1'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA1",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -57290,7 +57290,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -57308,7 +57308,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -58655,9 +58655,9 @@
         "big": false,
         "use32": false,
         "length": 1872,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -58676,9 +58676,9 @@
         "big": false,
         "use32": false,
         "length": 2,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -58697,9 +58697,9 @@
         "big": false,
         "use32": false,
         "length": 264,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -58712,7 +58712,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -58730,7 +58730,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -59852,9 +59852,9 @@
         "big": false,
         "use32": false,
         "length": 84,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -59873,9 +59873,9 @@
         "big": false,
         "use32": false,
         "length": 80,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -59888,7 +59888,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -59906,7 +59906,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 7,
         "is_flat": false,
         "components": [
@@ -60226,9 +60226,9 @@
         "big": false,
         "use32": false,
         "length": 160,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -60241,7 +60241,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -60450,9 +60450,9 @@
         "big": false,
         "use32": false,
         "length": 20,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -60465,7 +60465,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -60722,9 +60722,9 @@
         "big": false,
         "use32": false,
         "length": 216,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -60737,7 +60737,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -61019,9 +61019,9 @@
         "big": false,
         "use32": false,
         "length": 212,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -61040,9 +61040,9 @@
         "big": false,
         "use32": false,
         "length": 14,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -61055,7 +61055,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -61073,7 +61073,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [
@@ -61422,9 +61422,9 @@
         "big": false,
         "use32": false,
         "length": 16,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -61437,7 +61437,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [
@@ -61661,9 +61661,9 @@
         "big": false,
         "use32": false,
         "length": 332,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -61676,7 +61676,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'CGROUP'",
+        "name": "CGROUP",
         "name_index": 4,
         "is_flat": false,
         "components": [

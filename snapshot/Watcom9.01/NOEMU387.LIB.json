@@ -153,9 +153,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -174,9 +174,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'XIB'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "XIB",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -195,9 +195,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'XI'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "XI",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -216,9 +216,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'XIE'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "XIE",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -237,9 +237,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'YIB'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "YIB",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -258,9 +258,9 @@
         "big": false,
         "use32": false,
         "length": 6,
-        "segment_name": "'YI'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "YI",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -279,9 +279,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'YIE'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "YIE",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -300,9 +300,9 @@
         "big": false,
         "use32": false,
         "length": 2,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -315,7 +315,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 3,
         "is_flat": false,
         "components": [

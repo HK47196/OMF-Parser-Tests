@@ -206,9 +206,9 @@
         "big": false,
         "use32": false,
         "length": 11,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -273,9 +273,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -316,9 +316,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -359,9 +359,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -374,7 +374,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -582,9 +582,9 @@
         "big": false,
         "use32": false,
         "length": 477,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -892,9 +892,9 @@
         "big": false,
         "use32": false,
         "length": 173,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -959,9 +959,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1002,9 +1002,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1045,9 +1045,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1088,9 +1088,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1103,7 +1103,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -1513,9 +1513,9 @@
         "big": false,
         "use32": false,
         "length": 587,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1580,9 +1580,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1623,9 +1623,9 @@
         "big": false,
         "use32": false,
         "length": 128,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1666,9 +1666,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1709,9 +1709,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -1724,7 +1724,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -2625,9 +2625,9 @@
         "big": false,
         "use32": false,
         "length": 537,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2692,9 +2692,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2735,9 +2735,9 @@
         "big": false,
         "use32": false,
         "length": 136,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2778,9 +2778,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2821,9 +2821,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -2836,7 +2836,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -3672,9 +3672,9 @@
         "big": false,
         "use32": false,
         "length": 194,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3739,9 +3739,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3782,9 +3782,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3825,9 +3825,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3868,9 +3868,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -3883,7 +3883,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -4300,9 +4300,9 @@
         "big": false,
         "use32": true,
         "length": 126,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -4596,9 +4596,9 @@
         "big": false,
         "use32": false,
         "length": 425,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4663,9 +4663,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4706,9 +4706,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4749,9 +4749,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4792,9 +4792,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -4807,7 +4807,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -5187,9 +5187,9 @@
         "big": false,
         "use32": true,
         "length": 18,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -5447,9 +5447,9 @@
         "big": false,
         "use32": false,
         "length": 99,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5514,9 +5514,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5557,9 +5557,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5600,9 +5600,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5643,9 +5643,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -5658,7 +5658,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -6035,9 +6035,9 @@
         "big": false,
         "use32": false,
         "length": 186,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6102,9 +6102,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6145,9 +6145,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6188,9 +6188,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6231,9 +6231,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6246,7 +6246,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -6706,9 +6706,9 @@
         "big": false,
         "use32": false,
         "length": 680,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6773,9 +6773,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6816,9 +6816,9 @@
         "big": false,
         "use32": false,
         "length": 180,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6859,9 +6859,9 @@
         "big": false,
         "use32": false,
         "length": 12,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6902,9 +6902,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -6917,7 +6917,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -7882,9 +7882,9 @@
         "big": false,
         "use32": true,
         "length": 154,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -8190,9 +8190,9 @@
         "big": false,
         "use32": false,
         "length": 21,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8257,9 +8257,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8300,9 +8300,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8343,9 +8343,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8386,9 +8386,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8401,7 +8401,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -8648,9 +8648,9 @@
         "big": false,
         "use32": false,
         "length": 330,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8715,9 +8715,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8758,9 +8758,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8801,9 +8801,9 @@
         "big": false,
         "use32": false,
         "length": 32,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8844,9 +8844,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -8859,7 +8859,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -9440,9 +9440,9 @@
         "big": false,
         "use32": false,
         "length": 111,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9507,9 +9507,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9550,9 +9550,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9593,9 +9593,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9636,9 +9636,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -9651,7 +9651,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -9958,9 +9958,9 @@
         "big": false,
         "use32": false,
         "length": 263,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10025,9 +10025,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10068,9 +10068,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10111,9 +10111,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10154,9 +10154,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10169,7 +10169,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -10654,9 +10654,9 @@
         "big": false,
         "use32": false,
         "length": 493,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10721,9 +10721,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10764,9 +10764,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10807,9 +10807,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10850,9 +10850,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -10865,7 +10865,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -11523,9 +11523,9 @@
         "big": false,
         "use32": false,
         "length": 116,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11590,9 +11590,9 @@
         "big": false,
         "use32": false,
         "length": 8,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11633,9 +11633,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11676,9 +11676,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11719,9 +11719,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -11734,7 +11734,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -12036,9 +12036,9 @@
         "big": false,
         "use32": false,
         "length": 42,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12103,9 +12103,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12146,9 +12146,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12189,9 +12189,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12232,9 +12232,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12247,7 +12247,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -12476,9 +12476,9 @@
         "big": false,
         "use32": true,
         "length": 5,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -12497,9 +12497,9 @@
         "big": false,
         "use32": true,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -12512,7 +12512,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -12820,9 +12820,9 @@
         "big": false,
         "use32": false,
         "length": 108,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12887,9 +12887,9 @@
         "big": false,
         "use32": false,
         "length": 138,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12930,9 +12930,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -12973,9 +12973,9 @@
         "big": false,
         "use32": false,
         "length": 32,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13016,9 +13016,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13031,7 +13031,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -13640,9 +13640,9 @@
         "big": false,
         "use32": false,
         "length": 237,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13707,9 +13707,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13750,9 +13750,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13793,9 +13793,9 @@
         "big": false,
         "use32": false,
         "length": 84,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13836,9 +13836,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -13851,7 +13851,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -14564,9 +14564,9 @@
         "big": false,
         "use32": false,
         "length": 3,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14631,9 +14631,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14674,9 +14674,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14717,9 +14717,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14760,9 +14760,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -14775,7 +14775,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -15022,9 +15022,9 @@
         "big": false,
         "use32": false,
         "length": 45,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15089,9 +15089,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15132,9 +15132,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15175,9 +15175,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15218,9 +15218,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15233,7 +15233,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -15447,9 +15447,9 @@
         "big": false,
         "use32": true,
         "length": 20,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -15707,9 +15707,9 @@
         "big": false,
         "use32": false,
         "length": 41,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15774,9 +15774,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15817,9 +15817,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15860,9 +15860,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15903,9 +15903,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -15918,7 +15918,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -16245,9 +16245,9 @@
         "big": false,
         "use32": false,
         "length": 59,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16312,9 +16312,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16355,9 +16355,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16398,9 +16398,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16441,9 +16441,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16456,7 +16456,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -16833,9 +16833,9 @@
         "big": false,
         "use32": false,
         "length": 425,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16900,9 +16900,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16943,9 +16943,9 @@
         "big": false,
         "use32": false,
         "length": 56,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -16986,9 +16986,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17029,9 +17029,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17044,7 +17044,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -17767,9 +17767,9 @@
         "big": false,
         "use32": false,
         "length": 140,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17834,9 +17834,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17877,9 +17877,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17920,9 +17920,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17963,9 +17963,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -17978,7 +17978,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -18330,9 +18330,9 @@
         "big": false,
         "use32": false,
         "length": 640,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18397,9 +18397,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18440,9 +18440,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18483,9 +18483,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18526,9 +18526,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -18541,7 +18541,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -19302,9 +19302,9 @@
         "big": false,
         "use32": false,
         "length": 464,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19369,9 +19369,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19412,9 +19412,9 @@
         "big": false,
         "use32": false,
         "length": 296,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19455,9 +19455,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19498,9 +19498,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -19513,7 +19513,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -20375,9 +20375,9 @@
         "big": false,
         "use32": false,
         "length": 433,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20442,9 +20442,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20485,9 +20485,9 @@
         "big": false,
         "use32": false,
         "length": 304,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20528,9 +20528,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20571,9 +20571,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -20586,7 +20586,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -21345,9 +21345,9 @@
         "big": false,
         "use32": true,
         "length": 430,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -21651,9 +21651,9 @@
         "big": false,
         "use32": false,
         "length": 57,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21718,9 +21718,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21761,9 +21761,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21804,9 +21804,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21847,9 +21847,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -21862,7 +21862,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -22194,9 +22194,9 @@
         "big": false,
         "use32": false,
         "length": 116,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22261,9 +22261,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22304,9 +22304,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22347,9 +22347,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22362,7 +22362,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -22833,9 +22833,9 @@
         "big": false,
         "use32": false,
         "length": 137,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22900,9 +22900,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22943,9 +22943,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -22986,9 +22986,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23029,9 +23029,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23044,7 +23044,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -23381,9 +23381,9 @@
         "big": false,
         "use32": false,
         "length": 293,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23448,9 +23448,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23491,9 +23491,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23534,9 +23534,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23577,9 +23577,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -23592,7 +23592,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -24007,9 +24007,9 @@
         "big": false,
         "use32": false,
         "length": 834,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24074,9 +24074,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24117,9 +24117,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24160,9 +24160,9 @@
         "big": false,
         "use32": false,
         "length": 4,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24203,9 +24203,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24218,7 +24218,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -24779,9 +24779,9 @@
         "big": false,
         "use32": false,
         "length": 62,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24846,9 +24846,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24889,9 +24889,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24932,9 +24932,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24975,9 +24975,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -24990,7 +24990,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -25237,9 +25237,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25304,9 +25304,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25347,9 +25347,9 @@
         "big": false,
         "use32": false,
         "length": 80,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25390,9 +25390,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25405,7 +25405,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -25651,9 +25651,9 @@
         "big": false,
         "use32": false,
         "length": 74,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25718,9 +25718,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25761,9 +25761,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25804,9 +25804,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25847,9 +25847,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -25862,7 +25862,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -26219,9 +26219,9 @@
         "big": false,
         "use32": false,
         "length": 53,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26286,9 +26286,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26329,9 +26329,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26372,9 +26372,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26415,9 +26415,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26430,7 +26430,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -26737,9 +26737,9 @@
         "big": false,
         "use32": false,
         "length": 18,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26804,9 +26804,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26847,9 +26847,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26890,9 +26890,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26933,9 +26933,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -26948,7 +26948,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -27187,9 +27187,9 @@
         "big": false,
         "use32": true,
         "length": 173,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -27447,9 +27447,9 @@
         "big": false,
         "use32": false,
         "length": 577,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27514,9 +27514,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27557,9 +27557,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27600,9 +27600,9 @@
         "big": false,
         "use32": false,
         "length": 32,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27643,9 +27643,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -27658,7 +27658,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -28473,9 +28473,9 @@
         "big": false,
         "use32": false,
         "length": 102,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28540,9 +28540,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28583,9 +28583,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28626,9 +28626,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28669,9 +28669,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -28684,7 +28684,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -29031,9 +29031,9 @@
         "big": false,
         "use32": false,
         "length": 34,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29098,9 +29098,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29141,9 +29141,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29184,9 +29184,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29227,9 +29227,9 @@
         "big": false,
         "use32": false,
         "length": 20,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29242,7 +29242,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -29561,9 +29561,9 @@
         "big": false,
         "use32": false,
         "length": 42,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29628,9 +29628,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29671,9 +29671,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29714,9 +29714,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29757,9 +29757,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -29772,7 +29772,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -30089,9 +30089,9 @@
         "big": false,
         "use32": false,
         "length": 390,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30156,9 +30156,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30199,9 +30199,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30242,9 +30242,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30285,9 +30285,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30300,7 +30300,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -30728,9 +30728,9 @@
         "big": false,
         "use32": false,
         "length": 174,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30795,9 +30795,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30838,9 +30838,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30881,9 +30881,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30924,9 +30924,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -30939,7 +30939,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -31399,9 +31399,9 @@
         "big": false,
         "use32": false,
         "length": 17,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31466,9 +31466,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31509,9 +31509,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31552,9 +31552,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31595,9 +31595,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31610,7 +31610,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -31902,9 +31902,9 @@
         "big": false,
         "use32": false,
         "length": 76,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -31969,9 +31969,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32012,9 +32012,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32055,9 +32055,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32098,9 +32098,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32113,7 +32113,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -32405,9 +32405,9 @@
         "big": false,
         "use32": false,
         "length": 59,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32472,9 +32472,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32515,9 +32515,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32558,9 +32558,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32601,9 +32601,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -32616,7 +32616,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -32938,9 +32938,9 @@
         "big": false,
         "use32": false,
         "length": 15,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33005,9 +33005,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33048,9 +33048,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33091,9 +33091,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33134,9 +33134,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33149,7 +33149,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -33466,9 +33466,9 @@
         "big": false,
         "use32": false,
         "length": 63,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33533,9 +33533,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33576,9 +33576,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33619,9 +33619,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33662,9 +33662,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -33677,7 +33677,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -34009,9 +34009,9 @@
         "big": false,
         "use32": false,
         "length": 7,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34076,9 +34076,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34119,9 +34119,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34162,9 +34162,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34205,9 +34205,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34220,7 +34220,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -34512,9 +34512,9 @@
         "big": false,
         "use32": false,
         "length": 125,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34579,9 +34579,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34622,9 +34622,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34665,9 +34665,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34708,9 +34708,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -34723,7 +34723,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -35042,9 +35042,9 @@
         "big": false,
         "use32": true,
         "length": 73,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x99"
     },
@@ -35302,9 +35302,9 @@
         "big": false,
         "use32": false,
         "length": 288,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -35369,9 +35369,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -35412,9 +35412,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -35455,9 +35455,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -35498,9 +35498,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -35513,7 +35513,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -36008,9 +36008,9 @@
         "big": false,
         "use32": false,
         "length": 380,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36075,9 +36075,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36118,9 +36118,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36161,9 +36161,9 @@
         "big": false,
         "use32": false,
         "length": 72,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36204,9 +36204,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36219,7 +36219,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -36911,9 +36911,9 @@
         "big": false,
         "use32": false,
         "length": 79,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -36978,9 +36978,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37021,9 +37021,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37064,9 +37064,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37107,9 +37107,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37122,7 +37122,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -37514,9 +37514,9 @@
         "big": false,
         "use32": false,
         "length": 136,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37581,9 +37581,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37624,9 +37624,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37667,9 +37667,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37710,9 +37710,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -37725,7 +37725,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -38147,9 +38147,9 @@
         "big": false,
         "use32": false,
         "length": 98,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38214,9 +38214,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38257,9 +38257,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38300,9 +38300,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38343,9 +38343,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38358,7 +38358,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [
@@ -38740,9 +38740,9 @@
         "big": false,
         "use32": false,
         "length": 149,
-        "segment_name": "'_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38807,9 +38807,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38850,9 +38850,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST2'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "CONST2",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38893,9 +38893,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38936,9 +38936,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -38951,7 +38951,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 5,
         "is_flat": false,
         "components": [

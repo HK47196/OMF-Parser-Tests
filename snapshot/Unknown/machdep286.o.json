@@ -193,9 +193,9 @@
         "big": false,
         "use32": false,
         "length": 1614,
-        "segment_name": "'MACHDEP_TEXT'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "MACHDEP_TEXT",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -214,9 +214,9 @@
         "big": false,
         "use32": false,
         "length": 228,
-        "segment_name": "'_DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "_DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -235,9 +235,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'CONST'",
-        "class_name": "'CONST'",
-        "overlay_name": "''"
+        "segment_name": "CONST",
+        "class_name": "CONST",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -256,9 +256,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'_BSS'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "_BSS",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -271,7 +271,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 2,
         "is_flat": false,
         "components": [

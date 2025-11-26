@@ -101,9 +101,9 @@
         "big": false,
         "use32": false,
         "length": 0,
-        "segment_name": "'??SEG'",
-        "class_name": "''",
-        "overlay_name": "''"
+        "segment_name": "??SEG",
+        "class_name": "",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -122,9 +122,9 @@
         "big": false,
         "use32": false,
         "length": 118,
-        "segment_name": "'DATA'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "DATA",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -143,9 +143,9 @@
         "big": false,
         "use32": false,
         "length": 3320,
-        "segment_name": "'ASSEMBLY'",
-        "class_name": "''",
-        "overlay_name": "''"
+        "segment_name": "ASSEMBLY",
+        "class_name": "",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -249,7 +249,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 6,
         "is_flat": false,
         "components": [

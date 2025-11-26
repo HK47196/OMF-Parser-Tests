@@ -136,9 +136,9 @@
         "big": false,
         "use32": true,
         "length": 188,
-        "segment_name": "'TEXT32'",
-        "class_name": "'CODE'",
-        "overlay_name": "''"
+        "segment_name": "TEXT32",
+        "class_name": "CODE",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -157,9 +157,9 @@
         "big": false,
         "use32": true,
         "length": 0,
-        "segment_name": "'DATA32'",
-        "class_name": "'DATA'",
-        "overlay_name": "''"
+        "segment_name": "DATA32",
+        "class_name": "DATA",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -178,9 +178,9 @@
         "big": false,
         "use32": true,
         "length": 0,
-        "segment_name": "'BSS32'",
-        "class_name": "'BSS'",
-        "overlay_name": "''"
+        "segment_name": "BSS32",
+        "class_name": "BSS",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -199,9 +199,9 @@
         "big": false,
         "use32": true,
         "length": 23,
-        "segment_name": "'$$SYMBOLS' [RESERVED]",
-        "class_name": "'DEBSYM'",
-        "overlay_name": "''"
+        "segment_name": "$$SYMBOLS [RESERVED]",
+        "class_name": "DEBSYM",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -220,9 +220,9 @@
         "big": false,
         "use32": true,
         "length": 0,
-        "segment_name": "'$$TYPES' [RESERVED]",
-        "class_name": "'DEBTYP'",
-        "overlay_name": "''"
+        "segment_name": "$$TYPES [RESERVED]",
+        "class_name": "DEBTYP",
+        "overlay_name": ""
       },
       "type_hex": "0x98"
     },
@@ -235,7 +235,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'FLAT'",
+        "name": "FLAT",
         "name_index": 12,
         "is_flat": true,
         "components": []
@@ -251,7 +251,7 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "name": "'DGROUP'",
+        "name": "DGROUP",
         "name_index": 13,
         "is_flat": false,
         "components": [
