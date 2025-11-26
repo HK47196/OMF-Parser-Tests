@@ -87,8 +87,10 @@
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": "D",
-          "directive_name": "Source Language",
+          "directive_code": [
+            "D",
+            "Source Language"
+          ],
           "content": {
             "warnings": [],
             "major_version": 1,
@@ -205,8 +207,10 @@
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": "O",
-          "directive_name": "Optimize Far Calls",
+          "directive_code": [
+            "O",
+            "Optimize Far Calls"
+          ],
           "content": {
             "warnings": [],
             "segment_index": 1,
