@@ -30,13 +30,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 0,
-        "class_name": "Translator",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "translator": "ASM86.86 V3.1"
-        }
+        },
+        "class_name": "Translator"
       },
       "type_hex": "0x88"
     },

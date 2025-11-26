@@ -33,13 +33,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 170,
-        "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "marker": "80386"
-        }
+        },
+        "class_name": "Easy OMF"
       },
       "type_hex": "0x88"
     },
@@ -53,12 +53,12 @@
       "parsed": {
         "warnings": [],
         "comment_class": 161,
-        "class_name": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": []
-        }
+        },
+        "class_name": "New OMF Extension"
       },
       "type_hex": "0x88"
     },
@@ -72,7 +72,6 @@
       "parsed": {
         "warnings": [],
         "comment_class": 155,
-        "class_name": "Watcom Processor/Model",
         "no_purge": true,
         "no_list": false,
         "content": {
@@ -91,7 +90,8 @@
             "Emulator calls"
           ],
           "pic": false
-        }
+        },
+        "class_name": "Watcom Processor/Model"
       },
       "type_hex": "0x88"
     },
@@ -105,7 +105,6 @@
       "parsed": {
         "warnings": [],
         "comment_class": 254,
-        "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
@@ -120,7 +119,8 @@
             "minor_version": 2,
             "language": "C"
           }
-        }
+        },
+        "class_name": "Watcom Linker Directive"
       },
       "type_hex": "0x88"
     },
@@ -225,7 +225,6 @@
       "parsed": {
         "warnings": [],
         "comment_class": 254,
-        "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
@@ -239,7 +238,8 @@
             "segment_index": 1,
             "segment_name": "_TEXT"
           }
-        }
+        },
+        "class_name": "Watcom Linker Directive"
       },
       "type_hex": "0x88"
     },

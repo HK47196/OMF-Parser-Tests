@@ -52,13 +52,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 170,
-        "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "marker": "80386"
-        }
+        },
+        "class_name": "Easy OMF"
       },
       "type_hex": "0x88"
     },

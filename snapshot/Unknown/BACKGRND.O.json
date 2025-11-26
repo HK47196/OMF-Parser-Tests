@@ -30,13 +30,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 161,
-        "class_name": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "data": "03484c"
-        }
+        },
+        "class_name": "New OMF Extension"
       },
       "type_hex": "0x88"
     },
@@ -380,13 +380,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 162,
-        "class_name": "Link Pass Separator",
         "no_purge": false,
         "no_list": true,
         "content": {
           "warnings": [],
           "pass_num": 1
-        }
+        },
+        "class_name": "Link Pass Separator"
       },
       "type_hex": "0x88"
     },

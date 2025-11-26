@@ -30,13 +30,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 0,
-        "class_name": "Translator",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "translator": "MS C"
-        }
+        },
+        "class_name": "Translator"
       },
       "type_hex": "0x88"
     },
@@ -50,13 +50,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 159,
-        "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "EM"
-        }
+        },
+        "class_name": "Default Library Search"
       },
       "type_hex": "0x88"
     },
@@ -70,13 +70,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 159,
-        "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "MLIBFP"
-        }
+        },
+        "class_name": "Default Library Search"
       },
       "type_hex": "0x88"
     },
@@ -90,13 +90,13 @@
       "parsed": {
         "warnings": [],
         "comment_class": 159,
-        "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "MLIBC"
-        }
+        },
+        "class_name": "Default Library Search"
       },
       "type_hex": "0x88"
     },
@@ -110,14 +110,14 @@
       "parsed": {
         "warnings": [],
         "comment_class": 157,
-        "class_name": "MS Processor/Model",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "optimized": false,
           "pic": false
-        }
+        },
+        "class_name": "MS Processor/Model"
       },
       "type_hex": "0x88"
     },
