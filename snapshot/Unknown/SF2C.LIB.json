@@ -470,15 +470,19 @@
           {
             "name": "_xargc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_xargv",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -95595,22 +95599,28 @@
           {
             "name": "_init",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_elist",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_reading",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -95651,29 +95661,37 @@
           {
             "name": "_external",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_sequential",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_formatted",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_getn",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -95714,8 +95732,10 @@
           {
             "name": "_putn",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -95756,22 +95776,28 @@
           {
             "name": "_cf",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_curunit",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_units",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 3400
           }
         ]
@@ -95812,22 +95838,28 @@
           {
             "name": "_recpos",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_cursor",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_cplus",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -95868,36 +95900,46 @@
           {
             "name": "_cblank",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_fmtbuf",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_doed",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_doned",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_doend",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -95938,8 +95980,10 @@
           {
             "name": "_donewrec",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -95980,15 +96024,19 @@
           {
             "name": "_dorevert",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_scale",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -99185,57 +99233,73 @@
           {
             "name": "_cnt",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 20
           },
           {
             "name": "_ret",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 20
           },
           {
             "name": "_cp",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_syl",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2400
           },
           {
             "name": "_rp",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_pc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_parenlvl",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_revloc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -99316,15 +99380,19 @@
           {
             "name": "_workdone",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_nonl",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -105675,8 +105743,10 @@
           {
             "name": "_icend",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -105752,8 +105822,10 @@
           {
             "name": "_icnum",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -111085,8 +111157,10 @@
           {
             "name": "_lquit",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -111132,15 +111206,19 @@
           {
             "name": "_lcount",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_ltype",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -111181,22 +111259,28 @@
           {
             "name": "_lchar",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_lx",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 8
           },
           {
             "name": "_ly",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 8
           }
         ]
@@ -111327,8 +111411,10 @@
           {
             "name": "_lioproc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -111384,15 +111470,19 @@
           {
             "name": "_l_getc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_l_ungetc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -111433,8 +111523,10 @@
           {
             "name": "_l_eof",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -118295,8 +118387,10 @@
           {
             "name": "_L_len",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -134417,8 +134511,10 @@
           {
             "name": "_recloc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -137201,8 +137297,10 @@
           {
             "name": "_reclen",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -141776,8 +141874,10 @@
           {
             "name": "_hiwater",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -141863,8 +141963,10 @@
           {
             "name": "_svic",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -141905,8 +142007,10 @@
           {
             "name": "_icptr",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]

@@ -475,8 +475,10 @@
           {
             "name": "_drdata",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 256
           }
         ]
@@ -517,22 +519,28 @@
           {
             "name": "_rootdir",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_runq",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_Hogproc",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -578,15 +586,19 @@
           {
             "name": "_cputype",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_lbolt",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -627,29 +639,37 @@
           {
             "name": "_time",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_Hz",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_Timezone",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           },
           {
             "name": "_Dstflag",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -690,8 +710,10 @@
           {
             "name": "_mpid",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -732,8 +754,10 @@
           {
             "name": "_runin",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 1
           }
         ]
@@ -774,8 +798,10 @@
           {
             "name": "_runout",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           }
         ]
@@ -816,8 +842,10 @@
           {
             "name": "_runrun",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 1
           }
         ]
@@ -858,8 +886,10 @@
           {
             "name": "_runtxt",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 1
           }
         ]
@@ -900,8 +930,10 @@
           {
             "name": "_curpri",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 1
           }
         ]
@@ -942,8 +974,10 @@
           {
             "name": "_maxmem",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -984,8 +1018,10 @@
           {
             "name": "_physmem",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1031,8 +1067,10 @@
           {
             "name": "_swplo",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1073,8 +1111,10 @@
           {
             "name": "_nswap",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1115,8 +1155,10 @@
           {
             "name": "_updlock",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1157,8 +1199,10 @@
           {
             "name": "_rablock",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1204,8 +1248,10 @@
           {
             "name": "_Cmask",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1251,36 +1297,46 @@
           {
             "name": "_rootdev",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_swapdev",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_savresv",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_pipedev",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 2
           },
           {
             "name": "_blkacty",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1321,8 +1377,10 @@
           {
             "name": "_selwait",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1383,15 +1441,19 @@
           {
             "name": "_dctab",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 36
           },
           {
             "name": "_rdcbuf",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 48
           }
         ]
@@ -1437,8 +1499,10 @@
           {
             "name": "_intvec",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
@@ -1494,8 +1558,10 @@
           {
             "name": "_bufbase",
             "type_index": 0,
-            "data_type": 98,
-            "kind": "NEAR",
+            "data_type": [
+              98,
+              "NEAR"
+            ],
             "size": 4
           }
         ]
