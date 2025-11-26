@@ -2,7 +2,7 @@
   "filepath": "Watcom9.5b/LIB286_DOS_CLIBL_LIB/scnf.o",
   "file_size": 4202,
   "is_library": false,
-  "variant": "TIS Standard",
+  "omf_variant": "TIS Standard",
   "mixed_variants": false,
   "features": [],
   "records": [

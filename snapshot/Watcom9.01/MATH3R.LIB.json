@@ -2,7 +2,7 @@
   "filepath": "Watcom9.01/MATH3R.LIB",
   "file_size": 40448,
   "is_library": true,
-  "variant": "PharLap Easy OMF-386",
+  "omf_variant": "PharLap Easy OMF-386",
   "mixed_variants": true,
   "seen_variants": [
     "PharLap Easy OMF-386",

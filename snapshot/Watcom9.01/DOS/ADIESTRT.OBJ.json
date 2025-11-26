@@ -2,7 +2,7 @@
   "filepath": "Watcom9.01/DOS/ADIESTRT.OBJ",
   "file_size": 2046,
   "is_library": false,
-  "variant": "PharLap Easy OMF-386",
+  "omf_variant": "PharLap Easy OMF-386",
   "mixed_variants": false,
   "features": [
     "easy_omf",

@@ -2,7 +2,7 @@
   "filepath": "Unknown/XENIXDCE.O",
   "file_size": 12024,
   "is_library": false,
-  "variant": "TIS Standard",
+  "omf_variant": "TIS Standard",
   "mixed_variants": false,
   "features": [],
   "records": [

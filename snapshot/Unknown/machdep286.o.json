@@ -2,7 +2,7 @@
   "filepath": "Unknown/machdep286.o",
   "file_size": 3631,
   "is_library": false,
-  "variant": "TIS Standard",
+  "omf_variant": "TIS Standard",
   "mixed_variants": false,
   "features": [],
   "records": [

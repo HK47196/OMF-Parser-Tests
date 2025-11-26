@@ -2,7 +2,7 @@
   "filepath": "BORLAND_CPP_3.0/CRTLDLL.LIB",
   "file_size": 145920,
   "is_library": true,
-  "variant": "TIS Standard",
+  "omf_variant": "TIS Standard",
   "mixed_variants": false,
   "features": [
     "borland"

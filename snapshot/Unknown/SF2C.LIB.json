@@ -2,7 +2,7 @@
   "filepath": "Unknown/SF2C.LIB",
   "file_size": 115757,
   "is_library": true,
-  "variant": "TIS Standard",
+  "omf_variant": "TIS Standard",
   "mixed_variants": false,
   "features": [],
   "records": [
