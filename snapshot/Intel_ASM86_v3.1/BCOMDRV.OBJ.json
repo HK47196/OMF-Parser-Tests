@@ -1,0 +1,3723 @@
+{
+  "filepath": "Intel_ASM86_v3.1/BCOMDRV.OBJ",
+  "file_size": 4823,
+  "is_library": false,
+  "omf_variant": "TIS Standard",
+  "mixed_variants": false,
+  "features": [],
+  "records": [
+    {
+      "type": 128,
+      "name": "THEADR",
+      "offset": 0,
+      "length": 12,
+      "checksum": 122,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "record_name": "THEADR",
+        "module_name": "CNETMODULE"
+      },
+      "type_hex": "0x80"
+    },
+    {
+      "type": 136,
+      "name": "COMENT",
+      "offset": 15,
+      "length": 16,
+      "checksum": 117,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "comment_class": 0,
+        "class_name": "Translator",
+        "no_purge": false,
+        "no_list": false,
+        "content": {
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
+    },
+    {
+      "type": 150,
+      "name": "LNAMES",
+      "offset": 34,
+      "length": 34,
+      "checksum": 107,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "record_name": "LNAMES",
+        "start_index": 1,
+        "end_index": 6,
+        "names": [
+          [
+            1,
+            "",
+            false
+          ],
+          [
+            2,
+            "ASSEMBLY",
+            false
+          ],
+          [
+            3,
+            "DATA",
+            false
+          ],
+          [
+            4,
+            "DATA",
+            false
+          ],
+          [
+            5,
+            "??SEG",
+            false
+          ],
+          [
+            6,
+            "DGROUP",
+            false
+          ]
+        ]
+      },
+      "type_hex": "0x96"
+    },
+    {
+      "type": 152,
+      "name": "SEGDEF",
+      "offset": 71,
+      "length": 7,
+      "checksum": 242,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "acbp": 104,
+        "alignment": [
+          3,
+          "Paragraph"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
+        "big": false,
+        "use32": false,
+        "length": 0,
+        "segment_name": "'??SEG'",
+        "class_name": "''",
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
+    },
+    {
+      "type": 152,
+      "name": "SEGDEF",
+      "offset": 81,
+      "length": 7,
+      "checksum": 155,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "acbp": 72,
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
+        "big": false,
+        "use32": false,
+        "length": 118,
+        "segment_name": "'DATA'",
+        "class_name": "'DATA'",
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
+    },
+    {
+      "type": 152,
+      "name": "SEGDEF",
+      "offset": 91,
+      "length": 7,
+      "checksum": 17,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "acbp": 72,
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
+        "big": false,
+        "use32": false,
+        "length": 3320,
+        "segment_name": "'ASSEMBLY'",
+        "class_name": "''",
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
+    },
+    {
+      "type": 142,
+      "name": "TYPDEF",
+      "offset": 101,
+      "length": 4,
+      "checksum": 238,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "en_byte": 0,
+        "format": "Microsoft",
+        "leaves": [
+          {
+            "type": "Unknown",
+            "leaf_type": 128,
+            "remaining": ""
+          }
+        ]
+      },
+      "type_hex": "0x8E"
+    },
+    {
+      "type": 140,
+      "name": "EXTDEF",
+      "offset": 108,
+      "length": 180,
+      "checksum": 13,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_local": false,
+        "externals": [
+          {
+            "index": 1,
+            "name": "ASSEMBLYABEND",
+            "type_index": 1
+          },
+          {
+            "index": 2,
+            "name": "ASSEMBLYSTUFFWORD",
+            "type_index": 1
+          },
+          {
+            "index": 3,
+            "name": "DECLARESEGMENT",
+            "type_index": 1
+          },
+          {
+            "index": 4,
+            "name": "SETINTERRUPTVECTOR",
+            "type_index": 1
+          },
+          {
+            "index": 5,
+            "name": "ISRCOMPLETED",
+            "type_index": 1
+          },
+          {
+            "index": 6,
+            "name": "RETURNRECEIVEBLOCK",
+            "type_index": 1
+          },
+          {
+            "index": 7,
+            "name": "ACCEPTRECEIVEBLOCK",
+            "type_index": 1
+          },
+          {
+            "index": 8,
+            "name": "GETRECEIVEBLOCK",
+            "type_index": 1
+          },
+          {
+            "index": 9,
+            "name": "ATFLAG",
+            "type_index": 1
+          },
+          {
+            "index": 10,
+            "name": "REALTIMETICKS",
+            "type_index": 1
+          },
+          {
+            "index": 11,
+            "name": "MAXPACKETSIZE",
+            "type_index": 1
+          }
+        ]
+      },
+      "type_hex": "0x8C"
+    },
+    {
+      "type": 154,
+      "name": "GRPDEF",
+      "offset": 291,
+      "length": 4,
+      "checksum": 91,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "name": "'DGROUP'",
+        "name_index": 6,
+        "is_flat": false,
+        "components": [
+          "Seg:DATA"
+        ]
+      },
+      "type_hex": "0x9A"
+    },
+    {
+      "type": 144,
+      "name": "PUBDEF",
+      "offset": 298,
+      "length": 25,
+      "checksum": 156,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "DATA",
+        "symbols": [
+          {
+            "name": "BDRIVERDEBUGERRORS",
+            "offset": 84,
+            "type_index": 1
+          }
+        ]
+      },
+      "type_hex": "0x90"
+    },
+    {
+      "type": 144,
+      "name": "PUBDEF",
+      "offset": 326,
+      "length": 131,
+      "checksum": 139,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "is_local": false,
+        "base_group": "<null>",
+        "base_segment": "ASSEMBLY",
+        "symbols": [
+          {
+            "name": "BDRIVERC",
+            "offset": 9,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERCONFIGURATION",
+            "offset": 9,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERDISCONNECT",
+            "offset": 1776,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERINITIALIZE",
+            "offset": 3054,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERPOLL",
+            "offset": 2224,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERBROADCAST",
+            "offset": 1777,
+            "type_index": 1
+          },
+          {
+            "name": "BDRIVERSEND",
+            "offset": 1777,
+            "type_index": 1
+          }
+        ]
+      },
+      "type_hex": "0x90"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 460,
+      "length": 9,
+      "checksum": 201,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "kind": "FRAME",
+            "thread_num": 0,
+            "method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "index": 3,
+            "warnings": []
+          },
+          {
+            "kind": "TARGET",
+            "thread_num": 0,
+            "method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "index": 3,
+            "warnings": []
+          },
+          {
+            "kind": "FRAME",
+            "thread_num": 1,
+            "method": [
+              1,
+              "F1:GRPDEF"
+            ],
+            "index": 1,
+            "warnings": []
+          },
+          {
+            "kind": "TARGET",
+            "thread_num": 1,
+            "method": [
+              1,
+              "T1:GRPDEF"
+            ],
+            "index": 1,
+            "warnings": []
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 472,
+      "length": 11,
+      "checksum": 82,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "DATA",
+        "segment_index": 2,
+        "offset": 0,
+        "data_length": 7,
+        "data_preview": "00000000010000"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 486,
+      "length": 7,
+      "checksum": 245,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "DATA",
+        "segment_index": 2,
+        "offset": 18,
+        "data_length": 3,
+        "data_preview": "460a00"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 496,
+      "length": 18,
+      "checksum": 113,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "DATA",
+        "segment_index": 2,
+        "offset": 25,
+        "data_length": 14,
+        "data_preview": "0000008000000000020000000040"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 517,
+      "length": 11,
+      "checksum": 40,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 1,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 1912
+          },
+          {
+            "data_offset": 4,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 1647
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 531,
+      "length": 7,
+      "checksum": 46,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "DATA",
+        "segment_index": 2,
+        "offset": 41,
+        "data_length": 3,
+        "data_preview": "000000"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 541,
+      "length": 42,
+      "checksum": 238,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "DATA",
+        "segment_index": 2,
+        "offset": 80,
+        "data_length": 38,
+        "data_preview": "00000000010001000000000000000000"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 586,
+      "length": 13,
+      "checksum": 9,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 0,
+        "data_length": 9,
+        "data_preview": "4c414e447269766572"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 602,
+      "length": 9,
+      "checksum": 201,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "kind": "FRAME",
+            "thread_num": 0,
+            "method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "index": 3,
+            "warnings": []
+          },
+          {
+            "kind": "TARGET",
+            "thread_num": 0,
+            "method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "index": 3,
+            "warnings": []
+          },
+          {
+            "kind": "FRAME",
+            "thread_num": 1,
+            "method": [
+              1,
+              "F1:GRPDEF"
+            ],
+            "index": 1,
+            "warnings": []
+          },
+          {
+            "kind": "TARGET",
+            "thread_num": 1,
+            "method": [
+              1,
+              "T1:GRPDEF"
+            ],
+            "index": 1,
+            "warnings": []
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 162,
+      "name": "LIDATA",
+      "offset": 614,
+      "length": 14,
+      "checksum": 61,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 9,
+        "blocks": [
+          {
+            "repeat_count": 4,
+            "block_count": 1,
+            "nested_blocks": [
+              {
+                "repeat_count": 1,
+                "block_count": 0,
+                "content": "00",
+                "nested_blocks": [],
+                "expanded_size": 1
+              }
+            ],
+            "expanded_size": 4
+          }
+        ],
+        "total_expanded_size": 4
+      },
+      "type_hex": "0xA2"
+    },
+    {
+      "type": 162,
+      "name": "LIDATA",
+      "offset": 631,
+      "length": 14,
+      "checksum": 55,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 13,
+        "blocks": [
+          {
+            "repeat_count": 6,
+            "block_count": 1,
+            "nested_blocks": [
+              {
+                "repeat_count": 1,
+                "block_count": 0,
+                "content": "00",
+                "nested_blocks": [],
+                "expanded_size": 1
+              }
+            ],
+            "expanded_size": 6
+          }
+        ],
+        "total_expanded_size": 6
+      },
+      "type_hex": "0xA2"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 648,
+      "length": 13,
+      "checksum": 129,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 19,
+        "data_length": 9,
+        "data_preview": "810000040000360100"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 664,
+      "length": 6,
+      "checksum": 250,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 4,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 68
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 162,
+      "name": "LIDATA",
+      "offset": 673,
+      "length": 14,
+      "checksum": 37,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 28,
+        "blocks": [
+          {
+            "repeat_count": 9,
+            "block_count": 1,
+            "nested_blocks": [
+              {
+                "repeat_count": 1,
+                "block_count": 0,
+                "content": "00",
+                "nested_blocks": [],
+                "expanded_size": 1
+              }
+            ],
+            "expanded_size": 9
+          }
+        ],
+        "total_expanded_size": 9
+      },
+      "type_hex": "0xA2"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 690,
+      "length": 1013,
+      "checksum": 30,
+      "checksum_valid": false,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 37,
+        "data_length": 1009,
+        "data_preview": "8137010010000c000000000000000000"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 1706,
+      "length": 124,
+      "checksum": 221,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 7,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 110
+          },
+          {
+            "data_offset": 9,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 174
+          },
+          {
+            "data_offset": 11,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 238
+          },
+          {
+            "data_offset": 13,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 302
+          },
+          {
+            "data_offset": 15,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 366
+          },
+          {
+            "data_offset": 17,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 430
+          },
+          {
+            "data_offset": 19,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 494
+          },
+          {
+            "data_offset": 21,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 558
+          },
+          {
+            "data_offset": 23,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 622
+          },
+          {
+            "data_offset": 25,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 686
+          },
+          {
+            "data_offset": 27,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 750
+          },
+          {
+            "data_offset": 29,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 814
+          },
+          {
+            "data_offset": 843,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 110
+          },
+          {
+            "data_offset": 886,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 910,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 916,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 6
+          },
+          {
+            "data_offset": 921,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 935,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 3
+          },
+          {
+            "data_offset": 963,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 975,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 88
+          },
+          {
+            "data_offset": 980,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 90
+          },
+          {
+            "data_offset": 987,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 1002,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 1833,
+      "length": 1012,
+      "checksum": 8,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 1046,
+        "data_length": 1008,
+        "data_preview": "000026ff5c04fabd00008edd8b2e0000"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 2848,
+      "length": 367,
+      "checksum": 41,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 0,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 8,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 14,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 18,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 25,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 39,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 108
+          },
+          {
+            "data_offset": 53,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 19
+          },
+          {
+            "data_offset": 58,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 31
+          },
+          {
+            "data_offset": 81,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 84,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 39
+          },
+          {
+            "data_offset": 116,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 6
+          },
+          {
+            "data_offset": 120,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 5,
+            "displacement": 0
+          },
+          {
+            "data_offset": 139,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 147,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 159,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 172,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 201,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 250,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 25
+          },
+          {
+            "data_offset": 257,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 110
+          },
+          {
+            "data_offset": 289,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 318,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 346,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 44
+          },
+          {
+            "data_offset": 354,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 370,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 64
+          },
+          {
+            "data_offset": 381,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 37
+          },
+          {
+            "data_offset": 392,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 41
+          },
+          {
+            "data_offset": 470,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 44
+          },
+          {
+            "data_offset": 476,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 60
+          },
+          {
+            "data_offset": 481,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 41
+          },
+          {
+            "data_offset": 493,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 46
+          },
+          {
+            "data_offset": 502,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 506,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 28
+          },
+          {
+            "data_offset": 512,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 45
+          },
+          {
+            "data_offset": 523,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 64
+          },
+          {
+            "data_offset": 544,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 11,
+            "displacement": 0
+          },
+          {
+            "data_offset": 551,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 8,
+            "displacement": 0
+          },
+          {
+            "data_offset": 567,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 29
+          },
+          {
+            "data_offset": 579,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 46
+          },
+          {
+            "data_offset": 591,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 104
+          },
+          {
+            "data_offset": 597,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 96
+          },
+          {
+            "data_offset": 618,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 54
+          },
+          {
+            "data_offset": 625,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 7,
+            "displacement": 0
+          },
+          {
+            "data_offset": 629,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 92
+          },
+          {
+            "data_offset": 634,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 94
+          },
+          {
+            "data_offset": 638,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 45
+          },
+          {
+            "data_offset": 641,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 650,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 28
+          },
+          {
+            "data_offset": 660,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 25
+          },
+          {
+            "data_offset": 681,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 706,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 25
+          },
+          {
+            "data_offset": 733,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 738,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 764,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 775,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 780,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 19
+          },
+          {
+            "data_offset": 802,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 821,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 31
+          },
+          {
+            "data_offset": 856,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 26
+          },
+          {
+            "data_offset": 860,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 37
+          },
+          {
+            "data_offset": 905,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 13
+          },
+          {
+            "data_offset": 921,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 41
+          },
+          {
+            "data_offset": 983,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 989,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 1004,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2319
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 3218,
+      "length": 1013,
+      "checksum": 33,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 2054,
+        "data_length": 1009,
+        "data_preview": "00008d5600b026eea10000a30000c38d"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 4234,
+      "length": 279,
+      "checksum": 43,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 0,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 1,
+            "displacement": 0
+          },
+          {
+            "data_offset": 9,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 12,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 39
+          },
+          {
+            "data_offset": 62,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 13
+          },
+          {
+            "data_offset": 86,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 41
+          },
+          {
+            "data_offset": 93,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 37
+          },
+          {
+            "data_offset": 111,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 9,
+            "displacement": 0
+          },
+          {
+            "data_offset": 173,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 181,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 10,
+            "displacement": 0
+          },
+          {
+            "data_offset": 185,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 39
+          },
+          {
+            "data_offset": 196,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 5
+          },
+          {
+            "data_offset": 204,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 5
+          },
+          {
+            "data_offset": 209,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 225,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 232,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 239,
+            "location": [
+              2,
+              "Segment(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
+            "target_source": "Thread#1"
+          },
+          {
+            "data_offset": 245,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 19
+          },
+          {
+            "data_offset": 251,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 82
+          },
+          {
+            "data_offset": 257,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 80
+          },
+          {
+            "data_offset": 488,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 604,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2441
+          },
+          {
+            "data_offset": 657,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 13
+          },
+          {
+            "data_offset": 668,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 682,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 696,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 716,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2360
+          },
+          {
+            "data_offset": 722,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2398
+          },
+          {
+            "data_offset": 729,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 28
+          },
+          {
+            "data_offset": 734,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 739,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 26
+          },
+          {
+            "data_offset": 741,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2069
+          },
+          {
+            "data_offset": 745,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 9,
+            "displacement": 0
+          },
+          {
+            "data_offset": 752,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 29
+          },
+          {
+            "data_offset": 754,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 1756
+          },
+          {
+            "data_offset": 760,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 29
+          },
+          {
+            "data_offset": 762,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 1765
+          },
+          {
+            "data_offset": 765,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 13
+          },
+          {
+            "data_offset": 791,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 4
+          },
+          {
+            "data_offset": 807,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 843,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 28
+          },
+          {
+            "data_offset": 865,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 18
+          },
+          {
+            "data_offset": 878,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 2486
+          },
+          {
+            "data_offset": 904,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 0
+          },
+          {
+            "data_offset": 943,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 6
+          },
+          {
+            "data_offset": 968,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 28
+          },
+          {
+            "data_offset": 972,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 41
+          },
+          {
+            "data_offset": 989,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 4
+          },
+          {
+            "data_offset": 998,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 1,
+            "displacement": 0
+          },
+          {
+            "data_offset": 1003,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 42
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 160,
+      "name": "LEDATA",
+      "offset": 4516,
+      "length": 261,
+      "checksum": 228,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "segment": "ASSEMBLY",
+        "segment_index": 3,
+        "offset": 3063,
+        "data_length": 257,
+        "data_preview": "0000932e8b1f2e8b07a3000083c3112e"
+      },
+      "type_hex": "0xA0"
+    },
+    {
+      "type": 156,
+      "name": "FIXUPP",
+      "offset": 4780,
+      "length": 35,
+      "checksum": 164,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "is_32bit": false,
+        "subrecords": [
+          {
+            "data_offset": 0,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 44
+          },
+          {
+            "data_offset": 10,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 15
+          },
+          {
+            "data_offset": 19,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
+            "frame_source": "Explicit",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Thread#0",
+            "displacement": 936
+          },
+          {
+            "data_offset": 22,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Self-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#0",
+            "target_method": [
+              2,
+              "T2:EXTDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 4,
+            "displacement": 0
+          },
+          {
+            "data_offset": 25,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 3
+          },
+          {
+            "data_offset": 32,
+            "location": [
+              1,
+              "Offset(16)"
+            ],
+            "mode": "Segment-relative",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
+            "frame_source": "Thread#1",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
+            "target_source": "Explicit",
+            "target_datum": 2,
+            "displacement": 4
+          }
+        ]
+      },
+      "type_hex": "0x9C"
+    },
+    {
+      "type": 138,
+      "name": "MODEND",
+      "offset": 4818,
+      "length": 2,
+      "checksum": 116,
+      "checksum_valid": true,
+      "parsed": {
+        "warnings": [],
+        "mod_type": 0,
+        "is_main": false,
+        "has_start": false,
+        "is_relocatable": false
+      },
+      "type_hex": "0x8A"
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
