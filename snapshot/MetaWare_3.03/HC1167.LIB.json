@@ -12705,7 +12705,7 @@
         "alignment": "Page (4K) [PharLap]",
         "combine": "Public",
         "big": false,
-        "use32": false,
+        "use32": true,
         "length": 65536,
         "segment_name": "'WTLSEG'",
         "class_name": "'DATA'",
