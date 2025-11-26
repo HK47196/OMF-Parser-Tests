@@ -2134,8 +2134,8 @@
           ],
           "p_bit": 1,
           "target_method": [
-            0,
-            "T0:SEGDEF"
+            4,
+            "T4:SEGDEF(0)"
           ],
           "target_datum": 2
         }
