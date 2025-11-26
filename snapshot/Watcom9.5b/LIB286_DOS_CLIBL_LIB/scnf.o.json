@@ -4,12 +4,10 @@
   "is_library": false,
   "variant": "TIS Standard",
   "mixed_variants": false,
-  "seen_variants": null,
   "features": [],
   "records": [
     {
       "type": 128,
-      "type_hex": "0x80",
       "name": "THEADR",
       "offset": 0,
       "length": 6,
@@ -19,11 +17,11 @@
         "warnings": [],
         "record_name": "THEADR",
         "module_name": "scnf"
-      }
+      },
+      "type_hex": "0x80"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 9,
       "length": 3,
@@ -36,15 +34,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "data": null
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 15,
       "length": 7,
@@ -57,22 +53,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "processor": "8086",
-          "processor_raw": "0",
-          "mem_model": "Large",
-          "mem_model_raw": "l",
-          "optimized": true,
-          "fp_mode": "Emulator calls",
-          "fp_mode_raw": "c",
-          "pic": false
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 25,
       "length": 7,
@@ -85,22 +72,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "directive_code": "D",
-          "directive_name": "Source Language",
-          "content": {
-            "warnings": [],
-            "major_version": 1,
-            "minor_version": 2,
-            "language": "C"
-          }
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 35,
       "length": 23,
@@ -138,11 +116,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 61,
       "length": 11,
@@ -160,11 +138,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 75,
       "length": 7,
@@ -173,23 +151,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 40,
-        "alignment": "Byte",
-        "combine": "Public",
+        "alignment": [
+          1,
+          "Byte"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 3458,
         "segment_name": "'scnf_TEXT'",
         "class_name": "'CODE'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 85,
       "length": 5,
@@ -202,21 +182,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "directive_code": "O",
-          "directive_name": "Optimize Far Calls",
-          "content": {
-            "warnings": [],
-            "segment_index": 1,
-            "segment_name": "scnf_TEXT"
-          }
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 93,
       "length": 7,
@@ -234,11 +206,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 103,
       "length": 7,
@@ -247,23 +219,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'CONST'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 113,
       "length": 8,
@@ -281,11 +255,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 124,
       "length": 7,
@@ -294,23 +268,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'CONST2'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 134,
       "length": 7,
@@ -328,11 +304,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 144,
       "length": 7,
@@ -341,23 +317,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'_DATA'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 154,
       "length": 6,
@@ -375,11 +353,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 163,
       "length": 7,
@@ -388,23 +366,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'_BSS'",
         "class_name": "'BSS'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 154,
-      "type_hex": "0x9A",
       "name": "GRPDEF",
       "offset": 173,
       "length": 10,
@@ -421,11 +401,11 @@
           "Seg:_DATA",
           "Seg:_BSS"
         ]
-      }
+      },
+      "type_hex": "0x9A"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 186,
       "length": 13,
@@ -439,11 +419,11 @@
         "offset": 0,
         "data_length": 8,
         "data_preview": "0102040810204080"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 202,
       "length": 9,
@@ -456,24 +436,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "subtype": "s",
-          "subtype_name": "DDIR_SCAN_TABLE",
-          "is_32bit": false,
-          "segment_index": 1,
-          "segment_name": "scnf_TEXT",
-          "lname_index": null,
-          "comdat_name": null,
-          "start_offset": 0,
-          "end_offset": 8,
-          "region_size": 8
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 214,
       "length": 12,
@@ -489,11 +458,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 229,
       "length": 187,
@@ -507,11 +476,11 @@
         "offset": 8,
         "data_length": 182,
         "data_preview": "56571e065589e583ec0a8b7e0e89c68e"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 419,
       "length": 10,
@@ -523,34 +492,49 @@
         "subrecords": [
           {
             "data_offset": 54,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 68,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 432,
       "length": 14,
@@ -562,8 +546,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "scnf_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__scnf_",
@@ -571,11 +553,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 449,
       "length": 187,
@@ -589,11 +571,11 @@
         "offset": 190,
         "data_length": 182,
         "data_preview": "837efa75720b7646837efa787453e921"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 639,
       "length": 186,
@@ -607,11 +589,11 @@
         "offset": 372,
         "data_length": 181,
         "data_preview": "8b4e10b801008cda50b81000ebb98b4e"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 828,
       "length": 188,
@@ -625,11 +607,11 @@
         "offset": 553,
         "data_length": 183,
         "data_preview": "8cda89fbe81303837efc00750bf6440e"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1019,
       "length": 19,
@@ -641,58 +623,88 @@
         "subrecords": [
           {
             "data_offset": 111,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 128,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 161,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 171,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 1041,
       "length": 187,
@@ -706,11 +718,11 @@
         "offset": 736,
         "data_length": 182,
         "data_preview": "8d4401803c4e750c8e46fc89c626804f"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1231,
       "length": 10,
@@ -722,34 +734,49 @@
         "subrecords": [
           {
             "data_offset": 134,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 143,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 1244,
       "length": 188,
@@ -763,11 +790,11 @@
         "offset": 918,
         "data_length": 183,
         "data_preview": "83ec028eda89c689d8f6440e017440f6"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1435,
       "length": 6,
@@ -779,22 +806,30 @@
         "subrecords": [
           {
             "data_offset": 45,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 1444,
       "length": 186,
@@ -808,11 +843,11 @@
         "offset": 1101,
         "data_length": 181,
         "data_preview": "f6440e01743af6440e04751df6440e08"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1633,
       "length": 15,
@@ -824,46 +859,69 @@
         "subrecords": [
           {
             "data_offset": 34,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 82,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 93,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 1651,
       "length": 187,
@@ -877,11 +935,11 @@
         "offset": 1282,
         "data_length": 182,
         "data_preview": "741eb8000088da30f6fec28ec089d726"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1841,
       "length": 15,
@@ -893,46 +951,69 @@
         "subrecords": [
           {
             "data_offset": 3,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 18,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 108,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 1859,
       "length": 10,
@@ -948,11 +1029,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 1872,
       "length": 186,
@@ -966,11 +1047,11 @@
         "offset": 1464,
         "data_length": 181,
         "data_preview": "89cab9200031db9a00000000268a0430"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 2061,
       "length": 9,
@@ -982,34 +1063,48 @@
         "subrecords": [
           {
             "data_offset": 8,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 44,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 2073,
       "length": 187,
@@ -1023,11 +1118,11 @@
         "offset": 1645,
         "data_length": 182,
         "data_preview": "268b5ffec746fe0000895efceb188e46"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 2263,
       "length": 10,
@@ -1039,34 +1134,49 @@
         "subrecords": [
           {
             "data_offset": 7,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 90,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 2276,
       "length": 186,
@@ -1080,11 +1190,11 @@
         "offset": 1827,
         "data_length": 181,
         "data_preview": "894ef88d7e8e31c08c56f28946ea8946"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 2465,
       "length": 19,
@@ -1096,58 +1206,88 @@
         "subrecords": [
           {
             "data_offset": 33,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 45,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 134,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 148,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 2487,
       "length": 187,
@@ -1161,11 +1301,11 @@
         "offset": 2008,
         "data_length": 182,
         "data_preview": "b80000fec38ec026f6870000207457c7"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 2677,
       "length": 28,
@@ -1177,82 +1317,127 @@
         "subrecords": [
           {
             "data_offset": 1,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 10,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 83,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 97,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 157,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 171,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 2708,
       "length": 8,
@@ -1268,11 +1453,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 2719,
       "length": 188,
@@ -1286,11 +1471,11 @@
         "offset": 2190,
         "data_length": 183,
         "data_preview": "b800008a5ef030fffec38ec026f68700"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 2910,
       "length": 14,
@@ -1302,46 +1487,68 @@
         "subrecords": [
           {
             "data_offset": 1,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 15,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 103,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 3,
-            "displacement": null
+            "target_datum": 3
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 2927,
       "length": 186,
@@ -1355,11 +1562,11 @@
         "offset": 2373,
         "data_length": 181,
         "data_preview": "89c38946f083faff75053dffff74b985"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 3116,
       "length": 19,
@@ -1371,58 +1578,88 @@
         "subrecords": [
           {
             "data_offset": 67,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 81,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 127,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 141,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 3138,
       "length": 15,
@@ -1438,11 +1675,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 3156,
       "length": 187,
@@ -1456,11 +1693,11 @@
         "offset": 2554,
         "data_length": 182,
         "data_preview": "f6440e107412807e8e2d7530f75eeef7"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 3346,
       "length": 15,
@@ -1472,46 +1709,69 @@
         "subrecords": [
           {
             "data_offset": 31,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 42,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 4,
-            "displacement": null
+            "target_datum": 4
           },
           {
             "data_offset": 98,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 3364,
       "length": 9,
@@ -1527,11 +1787,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 3376,
       "length": 186,
@@ -1545,11 +1805,11 @@
         "offset": 2736,
         "data_length": 181,
         "data_preview": "eb198b46e48b5ee28b4ee08b56de9a00"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 3565,
       "length": 14,
@@ -1561,46 +1821,68 @@
         "subrecords": [
           {
             "data_offset": 15,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 5,
-            "displacement": null
+            "target_datum": 5
           },
           {
             "data_offset": 83,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 92,
-            "location": "Offset(16)",
+            "location": [
+              1,
+              "Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 3582,
       "length": 187,
@@ -1614,11 +1896,11 @@
         "offset": 2917,
         "data_length": 182,
         "data_preview": "837ef430755489f08cdae8eb0189c389"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 3772,
       "length": 8,
@@ -1634,11 +1916,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 3783,
       "length": 187,
@@ -1652,11 +1934,11 @@
         "offset": 3099,
         "data_length": 182,
         "data_preview": "8b46f4e817018946ee3b460c7d318b46"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 3973,
       "length": 9,
@@ -1668,34 +1950,48 @@
         "subrecords": [
           {
             "data_offset": 28,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 6,
-            "displacement": null
+            "target_datum": 6
           },
           {
             "data_offset": 128,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 6,
-            "displacement": null
+            "target_datum": 6
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 3985,
       "length": 11,
@@ -1711,11 +2007,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 3999,
       "length": 182,
@@ -1729,11 +2025,11 @@
         "offset": 3281,
         "data_length": 177,
         "data_preview": "0146f8f6440e017458f6440e04751bf6"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 4184,
       "length": 10,
@@ -1745,34 +2041,49 @@
         "subrecords": [
           {
             "data_offset": 34,
-            "location": "Segment(16)",
+            "location": [
+              2,
+              "Segment(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T4:SEGDEF(0)",
+            "target_method": [
+              4,
+              "T4:SEGDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 118,
-            "location": "Ptr(16:16)",
+            "location": [
+              3,
+              "Ptr(16:16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 7,
-            "displacement": null
+            "target_datum": 7
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 138,
-      "type_hex": "0x8A",
       "name": "MODEND",
       "offset": 4197,
       "length": 2,
@@ -1783,9 +2094,9 @@
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
-        "is_relocatable": false,
-        "start_address": null
-      }
+        "is_relocatable": false
+      },
+      "type_hex": "0x8A"
     }
   ],
   "warnings": [],

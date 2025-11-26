@@ -4,7 +4,6 @@
   "is_library": false,
   "variant": "PharLap Easy OMF-386",
   "mixed_variants": false,
-  "seen_variants": null,
   "features": [
     "easy_omf",
     "pharlap"
@@ -12,7 +11,6 @@
   "records": [
     {
       "type": 128,
-      "type_hex": "0x80",
       "name": "THEADR",
       "offset": 0,
       "length": 8,
@@ -22,11 +20,11 @@
         "warnings": [],
         "record_name": "THEADR",
         "module_name": "setjmp"
-      }
+      },
+      "type_hex": "0x80"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 11,
       "length": 8,
@@ -39,15 +37,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "marker": "80386"
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 22,
       "length": 13,
@@ -75,11 +71,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 38,
       "length": 9,
@@ -88,23 +84,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": "DWord",
-        "combine": "Public",
+        "alignment": [
+          5,
+          "DWord"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 93,
         "segment_name": "'_TEXT'",
         "class_name": "'CODE'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 50,
       "length": 17,
@@ -116,8 +114,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "longjmp_",
@@ -125,11 +121,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 70,
       "length": 17,
@@ -141,8 +137,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "_setjmp_",
@@ -150,11 +144,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 90,
       "length": 99,
@@ -168,11 +162,11 @@
         "offset": 0,
         "data_length": 93,
         "data_preview": "891889480489500889700c8978108968"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 138,
-      "type_hex": "0x8A",
       "name": "MODEND",
       "offset": 192,
       "length": 2,
@@ -183,9 +177,9 @@
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
-        "is_relocatable": false,
-        "start_address": null
-      }
+        "is_relocatable": false
+      },
+      "type_hex": "0x8A"
     }
   ],
   "warnings": [],

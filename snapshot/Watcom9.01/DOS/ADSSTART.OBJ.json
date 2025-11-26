@@ -4,7 +4,6 @@
   "is_library": false,
   "variant": "PharLap Easy OMF-386",
   "mixed_variants": false,
-  "seen_variants": null,
   "features": [
     "easy_omf",
     "pharlap"
@@ -12,7 +11,6 @@
   "records": [
     {
       "type": 128,
-      "type_hex": "0x80",
       "name": "THEADR",
       "offset": 0,
       "length": 10,
@@ -22,11 +20,11 @@
         "warnings": [],
         "record_name": "THEADR",
         "module_name": "adsstart"
-      }
+      },
+      "type_hex": "0x80"
     },
     {
       "type": 136,
-      "type_hex": "0x88",
       "name": "COMENT",
       "offset": 13,
       "length": 8,
@@ -39,15 +37,13 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": [],
-          "marker": "80386"
-        },
-        "raw_data": null
-      }
+          "warnings": []
+        }
+      },
+      "type_hex": "0x88"
     },
     {
       "type": 150,
-      "type_hex": "0x96",
       "name": "LNAMES",
       "offset": 24,
       "length": 118,
@@ -170,11 +166,11 @@
             false
           ]
         ]
-      }
+      },
+      "type_hex": "0x96"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 145,
       "length": 9,
@@ -183,23 +179,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 2,
         "segment_name": "'BEGTEXT'",
         "class_name": "'CODE'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 157,
       "length": 9,
@@ -208,23 +206,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 724,
         "segment_name": "'_TEXT'",
         "class_name": "'CODE'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 169,
       "length": 9,
@@ -233,23 +233,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 104,
-        "alignment": "Paragraph",
-        "combine": "Public",
+        "alignment": [
+          3,
+          "Paragraph"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 4,
         "segment_name": "'_NULL'",
         "class_name": "'BEGDATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 181,
       "length": 9,
@@ -258,23 +260,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'_AFTERNULL'",
         "class_name": "'BEGDATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 193,
       "length": 9,
@@ -283,23 +287,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'CONST'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 205,
       "length": 9,
@@ -308,23 +314,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'XIB'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 217,
       "length": 9,
@@ -333,23 +341,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'XI'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 229,
       "length": 9,
@@ -358,23 +368,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'XIE'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 241,
       "length": 9,
@@ -383,23 +395,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'YIB'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 253,
       "length": 9,
@@ -408,23 +422,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'YI'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 265,
       "length": 9,
@@ -433,23 +449,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'YIE'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 277,
       "length": 9,
@@ -458,23 +476,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": "DWord",
-        "combine": "Public",
+        "alignment": [
+          5,
+          "DWord"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 63,
         "segment_name": "'_DATA'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 289,
       "length": 9,
@@ -483,23 +503,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'DATA'",
         "class_name": "'DATA'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 301,
       "length": 9,
@@ -508,23 +530,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": "Word",
-        "combine": "Public",
+        "alignment": [
+          2,
+          "Word"
+        ],
+        "combine": [
+          2,
+          "Public"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 0,
         "segment_name": "'_BSS'",
         "class_name": "'BSS'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 152,
-      "type_hex": "0x98",
       "name": "SEGDEF",
       "offset": 313,
       "length": 9,
@@ -533,23 +557,25 @@
       "parsed": {
         "warnings": [],
         "acbp": 116,
-        "alignment": "Paragraph",
-        "combine": "Stack",
+        "alignment": [
+          3,
+          "Paragraph"
+        ],
+        "combine": [
+          5,
+          "Stack"
+        ],
         "big": false,
         "use32": false,
-        "absolute_frame": null,
-        "absolute_offset": null,
         "length": 16384,
         "segment_name": "'STACK'",
         "class_name": "'STACK'",
-        "overlay_name": "''",
-        "access": null,
-        "access_byte": null
-      }
+        "overlay_name": "''"
+      },
+      "type_hex": "0x98"
     },
     {
       "type": 154,
-      "type_hex": "0x9A",
       "name": "GRPDEF",
       "offset": 325,
       "length": 28,
@@ -575,11 +601,11 @@
           "Seg:_BSS",
           "Seg:STACK"
         ]
-      }
+      },
+      "type_hex": "0x9A"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 356,
       "length": 16,
@@ -591,8 +617,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__GETDS",
@@ -600,11 +624,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 375,
       "length": 24,
@@ -616,8 +640,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__exit_with_msg",
@@ -625,11 +647,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 402,
       "length": 15,
@@ -641,8 +663,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__exit",
@@ -650,11 +670,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 420,
       "length": 17,
@@ -666,8 +686,6 @@
         "is_local": false,
         "base_group": "<null>",
         "base_segment": "_TEXT",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "_cstart_",
@@ -675,11 +693,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 440,
       "length": 17,
@@ -691,8 +709,6 @@
         "is_local": false,
         "base_group": "DGROUP",
         "base_segment": "_DATA",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__fsavcw",
@@ -700,11 +716,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 144,
-      "type_hex": "0x90",
       "name": "PUBDEF",
       "offset": 460,
       "length": 19,
@@ -716,8 +732,6 @@
         "is_local": false,
         "base_group": "DGROUP",
         "base_segment": "_NULL",
-        "absolute_frame": null,
-        "frame_note": null,
         "symbols": [
           {
             "name": "__nullarea",
@@ -725,11 +739,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x90"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 482,
       "length": 10,
@@ -745,11 +759,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 495,
       "length": 10,
@@ -765,11 +779,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 508,
       "length": 12,
@@ -785,11 +799,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 523,
       "length": 13,
@@ -805,11 +819,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 539,
       "length": 13,
@@ -825,11 +839,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 555,
       "length": 12,
@@ -845,11 +859,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 570,
       "length": 12,
@@ -865,11 +879,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 585,
       "length": 10,
@@ -885,11 +899,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 598,
       "length": 13,
@@ -905,11 +919,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 614,
       "length": 16,
@@ -925,11 +939,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 633,
       "length": 13,
@@ -945,11 +959,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 649,
       "length": 13,
@@ -965,11 +979,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 665,
       "length": 17,
@@ -985,11 +999,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 685,
       "length": 9,
@@ -1005,11 +1019,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 697,
       "length": 9,
@@ -1025,11 +1039,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 709,
       "length": 10,
@@ -1045,11 +1059,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 722,
       "length": 10,
@@ -1065,11 +1079,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 735,
       "length": 9,
@@ -1085,11 +1099,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 747,
       "length": 7,
@@ -1105,11 +1119,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 757,
       "length": 11,
@@ -1125,11 +1139,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 771,
       "length": 11,
@@ -1145,11 +1159,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 785,
       "length": 7,
@@ -1165,11 +1179,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 795,
       "length": 19,
@@ -1185,11 +1199,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 817,
       "length": 18,
@@ -1205,11 +1219,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 140,
-      "type_hex": "0x8C",
       "name": "EXTDEF",
       "offset": 838,
       "length": 19,
@@ -1225,11 +1239,11 @@
             "type_index": 0
           }
         ]
-      }
+      },
+      "type_hex": "0x8C"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 860,
       "length": 8,
@@ -1243,11 +1257,11 @@
         "offset": 0,
         "data_length": 2,
         "data_preview": "ebfe"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 871,
       "length": 10,
@@ -1261,11 +1275,11 @@
         "offset": 0,
         "data_length": 4,
         "data_preview": "01010100"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 884,
       "length": 69,
@@ -1279,11 +1293,11 @@
         "offset": 0,
         "data_length": 63,
         "data_preview": "00000000000000000000000000000000"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 160,
-      "type_hex": "0xA0",
       "name": "LEDATA",
       "offset": 956,
       "length": 730,
@@ -1297,11 +1311,11 @@
         "offset": 0,
         "data_length": 724,
         "data_preview": "eb67574154434f4d2043203338362052"
-      }
+      },
+      "type_hex": "0xA0"
     },
     {
       "type": 156,
-      "type_hex": "0x9C",
       "name": "FIXUPP",
       "offset": 1689,
       "length": 235,
@@ -1313,11 +1327,20 @@
         "subrecords": [
           {
             "data_offset": 108,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1325,23 +1348,40 @@
           },
           {
             "data_offset": 125,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
             "target_datum": 12,
             "displacement": 30
           },
           {
             "data_offset": 141,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1349,11 +1389,20 @@
           },
           {
             "data_offset": 148,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1361,11 +1410,20 @@
           },
           {
             "data_offset": 159,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1373,11 +1431,20 @@
           },
           {
             "data_offset": 169,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1385,11 +1452,20 @@
           },
           {
             "data_offset": 177,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1397,11 +1473,20 @@
           },
           {
             "data_offset": 183,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1409,287 +1494,476 @@
           },
           {
             "data_offset": 193,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 22,
-            "displacement": null
+            "target_datum": 22
           },
           {
             "data_offset": 206,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 7,
-            "displacement": null
+            "target_datum": 7
           },
           {
             "data_offset": 212,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 16,
-            "displacement": null
+            "target_datum": 16
           },
           {
             "data_offset": 228,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 20,
-            "displacement": null
+            "target_datum": 20
           },
           {
             "data_offset": 234,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 21,
-            "displacement": null
+            "target_datum": 21
           },
           {
             "data_offset": 291,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 22,
-            "displacement": null
+            "target_datum": 22
           },
           {
             "data_offset": 296,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 3,
-            "displacement": null
+            "target_datum": 3
           },
           {
             "data_offset": 302,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 22,
-            "displacement": null
+            "target_datum": 22
           },
           {
             "data_offset": 307,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 19,
-            "displacement": null
+            "target_datum": 19
           },
           {
             "data_offset": 368,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 3,
-            "displacement": null
+            "target_datum": 3
           },
           {
             "data_offset": 398,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 2,
-            "displacement": null
+            "target_datum": 2
           },
           {
             "data_offset": 411,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 1,
-            "displacement": null
+            "target_datum": 1
           },
           {
             "data_offset": 463,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 14,
-            "displacement": null
+            "target_datum": 14
           },
           {
             "data_offset": 469,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 6,
-            "displacement": null
+            "target_datum": 6
           },
           {
             "data_offset": 490,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 23,
-            "displacement": null
+            "target_datum": 23
           },
           {
             "data_offset": 502,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 16,
-            "displacement": null
+            "target_datum": 16
           },
           {
             "data_offset": 508,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 17,
-            "displacement": null
+            "target_datum": 17
           },
           {
             "data_offset": 513,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 19,
-            "displacement": null
+            "target_datum": 19
           },
           {
             "data_offset": 518,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 18,
-            "displacement": null
+            "target_datum": 18
           },
           {
             "data_offset": 541,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 19,
-            "displacement": null
+            "target_datum": 19
           },
           {
             "data_offset": 553,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 4,
-            "displacement": null
+            "target_datum": 4
           },
           {
             "data_offset": 559,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
-            "target_datum": 5,
-            "displacement": null
+            "target_datum": 5
           },
           {
             "data_offset": 564,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 12,
-            "displacement": null
+            "target_datum": 12
           },
           {
             "data_offset": 571,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1697,11 +1971,20 @@
           },
           {
             "data_offset": 578,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F1:GRPDEF",
+            "frame_method": [
+              1,
+              "F1:GRPDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 12,
@@ -1709,82 +1992,128 @@
           },
           {
             "data_offset": 583,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 25,
-            "displacement": null
+            "target_datum": 25
           },
           {
             "data_offset": 662,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 8,
-            "displacement": null
+            "target_datum": 8
           },
           {
             "data_offset": 671,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
             "target_datum": 2,
             "displacement": 101
           },
           {
             "data_offset": 705,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F5:Target",
+            "frame_method": [
+              5,
+              "F5:Target"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
-            "frame_datum": null,
-            "target_datum": 11,
-            "displacement": null
+            "target_datum": 11
           },
           {
             "data_offset": 711,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Self-relative",
-            "frame_method": "F0:SEGDEF",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T6:EXTDEF(0)",
+            "target_method": [
+              6,
+              "T6:EXTDEF(0)"
+            ],
             "target_source": "Explicit",
             "frame_datum": 2,
-            "target_datum": 24,
-            "displacement": null
+            "target_datum": 24
           },
           {
             "data_offset": 719,
-            "location": "Loader-resolved Offset(16)",
+            "location": [
+              5,
+              "Loader-resolved Offset(16)"
+            ],
             "mode": "Segment-relative",
-            "frame_method": "F0:SEGDEF",
+            "frame_method": [
+              0,
+              "F0:SEGDEF"
+            ],
             "frame_source": "Explicit",
-            "target_method": "T0:SEGDEF",
+            "target_method": [
+              0,
+              "T0:SEGDEF"
+            ],
             "target_source": "Explicit",
             "frame_datum": 2,
             "target_datum": 12,
             "displacement": 26
           }
         ]
-      }
+      },
+      "type_hex": "0x9C"
     },
     {
       "type": 138,
-      "type_hex": "0x8A",
       "name": "MODEND",
       "offset": 1927,
       "length": 4,
@@ -1802,11 +2131,10 @@
           "frame_method": 5,
           "p_bit": 1,
           "target_method": 0,
-          "frame_datum": null,
-          "target_datum": 2,
-          "target_displacement": null
+          "target_datum": 2
         }
-      }
+      },
+      "type_hex": "0x8A"
     }
   ],
   "warnings": [
