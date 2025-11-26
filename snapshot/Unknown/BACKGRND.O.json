@@ -34,7 +34,8 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "data": "03484c"
         }
       },
       "type_hex": "0x88"
@@ -383,7 +384,8 @@
         "no_purge": false,
         "no_list": true,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "pass_num": 1
         }
       },
       "type_hex": "0x88"

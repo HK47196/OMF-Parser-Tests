@@ -37,7 +37,8 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "marker": "80386"
         }
       },
       "type_hex": "0x88"
@@ -75,7 +76,21 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "processor": [
+            "3",
+            "80386+"
+          ],
+          "mem_model": [
+            "s",
+            "Small"
+          ],
+          "optimized": true,
+          "fp_mode": [
+            "c",
+            "Emulator calls"
+          ],
+          "pic": false
         }
       },
       "type_hex": "0x88"
@@ -94,7 +109,15 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "directive_code": "D",
+          "directive_name": "Source Language",
+          "content": {
+            "warnings": [],
+            "major_version": 1,
+            "minor_version": 2,
+            "language": "C"
+          }
         }
       },
       "type_hex": "0x88"
@@ -204,7 +227,14 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "directive_code": "O",
+          "directive_name": "Optimize Far Calls",
+          "content": {
+            "warnings": [],
+            "segment_index": 1,
+            "segment_name": "_TEXT"
+          }
         }
       },
       "type_hex": "0x88"

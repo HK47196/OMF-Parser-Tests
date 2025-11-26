@@ -53,7 +53,21 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "processor": [
+            "0",
+            "8086"
+          ],
+          "mem_model": [
+            "l",
+            "Large"
+          ],
+          "optimized": true,
+          "fp_mode": [
+            "c",
+            "Emulator calls"
+          ],
+          "pic": false
         }
       },
       "type_hex": "0x88"
@@ -72,7 +86,15 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "directive_code": "D",
+          "directive_name": "Source Language",
+          "content": {
+            "warnings": [],
+            "major_version": 1,
+            "minor_version": 2,
+            "language": "C"
+          }
         }
       },
       "type_hex": "0x88"
@@ -182,7 +204,14 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "directive_code": "O",
+          "directive_name": "Optimize Far Calls",
+          "content": {
+            "warnings": [],
+            "segment_index": 1,
+            "segment_name": "scnf_TEXT"
+          }
         }
       },
       "type_hex": "0x88"
@@ -436,7 +465,15 @@
         "no_purge": true,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "subtype": "s",
+          "subtype_name": "DDIR_SCAN_TABLE",
+          "is_32bit": false,
+          "segment_index": 1,
+          "segment_name": "scnf_TEXT",
+          "start_offset": 0,
+          "end_offset": 8,
+          "region_size": 8
         }
       },
       "type_hex": "0x88"

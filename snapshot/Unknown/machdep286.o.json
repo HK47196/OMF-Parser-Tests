@@ -34,7 +34,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "translator": "MS C"
         }
       },
       "type_hex": "0x88"
@@ -53,7 +54,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "EM"
         }
       },
       "type_hex": "0x88"
@@ -72,7 +74,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "MLIBFP"
         }
       },
       "type_hex": "0x88"
@@ -91,7 +94,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "MLIBC"
         }
       },
       "type_hex": "0x88"
@@ -110,7 +114,9 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "optimized": false,
+          "pic": false
         }
       },
       "type_hex": "0x88"

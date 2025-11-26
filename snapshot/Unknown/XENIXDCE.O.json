@@ -34,7 +34,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "translator": "MS C"
         }
       },
       "type_hex": "0x88"
@@ -53,7 +54,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "EM"
         }
       },
       "type_hex": "0x88"
@@ -72,7 +74,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "SLIBFP"
         }
       },
       "type_hex": "0x88"
@@ -91,7 +94,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "SLIBC"
         }
       },
       "type_hex": "0x88"
@@ -110,7 +114,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "library": "LIBH"
         }
       },
       "type_hex": "0x88"
@@ -129,7 +134,9 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "optimized": false,
+          "pic": false
         }
       },
       "type_hex": "0x88"
@@ -148,7 +155,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "data": "014356"
         }
       },
       "type_hex": "0x88"

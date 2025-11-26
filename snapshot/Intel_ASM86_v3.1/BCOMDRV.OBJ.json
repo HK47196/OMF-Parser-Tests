@@ -34,7 +34,8 @@
         "no_purge": false,
         "no_list": false,
         "content": {
-          "warnings": []
+          "warnings": [],
+          "translator": "ASM86.86 V3.1"
         }
       },
       "type_hex": "0x88"
