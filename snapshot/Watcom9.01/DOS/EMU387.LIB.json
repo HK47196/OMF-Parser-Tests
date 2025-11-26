@@ -497,8 +497,8 @@
           {
             "data_offset": 2,
             "location": [
-              5,
-              "Loader-resolved Offset(16)"
+              105,
+              "Offset(32) [loc 5]"
             ],
             "mode": "Segment-relative",
             "frame_method": [
@@ -549,8 +549,8 @@
           {
             "data_offset": 2,
             "location": [
-              5,
-              "Loader-resolved Offset(16)"
+              105,
+              "Offset(32) [loc 5]"
             ],
             "mode": "Segment-relative",
             "frame_method": [
@@ -602,8 +602,8 @@
           {
             "data_offset": 1,
             "location": [
-              5,
-              "Loader-resolved Offset(16)"
+              105,
+              "Offset(32) [loc 5]"
             ],
             "mode": "Self-relative",
             "frame_method": [
@@ -621,8 +621,8 @@
           {
             "data_offset": 6,
             "location": [
-              5,
-              "Loader-resolved Offset(16)"
+              105,
+              "Offset(32) [loc 5]"
             ],
             "mode": "Self-relative",
             "frame_method": [
