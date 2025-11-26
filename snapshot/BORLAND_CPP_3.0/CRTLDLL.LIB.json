@@ -143698,7 +143698,16 @@
       "length": 5,
       "checksum": 55,
       "checksum_valid": true,
-      "error": "249 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xF9"
+        ],
+        "comment_class": 249,
+        "no_purge": false,
+        "no_list": true,
+        "raw_data": "0300",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -144063,7 +144072,16 @@
       "length": 7,
       "checksum": 39,
       "checksum_valid": true,
-      "error": "250 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xFA"
+        ],
+        "comment_class": 250,
+        "no_purge": false,
+        "no_list": true,
+        "raw_data": "10000000",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -144828,7 +144846,16 @@
       "length": 5,
       "checksum": 119,
       "checksum_valid": true,
-      "error": "249 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xF9"
+        ],
+        "comment_class": 249,
+        "no_purge": false,
+        "no_list": false,
+        "raw_data": "0300",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -144838,7 +144865,16 @@
       "length": 7,
       "checksum": 119,
       "checksum_valid": true,
-      "error": "250 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xFA"
+        ],
+        "comment_class": 250,
+        "no_purge": false,
+        "no_list": false,
+        "raw_data": "00000000",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -144848,7 +144884,16 @@
       "length": 5,
       "checksum": 124,
       "checksum_valid": true,
-      "error": "234 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xEA"
+        ],
+        "comment_class": 234,
+        "no_purge": false,
+        "no_list": false,
+        "raw_data": "010c",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -145110,7 +145155,16 @@
       "length": 19,
       "checksum": 253,
       "checksum_valid": true,
-      "error": "232 is not a valid CommentClass",
+      "parsed": {
+        "warnings": [
+          "Unknown comment class 0xE8"
+        ],
+        "comment_class": 232,
+        "no_purge": false,
+        "no_list": false,
+        "raw_data": "010a646f7364667265652e63c5556717",
+        "class_name": "Unknown"
+      },
       "type_hex": "0x88"
     },
     {
@@ -145140,13 +145194,13 @@
       "type_hex": "0xF1"
     }
   ],
-  "warnings": [],
-  "errors": [
-    "249 is not a valid CommentClass",
-    "250 is not a valid CommentClass",
-    "249 is not a valid CommentClass",
-    "250 is not a valid CommentClass",
-    "234 is not a valid CommentClass",
-    "232 is not a valid CommentClass"
-  ]
+  "warnings": [
+    "Unknown comment class 0xF9",
+    "Unknown comment class 0xFA",
+    "Unknown comment class 0xF9",
+    "Unknown comment class 0xFA",
+    "Unknown comment class 0xEA",
+    "Unknown comment class 0xE8"
+  ],
+  "errors": []
 }
