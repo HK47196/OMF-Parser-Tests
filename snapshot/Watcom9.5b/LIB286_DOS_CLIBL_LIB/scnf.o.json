@@ -470,8 +470,10 @@
         "no_list": false,
         "content": {
           "warnings": [],
-          "subtype": "s",
-          "subtype_name": "DDIR_SCAN_TABLE",
+          "subtype": [
+            "s",
+            "DDIR_SCAN_TABLE"
+          ],
           "is_32bit": false,
           "segment_index": 1,
           "segment_name": "scnf_TEXT",
