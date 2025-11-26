@@ -16,6 +16,7 @@
       "checksum": 204,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "scnf"
       }
@@ -29,15 +30,16 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 161,
         "class_name": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "data": null
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -49,11 +51,13 @@
       "checksum": 8,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 155,
         "class_name": "Watcom Processor/Model",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "processor": "8086",
           "processor_raw": "0",
           "mem_model": "Large",
@@ -63,8 +67,7 @@
           "fp_mode_raw": "c",
           "pic": false
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -76,22 +79,23 @@
       "checksum": 105,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 254,
         "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "directive_code": "D",
           "directive_name": "Source Language",
           "content": {
+            "warnings": [],
             "major_version": 1,
             "minor_version": 2,
             "language": "C"
-          },
-          "warnings": []
+          }
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -103,6 +107,7 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 5,
@@ -144,6 +149,7 @@
       "checksum": 8,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 6,
         "end_index": 6,
@@ -165,6 +171,7 @@
       "checksum": 161,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
         "combine": "Public",
@@ -189,21 +196,22 @@
       "checksum": 165,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 254,
         "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "directive_code": "O",
           "directive_name": "Optimize Far Calls",
           "content": {
+            "warnings": [],
             "segment_index": 1,
             "segment_name": "scnf_TEXT"
-          },
-          "warnings": []
+          }
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -215,6 +223,7 @@
       "checksum": 215,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 7,
         "end_index": 7,
@@ -236,6 +245,7 @@
       "checksum": 14,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -260,6 +270,7 @@
       "checksum": 163,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 8,
         "end_index": 8,
@@ -281,6 +292,7 @@
       "checksum": 13,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -305,6 +317,7 @@
       "checksum": 229,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 9,
         "end_index": 9,
@@ -326,6 +339,7 @@
       "checksum": 12,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -350,6 +364,7 @@
       "checksum": 25,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 10,
         "end_index": 10,
@@ -371,6 +386,7 @@
       "checksum": 10,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -395,6 +411,7 @@
       "checksum": 77,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 5,
         "is_flat": false,
@@ -403,8 +420,7 @@
           "Seg:CONST2",
           "Seg:_DATA",
           "Seg:_BSS"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -416,6 +432,7 @@
       "checksum": 211,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -433,11 +450,13 @@
       "checksum": 118,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 253,
         "class_name": "Watcom Disassembler Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "subtype": "s",
           "subtype_name": "DDIR_SCAN_TABLE",
           "is_32bit": false,
@@ -447,11 +466,9 @@
           "comdat_name": null,
           "start_offset": 0,
           "end_offset": 8,
-          "region_size": 8,
-          "warnings": []
+          "region_size": 8
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -463,6 +480,7 @@
       "checksum": 253,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -482,6 +500,7 @@
       "checksum": 237,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -499,6 +518,7 @@
       "checksum": 230,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -537,6 +557,7 @@
       "checksum": 139,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -561,6 +582,7 @@
       "checksum": 42,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -578,6 +600,7 @@
       "checksum": 136,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -595,6 +618,7 @@
       "checksum": 219,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -612,6 +636,7 @@
       "checksum": 34,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -674,6 +699,7 @@
       "checksum": 158,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -691,6 +717,7 @@
       "checksum": 75,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -729,6 +756,7 @@
       "checksum": 136,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -746,6 +774,7 @@
       "checksum": 82,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -772,6 +801,7 @@
       "checksum": 220,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -789,6 +819,7 @@
       "checksum": 171,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -839,6 +870,7 @@
       "checksum": 19,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -856,6 +888,7 @@
       "checksum": 251,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -906,6 +939,7 @@
       "checksum": 121,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -925,6 +959,7 @@
       "checksum": 49,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -942,6 +977,7 @@
       "checksum": 234,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -980,6 +1016,7 @@
       "checksum": 95,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -997,6 +1034,7 @@
       "checksum": 1,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1035,6 +1073,7 @@
       "checksum": 17,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1052,6 +1091,7 @@
       "checksum": 245,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1114,6 +1154,7 @@
       "checksum": 60,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1131,6 +1172,7 @@
       "checksum": 83,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1217,6 +1259,7 @@
       "checksum": 220,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1236,6 +1279,7 @@
       "checksum": 131,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1253,6 +1297,7 @@
       "checksum": 192,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1303,6 +1348,7 @@
       "checksum": 203,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1320,6 +1366,7 @@
       "checksum": 189,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1382,6 +1429,7 @@
       "checksum": 0,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1401,6 +1449,7 @@
       "checksum": 196,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1418,6 +1467,7 @@
       "checksum": 206,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1468,6 +1518,7 @@
       "checksum": 132,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1487,6 +1538,7 @@
       "checksum": 106,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1504,6 +1556,7 @@
       "checksum": 119,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1554,6 +1607,7 @@
       "checksum": 205,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1571,6 +1625,7 @@
       "checksum": 223,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1590,6 +1645,7 @@
       "checksum": 26,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1607,6 +1663,7 @@
       "checksum": 111,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1645,6 +1702,7 @@
       "checksum": 246,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1664,6 +1722,7 @@
       "checksum": 249,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "scnf_TEXT",
         "segment_index": 1,
@@ -1681,6 +1740,7 @@
       "checksum": 186,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1719,12 +1779,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],

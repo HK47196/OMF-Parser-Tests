@@ -16,6 +16,7 @@
       "checksum": 145,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "backgrnd.o"
       }
@@ -29,15 +30,16 @@
       "checksum": 186,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 161,
         "class_name": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "data": "03484c"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -49,6 +51,7 @@
       "checksum": 115,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 13,
@@ -130,6 +133,7 @@
       "checksum": 242,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -154,6 +158,7 @@
       "checksum": 172,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -178,6 +183,7 @@
       "checksum": 170,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -202,6 +208,7 @@
       "checksum": 145,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -226,6 +233,7 @@
       "checksum": 166,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -250,11 +258,11 @@
       "checksum": 88,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'FLAT'",
         "name_index": 12,
         "is_flat": true,
-        "components": [],
-        "warnings": []
+        "components": []
       }
     },
     {
@@ -266,14 +274,14 @@
       "checksum": 80,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 13,
         "is_flat": false,
         "components": [
           "Seg:BSS32",
           "Seg:DATA32"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -285,6 +293,7 @@
       "checksum": 212,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -339,6 +348,7 @@
       "checksum": 154,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "FLAT",
@@ -363,15 +373,16 @@
       "checksum": 145,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 162,
         "class_name": "Link Pass Separator",
         "no_purge": false,
         "no_list": true,
         "content": {
+          "warnings": [],
           "pass_num": 1
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -383,6 +394,7 @@
       "checksum": 8,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "TEXT32",
         "segment_index": 1,
@@ -400,6 +412,7 @@
       "checksum": 201,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -567,6 +580,7 @@
       "checksum": 92,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "$$SYMBOLS",
         "segment_index": 4,
@@ -584,6 +598,7 @@
       "checksum": 43,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "$$SYMBOLS",
         "segment_index": 4,
@@ -601,6 +616,7 @@
       "checksum": 9,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -627,6 +643,9 @@
       "checksum": 73,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [
+          "Trailing 5 byte(s) in LINNUM record"
+        ],
         "is_32bit": true,
         "base_group": "<null>",
         "base_segment": "TEXT32",
@@ -656,9 +675,6 @@
             "offset": 1735091041,
             "is_end_of_function": false
           }
-        ],
-        "warnings": [
-          "Trailing 5 byte(s) in LINNUM record"
         ]
       }
     },
@@ -671,12 +687,12 @@
       "checksum": 115,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],

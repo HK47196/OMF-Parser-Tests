@@ -19,6 +19,7 @@
       "checksum": 8,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "adsstart"
       }
@@ -32,16 +33,16 @@
       "checksum": 61,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 170,
         "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
-          "marker": "80386",
-          "warnings": []
+          "warnings": [],
+          "marker": "80386"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -53,6 +54,7 @@
       "checksum": 62,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 22,
@@ -179,6 +181,7 @@
       "checksum": 15,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -203,6 +206,7 @@
       "checksum": 42,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -227,6 +231,7 @@
       "checksum": 230,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 104,
         "alignment": "Paragraph",
         "combine": "Public",
@@ -251,6 +256,7 @@
       "checksum": 7,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -275,6 +281,7 @@
       "checksum": 3,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -299,6 +306,7 @@
       "checksum": 1,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -323,6 +331,7 @@
       "checksum": 0,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -347,6 +356,7 @@
       "checksum": 255,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -371,6 +381,7 @@
       "checksum": 254,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -395,6 +406,7 @@
       "checksum": 253,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -419,6 +431,7 @@
       "checksum": 252,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -443,6 +456,7 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -467,6 +481,7 @@
       "checksum": 250,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -491,6 +506,7 @@
       "checksum": 239,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -515,6 +531,7 @@
       "checksum": 127,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 116,
         "alignment": "Paragraph",
         "combine": "Stack",
@@ -539,6 +556,7 @@
       "checksum": 220,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 6,
         "is_flat": false,
@@ -556,8 +574,7 @@
           "Seg:YIE",
           "Seg:_BSS",
           "Seg:STACK"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -569,6 +586,7 @@
       "checksum": 69,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -593,6 +611,7 @@
       "checksum": 97,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -617,6 +636,7 @@
       "checksum": 196,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -641,6 +661,7 @@
       "checksum": 54,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -665,6 +686,7 @@
       "checksum": 6,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -689,6 +711,7 @@
       "checksum": 117,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -713,6 +736,7 @@
       "checksum": 222,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -737,6 +761,7 @@
       "checksum": 231,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -761,6 +786,7 @@
       "checksum": 244,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -785,6 +811,7 @@
       "checksum": 183,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -809,6 +836,7 @@
       "checksum": 206,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -833,6 +861,7 @@
       "checksum": 61,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -857,6 +886,7 @@
       "checksum": 133,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -876,6 +906,7 @@
       "checksum": 156,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -895,6 +926,7 @@
       "checksum": 193,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -914,6 +946,7 @@
       "checksum": 166,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -933,6 +966,7 @@
       "checksum": 157,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -952,6 +986,7 @@
       "checksum": 152,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -971,6 +1006,7 @@
       "checksum": 151,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -990,6 +1026,7 @@
       "checksum": 221,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1009,6 +1046,7 @@
       "checksum": 188,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1028,6 +1066,7 @@
       "checksum": 129,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1047,6 +1086,7 @@
       "checksum": 114,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1066,6 +1106,7 @@
       "checksum": 100,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1085,6 +1126,7 @@
       "checksum": 32,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1104,6 +1146,7 @@
       "checksum": 91,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1123,6 +1166,7 @@
       "checksum": 2,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1142,6 +1186,7 @@
       "checksum": 123,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1161,6 +1206,7 @@
       "checksum": 130,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1180,6 +1226,7 @@
       "checksum": 7,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1199,6 +1246,7 @@
       "checksum": 211,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1218,6 +1266,7 @@
       "checksum": 7,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1237,6 +1286,7 @@
       "checksum": 251,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1256,6 +1306,7 @@
       "checksum": 183,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1275,6 +1326,7 @@
       "checksum": 64,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1294,6 +1346,7 @@
       "checksum": 90,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1313,6 +1366,7 @@
       "checksum": 110,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "BEGTEXT",
         "segment_index": 1,
@@ -1330,6 +1384,7 @@
       "checksum": 80,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_NULL",
         "segment_index": 3,
@@ -1347,6 +1402,7 @@
       "checksum": 12,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_DATA",
         "segment_index": 12,
@@ -1364,6 +1420,7 @@
       "checksum": 244,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_TEXT",
         "segment_index": 2,
@@ -1381,6 +1438,7 @@
       "checksum": 166,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -1863,6 +1921,9 @@
       "checksum": 91,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [
+          "MODEND uses secondary target (P=1): valid per Intel OMF, not TIS OMF 1.1"
+        ],
         "mod_type": 193,
         "is_main": true,
         "has_start": true,
@@ -1874,10 +1935,7 @@
           "frame_datum": null,
           "target_datum": 2,
           "target_displacement": null
-        },
-        "warnings": [
-          "MODEND uses secondary target (P=1): valid per Intel OMF, not TIS OMF 1.1"
-        ]
+        }
       }
     }
   ],

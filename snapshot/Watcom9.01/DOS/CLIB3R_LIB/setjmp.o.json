@@ -19,6 +19,7 @@
       "checksum": 223,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "setjmp"
       }
@@ -32,16 +33,16 @@
       "checksum": 61,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 170,
         "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
-          "marker": "80386",
-          "warnings": []
+          "warnings": [],
+          "marker": "80386"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -53,6 +54,7 @@
       "checksum": 149,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 3,
@@ -84,6 +86,7 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -108,6 +111,7 @@
       "checksum": 209,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -132,6 +136,7 @@
       "checksum": 5,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -156,6 +161,7 @@
       "checksum": 13,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -173,12 +179,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],

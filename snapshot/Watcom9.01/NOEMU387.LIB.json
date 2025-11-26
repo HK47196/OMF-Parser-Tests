@@ -22,6 +22,7 @@
       "checksum": null,
       "checksum_valid": null,
       "parsed": {
+        "warnings": [],
         "page_size": 16,
         "dict_offset": 512,
         "dict_blocks": 1,
@@ -38,6 +39,7 @@
       "checksum": 180,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "386inite"
       }
@@ -51,16 +53,16 @@
       "checksum": 61,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 170,
         "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
-          "marker": "80386",
-          "warnings": []
+          "warnings": [],
+          "marker": "80386"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -72,6 +74,7 @@
       "checksum": 19,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 12,
@@ -148,6 +151,7 @@
       "checksum": 176,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -172,6 +176,7 @@
       "checksum": 13,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -196,6 +201,7 @@
       "checksum": 6,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -220,6 +226,7 @@
       "checksum": 11,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -244,6 +251,7 @@
       "checksum": 10,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -268,6 +276,7 @@
       "checksum": 3,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -292,6 +301,7 @@
       "checksum": 8,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -316,6 +326,7 @@
       "checksum": 253,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -340,6 +351,7 @@
       "checksum": 62,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 3,
         "is_flat": false,
@@ -351,8 +363,7 @@
           "Seg:YIB",
           "Seg:YI",
           "Seg:YIE"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -364,6 +375,7 @@
       "checksum": 11,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -388,6 +400,7 @@
       "checksum": 254,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -412,6 +425,7 @@
       "checksum": 80,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "XI",
         "segment_index": 3,
@@ -429,6 +443,7 @@
       "checksum": 45,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -455,6 +470,7 @@
       "checksum": 77,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "YI",
         "segment_index": 6,
@@ -472,6 +488,7 @@
       "checksum": 44,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -498,6 +515,7 @@
       "checksum": 202,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_TEXT",
         "segment_index": 8,
@@ -515,12 +533,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     },
     {
@@ -531,7 +549,9 @@
       "length": 157,
       "checksum": null,
       "checksum_valid": null,
-      "parsed": {}
+      "parsed": {
+        "warnings": []
+      }
     }
   ],
   "warnings": [],

@@ -16,6 +16,7 @@
       "checksum": 120,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "dc376.c"
       }
@@ -29,15 +30,16 @@
       "checksum": 110,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 0,
         "class_name": "Translator",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "translator": "MS C"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -49,15 +51,16 @@
       "checksum": 66,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "EM"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -69,15 +72,16 @@
       "checksum": 16,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "SLIBFP"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -89,15 +93,16 @@
       "checksum": 100,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "SLIBC"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -109,15 +114,16 @@
       "checksum": 179,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "LIBH"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -129,11 +135,13 @@
       "checksum": 48,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 157,
         "class_name": "MS Processor/Model",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "processor": "Unknown",
           "processor_raw": "",
           "mem_model": "Unknown",
@@ -143,8 +151,7 @@
           "fp_mode_raw": "",
           "pic": false
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -156,15 +163,16 @@
       "checksum": 55,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 161,
         "class_name": "New OMF Extension",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "data": "014356"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -176,6 +184,7 @@
       "checksum": 63,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 9,
@@ -237,6 +246,7 @@
       "checksum": 156,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -261,6 +271,7 @@
       "checksum": 238,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -285,6 +296,7 @@
       "checksum": 166,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -309,6 +321,7 @@
       "checksum": 23,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
         "combine": "Public",
@@ -333,6 +346,7 @@
       "checksum": 86,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 2,
         "is_flat": false,
@@ -340,8 +354,7 @@
           "Seg:CONST",
           "Seg:_BSS",
           "Seg:_DATA"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -353,6 +366,7 @@
       "checksum": 191,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -409,6 +423,7 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -443,6 +458,7 @@
       "checksum": 136,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -464,6 +480,7 @@
       "checksum": 14,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -483,6 +500,7 @@
       "checksum": 47,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -518,6 +536,7 @@
       "checksum": 0,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -542,6 +561,7 @@
       "checksum": 124,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -570,6 +590,7 @@
       "checksum": 32,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -589,6 +610,7 @@
       "checksum": 120,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -631,6 +653,7 @@
       "checksum": 146,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -650,6 +673,7 @@
       "checksum": 210,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -671,6 +695,7 @@
       "checksum": 51,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -690,6 +715,7 @@
       "checksum": 81,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -711,6 +737,7 @@
       "checksum": 210,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -730,6 +757,7 @@
       "checksum": 205,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -751,6 +779,7 @@
       "checksum": 73,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -770,6 +799,7 @@
       "checksum": 209,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -791,6 +821,7 @@
       "checksum": 193,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -810,6 +841,7 @@
       "checksum": 198,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -831,6 +863,7 @@
       "checksum": 46,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -850,6 +883,7 @@
       "checksum": 230,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -871,6 +905,7 @@
       "checksum": 132,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -890,6 +925,7 @@
       "checksum": 243,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -911,6 +947,7 @@
       "checksum": 137,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -930,6 +967,7 @@
       "checksum": 115,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -951,6 +989,7 @@
       "checksum": 128,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -975,6 +1014,7 @@
       "checksum": 69,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -996,6 +1036,7 @@
       "checksum": 13,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1015,6 +1056,7 @@
       "checksum": 81,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1036,6 +1078,7 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1055,6 +1098,7 @@
       "checksum": 132,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1076,6 +1120,7 @@
       "checksum": 3,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1095,6 +1140,7 @@
       "checksum": 152,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1116,6 +1162,7 @@
       "checksum": 27,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1140,6 +1187,7 @@
       "checksum": 139,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1161,6 +1209,7 @@
       "checksum": 124,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1185,6 +1234,7 @@
       "checksum": 60,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1234,6 +1284,7 @@
       "checksum": 139,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1253,6 +1304,7 @@
       "checksum": 125,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1274,6 +1326,7 @@
       "checksum": 37,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1313,6 +1366,7 @@
       "checksum": 227,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1341,6 +1395,7 @@
       "checksum": 97,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1365,6 +1420,7 @@
       "checksum": 239,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1386,6 +1442,7 @@
       "checksum": 45,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1420,6 +1477,7 @@
       "checksum": 158,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "definitions": [
           {
@@ -1441,6 +1499,7 @@
       "checksum": 205,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -1495,6 +1554,7 @@
       "checksum": 238,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1512,6 +1572,7 @@
       "checksum": 238,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1529,6 +1590,7 @@
       "checksum": 90,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1546,6 +1608,7 @@
       "checksum": 73,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1563,6 +1626,7 @@
       "checksum": 240,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1580,6 +1644,7 @@
       "checksum": 131,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1597,6 +1662,7 @@
       "checksum": 26,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1614,6 +1680,7 @@
       "checksum": 9,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1631,6 +1698,7 @@
       "checksum": 214,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1648,6 +1716,7 @@
       "checksum": 57,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1665,6 +1734,7 @@
       "checksum": 49,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_DATA",
         "segment_index": 2,
@@ -1682,6 +1752,7 @@
       "checksum": 167,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -1699,6 +1770,7 @@
       "checksum": 30,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -2349,6 +2421,7 @@
       "checksum": 77,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -2366,6 +2439,7 @@
       "checksum": 233,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -2896,6 +2970,7 @@
       "checksum": 50,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -2913,6 +2988,7 @@
       "checksum": 226,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -3407,6 +3483,7 @@
       "checksum": 83,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -3424,6 +3501,7 @@
       "checksum": 236,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -4326,6 +4404,7 @@
       "checksum": 222,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -4343,6 +4422,7 @@
       "checksum": 131,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -5293,6 +5373,7 @@
       "checksum": 182,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -5310,6 +5391,7 @@
       "checksum": 146,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -6008,6 +6090,7 @@
       "checksum": 23,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -6025,6 +6108,7 @@
       "checksum": 161,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -6759,6 +6843,7 @@
       "checksum": 236,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -6776,6 +6861,7 @@
       "checksum": 248,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -7150,6 +7236,7 @@
       "checksum": 232,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -7167,6 +7254,7 @@
       "checksum": 92,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "subrecords": [
           {
@@ -7397,6 +7485,7 @@
       "checksum": 140,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "is_local": false,
         "base_group": "<null>",
@@ -7516,6 +7605,7 @@
       "checksum": 63,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "is_local": false,
         "base_group": "DGROUP",
@@ -7540,6 +7630,7 @@
       "checksum": 231,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": true,
         "is_local": false,
         "base_group": "<null>",
@@ -7574,12 +7665,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],

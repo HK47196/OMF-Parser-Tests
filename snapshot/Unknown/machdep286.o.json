@@ -16,6 +16,7 @@
       "checksum": 9,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "machdep.c"
       }
@@ -29,15 +30,16 @@
       "checksum": 110,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 0,
         "class_name": "Translator",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "translator": "MS C"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -49,15 +51,16 @@
       "checksum": 66,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "EM"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -69,15 +72,16 @@
       "checksum": 22,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "MLIBFP"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -89,15 +93,16 @@
       "checksum": 106,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 159,
         "class_name": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "library": "MLIBC"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -109,11 +114,13 @@
       "checksum": 231,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 157,
         "class_name": "MS Processor/Model",
         "no_purge": false,
         "no_list": false,
         "content": {
+          "warnings": [],
           "processor": "Unknown",
           "processor_raw": "",
           "mem_model": "Unknown",
@@ -123,8 +130,7 @@
           "fp_mode_raw": "",
           "pic": false
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -136,6 +142,7 @@
       "checksum": 63,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 9,
@@ -197,6 +204,7 @@
       "checksum": 221,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
         "combine": "Public",
@@ -221,6 +229,7 @@
       "checksum": 41,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -245,6 +254,7 @@
       "checksum": 10,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -269,6 +279,7 @@
       "checksum": 7,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 72,
         "alignment": "Word",
         "combine": "Public",
@@ -293,6 +304,7 @@
       "checksum": 86,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 2,
         "is_flat": false,
@@ -300,8 +312,7 @@
           "Seg:CONST",
           "Seg:_BSS",
           "Seg:_DATA"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -313,6 +324,7 @@
       "checksum": 192,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -369,6 +381,7 @@
       "checksum": 202,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -393,6 +406,7 @@
       "checksum": 111,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": null,
         "en_byte": 0,
         "format": "Microsoft",
@@ -418,6 +432,7 @@
       "checksum": 136,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -447,6 +462,7 @@
       "checksum": 127,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": null,
         "en_byte": 0,
         "format": "Microsoft",
@@ -472,6 +488,7 @@
       "checksum": 218,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -806,6 +823,7 @@
       "checksum": 135,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": null,
         "en_byte": 0,
         "format": "Microsoft",
@@ -831,6 +849,7 @@
       "checksum": 121,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -875,6 +894,7 @@
       "checksum": 162,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_DATA",
         "segment_index": 2,
@@ -892,6 +912,7 @@
       "checksum": 192,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "MACHDEP_TEXT",
         "segment_index": 1,
@@ -909,6 +930,7 @@
       "checksum": 237,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -2111,6 +2133,7 @@
       "checksum": 135,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "MACHDEP_TEXT",
         "segment_index": 1,
@@ -2128,6 +2151,7 @@
       "checksum": 94,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -2874,6 +2898,7 @@
       "checksum": 158,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -2898,6 +2923,7 @@
       "checksum": 121,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -2932,6 +2958,7 @@
       "checksum": 81,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -2961,6 +2988,7 @@
       "checksum": 109,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -2985,6 +3013,7 @@
       "checksum": 140,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -3029,6 +3058,7 @@
       "checksum": 77,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "DGROUP",
@@ -3053,6 +3083,7 @@
       "checksum": 184,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -3077,12 +3108,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],

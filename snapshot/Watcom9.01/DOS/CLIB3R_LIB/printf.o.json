@@ -19,6 +19,7 @@
       "checksum": 223,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "THEADR",
         "module_name": "printf"
       }
@@ -32,16 +33,16 @@
       "checksum": 61,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 170,
         "class_name": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
-          "marker": "80386",
-          "warnings": []
+          "warnings": [],
+          "marker": "80386"
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -53,15 +54,16 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 161,
         "class_name": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "data": null
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -73,11 +75,13 @@
       "checksum": 254,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 155,
         "class_name": "Watcom Processor/Model",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "processor": "80386+",
           "processor_raw": "3",
           "mem_model": "Small",
@@ -87,8 +91,7 @@
           "fp_mode_raw": "c",
           "pic": false
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -100,22 +103,23 @@
       "checksum": 105,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 254,
         "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "directive_code": "D",
           "directive_name": "Source Language",
           "content": {
+            "warnings": [],
             "major_version": 1,
             "minor_version": 2,
             "language": "C"
-          },
-          "warnings": []
+          }
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -127,6 +131,7 @@
       "checksum": 84,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 1,
         "end_index": 5,
@@ -168,6 +173,7 @@
       "checksum": 186,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 6,
         "end_index": 6,
@@ -189,6 +195,7 @@
       "checksum": 14,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
         "combine": "Public",
@@ -213,21 +220,22 @@
       "checksum": 165,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "comment_class": 254,
         "class_name": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
+          "warnings": [],
           "directive_code": "O",
           "directive_name": "Optimize Far Calls",
           "content": {
+            "warnings": [],
             "segment_index": 1,
             "segment_name": "_TEXT"
-          },
-          "warnings": []
+          }
         },
-        "raw_data": null,
-        "warnings": []
+        "raw_data": null
       }
     },
     {
@@ -239,6 +247,7 @@
       "checksum": 215,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 7,
         "end_index": 7,
@@ -260,6 +269,7 @@
       "checksum": 172,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -284,6 +294,7 @@
       "checksum": 163,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 8,
         "end_index": 8,
@@ -305,6 +316,7 @@
       "checksum": 171,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -329,6 +341,7 @@
       "checksum": 229,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 9,
         "end_index": 9,
@@ -350,6 +363,7 @@
       "checksum": 170,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -374,6 +388,7 @@
       "checksum": 25,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "record_name": "LNAMES",
         "start_index": 10,
         "end_index": 10,
@@ -395,6 +410,7 @@
       "checksum": 168,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
         "combine": "Public",
@@ -419,6 +435,7 @@
       "checksum": 77,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "name": "'DGROUP'",
         "name_index": 5,
         "is_flat": false,
@@ -427,8 +444,7 @@
           "Seg:CONST2",
           "Seg:_DATA",
           "Seg:_BSS"
-        ],
-        "warnings": []
+        ]
       }
     },
     {
@@ -440,6 +456,7 @@
       "checksum": 189,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_local": false,
         "externals": [
           {
@@ -464,6 +481,7 @@
       "checksum": 208,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "segment": "_TEXT",
         "segment_index": 1,
@@ -481,6 +499,7 @@
       "checksum": 31,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "subrecords": [
           {
@@ -519,6 +538,7 @@
       "checksum": 102,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "is_32bit": false,
         "is_local": false,
         "base_group": "<null>",
@@ -543,12 +563,12 @@
       "checksum": 116,
       "checksum_valid": true,
       "parsed": {
+        "warnings": [],
         "mod_type": 0,
         "is_main": false,
         "has_start": false,
         "is_relocatable": false,
-        "start_address": null,
-        "warnings": []
+        "start_address": null
       }
     }
   ],
