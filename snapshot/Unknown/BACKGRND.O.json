@@ -29,14 +29,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 161,
+        "comment_class": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "data": "03484c"
-        },
-        "class_name": "New OMF Extension"
+        }
       },
       "type_hex": "0x88"
     },
@@ -132,14 +131,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 169,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": true,
         "length": 188,
@@ -159,14 +152,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 169,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": true,
         "length": 0,
@@ -186,14 +173,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 169,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": true,
         "length": 0,
@@ -213,14 +194,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 169,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": true,
         "length": 23,
@@ -240,14 +215,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 169,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": true,
         "length": 0,
@@ -379,14 +348,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 162,
+        "comment_class": "Link Pass Separator",
         "no_purge": false,
         "no_list": true,
         "content": {
           "warnings": [],
           "pass_num": 1
-        },
-        "class_name": "Link Pass Separator"
+        }
       },
       "type_hex": "0x88"
     },
@@ -422,69 +390,39 @@
           {
             "kind": "FRAME",
             "thread_num": 0,
-            "method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "method": "F1:GRPDEF",
             "index": 1,
             "warnings": []
           },
           {
             "data_offset": 45,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 1
           },
           {
             "data_offset": 52,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 62,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 3
@@ -492,173 +430,95 @@
           {
             "kind": "TARGET",
             "thread_num": 0,
-            "method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "method": "T4:SEGDEF(0)",
             "warnings": []
           },
           {
             "kind": "TARGET",
             "thread_num": 1,
-            "method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "method": "T0:SEGDEF",
             "index": 25673,
             "warnings": []
           },
           {
             "data_offset": 164,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Self-relative",
-            "frame_method": [
-              4,
-              "F4:Location"
-            ],
+            "frame_method": "F4:Location",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#2"
           },
           {
             "data_offset": 516,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Self-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#2",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "target_datum": 92
           },
           {
             "data_offset": 228,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Self-relative",
-            "frame_method": [
-              6,
-              "F6:Invalid"
-            ],
+            "frame_method": "F6:Invalid",
             "frame_source": "Explicit",
-            "target_method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "target_method": "T0:SEGDEF",
             "target_source": "Thread#0",
             "displacement": 2356470924
           },
           {
             "data_offset": 127,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#0",
             "frame_datum": 1
           },
           {
             "data_offset": 146,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 5
           },
           {
             "data_offset": 153,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 6
           },
           {
             "data_offset": 167,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 7
           },
           {
             "data_offset": 173,
-            "location": [
-              9,
-              "Offset(32)"
-            ],
+            "location": "Offset(32)",
             "mode": "Self-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 8
@@ -716,20 +576,11 @@
         "subrecords": [
           {
             "data_offset": 2,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#0",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#0"
           }
         ]

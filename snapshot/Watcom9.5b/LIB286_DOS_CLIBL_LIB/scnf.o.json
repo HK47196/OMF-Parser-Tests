@@ -29,13 +29,12 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 161,
+        "comment_class": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": []
-        },
-        "class_name": "New OMF Extension"
+        }
       },
       "type_hex": "0x88"
     },
@@ -48,27 +47,17 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 155,
+        "comment_class": "Watcom Processor/Model",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "processor": [
-            "0",
-            "8086"
-          ],
-          "mem_model": [
-            "l",
-            "Large"
-          ],
+          "processor": "8086",
+          "mem_model": "Large",
           "optimized": true,
-          "fp_mode": [
-            "c",
-            "Emulator calls"
-          ],
+          "fp_mode": "Emulator calls",
           "pic": false
-        },
-        "class_name": "Watcom Processor/Model"
+        }
       },
       "type_hex": "0x88"
     },
@@ -81,23 +70,19 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 254,
+        "comment_class": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": [
-            "D",
-            "Source Language"
-          ],
+          "directive_code": "Source Language",
           "content": {
             "warnings": [],
             "major_version": 1,
             "minor_version": 2,
             "language": "C"
           }
-        },
-        "class_name": "Watcom Linker Directive"
+        }
       },
       "type_hex": "0x88"
     },
@@ -175,14 +160,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 40,
-        "alignment": [
-          1,
-          "Byte"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Byte",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 3458,
@@ -201,22 +180,18 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 254,
+        "comment_class": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": [
-            "O",
-            "Optimize Far Calls"
-          ],
+          "directive_code": "Optimize Far Calls",
           "content": {
             "warnings": [],
             "segment_index": 1,
             "segment_name": "scnf_TEXT"
           }
-        },
-        "class_name": "Watcom Linker Directive"
+        }
       },
       "type_hex": "0x88"
     },
@@ -252,14 +227,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -301,14 +270,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -350,14 +313,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -399,14 +356,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -464,23 +415,19 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 253,
+        "comment_class": "Watcom Disassembler Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "subtype": [
-            "s",
-            "DDIR_SCAN_TABLE"
-          ],
+          "subtype": "DDIR_SCAN_TABLE",
           "is_32bit": false,
           "segment_index": 1,
           "segment_name": "scnf_TEXT",
           "start_offset": 0,
           "end_offset": 8,
           "region_size": 8
-        },
-        "class_name": "Watcom Disassembler Directive"
+        }
       },
       "type_hex": "0x88"
     },
@@ -535,40 +482,22 @@
         "subrecords": [
           {
             "data_offset": 54,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 68,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -666,79 +595,43 @@
         "subrecords": [
           {
             "data_offset": 111,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 128,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 161,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 171,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -777,40 +670,22 @@
         "subrecords": [
           {
             "data_offset": 134,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 143,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -849,20 +724,11 @@
         "subrecords": [
           {
             "data_offset": 45,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
@@ -902,60 +768,33 @@
         "subrecords": [
           {
             "data_offset": 34,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 82,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 93,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -994,59 +833,32 @@
         "subrecords": [
           {
             "data_offset": 3,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 18,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 108,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
@@ -1106,39 +918,21 @@
         "subrecords": [
           {
             "data_offset": 8,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 2
           },
           {
             "data_offset": 44,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1177,40 +971,22 @@
         "subrecords": [
           {
             "data_offset": 7,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 90,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1249,79 +1025,43 @@
         "subrecords": [
           {
             "data_offset": 33,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 45,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 134,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 148,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1360,118 +1100,64 @@
         "subrecords": [
           {
             "data_offset": 1,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 10,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 83,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 97,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 157,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 171,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1530,59 +1216,32 @@
         "subrecords": [
           {
             "data_offset": 1,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 15,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 103,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 3
           }
@@ -1621,79 +1280,43 @@
         "subrecords": [
           {
             "data_offset": 67,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 81,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 127,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 141,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1752,59 +1375,32 @@
         "subrecords": [
           {
             "data_offset": 31,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 42,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 4
           },
           {
             "data_offset": 98,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
@@ -1864,59 +1460,32 @@
         "subrecords": [
           {
             "data_offset": 15,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 5
           },
           {
             "data_offset": 83,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 92,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           }
@@ -1993,39 +1562,21 @@
         "subrecords": [
           {
             "data_offset": 28,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 6
           },
           {
             "data_offset": 128,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 6
           }
@@ -2084,40 +1635,22 @@
         "subrecords": [
           {
             "data_offset": 34,
-            "location": [
-              2,
-              "Segment(16)"
-            ],
+            "location": "Segment(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "frame_datum": 1,
             "target_datum": 2
           },
           {
             "data_offset": 118,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 7
           }

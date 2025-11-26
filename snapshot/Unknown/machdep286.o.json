@@ -29,14 +29,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 0,
+        "comment_class": "Translator",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "translator": "MS C"
-        },
-        "class_name": "Translator"
+        }
       },
       "type_hex": "0x88"
     },
@@ -49,14 +48,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 159,
+        "comment_class": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "EM"
-        },
-        "class_name": "Default Library Search"
+        }
       },
       "type_hex": "0x88"
     },
@@ -69,14 +67,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 159,
+        "comment_class": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "MLIBFP"
-        },
-        "class_name": "Default Library Search"
+        }
       },
       "type_hex": "0x88"
     },
@@ -89,14 +86,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 159,
+        "comment_class": "Default Library Search",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "library": "MLIBC"
-        },
-        "class_name": "Default Library Search"
+        }
       },
       "type_hex": "0x88"
     },
@@ -109,15 +105,14 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 157,
+        "comment_class": "MS Processor/Model",
         "no_purge": false,
         "no_list": false,
         "content": {
           "warnings": [],
           "optimized": false,
           "pic": false
-        },
-        "class_name": "MS Processor/Model"
+        }
       },
       "type_hex": "0x88"
     },
@@ -193,14 +188,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 40,
-        "alignment": [
-          1,
-          "Byte"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Byte",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 1614,
@@ -220,14 +209,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 228,
@@ -247,14 +230,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -274,14 +251,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -325,60 +296,42 @@
           {
             "kind": "TARGET",
             "thread_num": 0,
-            "method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "method": "T0:SEGDEF",
             "index": 3,
             "warnings": []
           },
           {
             "kind": "TARGET",
             "thread_num": 1,
-            "method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "method": "T0:SEGDEF",
             "index": 2,
             "warnings": []
           },
           {
             "kind": "TARGET",
             "thread_num": 2,
-            "method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "method": "T0:SEGDEF",
             "index": 1,
             "warnings": []
           },
           {
             "kind": "TARGET",
             "thread_num": 3,
-            "method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "method": "T0:SEGDEF",
             "index": 4,
             "warnings": []
           },
           {
             "kind": "FRAME",
             "thread_num": 0,
-            "method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "method": "F0:SEGDEF",
             "index": 1,
             "warnings": []
           },
           {
             "kind": "FRAME",
             "thread_num": 1,
-            "method": [
-              1,
-              "F1:GRPDEF"
-            ],
+            "method": "F1:GRPDEF",
             "index": 1,
             "warnings": []
           }
@@ -426,10 +379,7 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": [
-              123,
-              "Scalar"
-            ],
+            "var_type": "Scalar",
             "size_bits": 32,
             "size_bytes": 4
           }
@@ -482,10 +432,7 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": [
-              123,
-              "Scalar"
-            ],
+            "var_type": "Scalar",
             "size_bits": 16,
             "size_bytes": 2
           }
@@ -843,10 +790,7 @@
           {
             "type": "NEAR",
             "leaf_type": 98,
-            "var_type": [
-              123,
-              "Scalar"
-            ],
+            "var_type": "Scalar",
             "size_bits": 8,
             "size_bytes": 1
           }
@@ -948,1872 +892,981 @@
         "subrecords": [
           {
             "data_offset": 748,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 743,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 739,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 735,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 29
           },
           {
             "data_offset": 725,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 718,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 709,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 706,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 683,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 680,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 671,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 656,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 653,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 639,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 629,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 622,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 37
           },
           {
             "data_offset": 617,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 23
           },
           {
             "data_offset": 613,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 23
           },
           {
             "data_offset": 599,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 595,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 592,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 587,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 36
           },
           {
             "data_offset": 568,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 560,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 27
           },
           {
             "data_offset": 556,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 27
           },
           {
             "data_offset": 539,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 22
           },
           {
             "data_offset": 534,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 24
           },
           {
             "data_offset": 528,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 24
           },
           {
             "data_offset": 524,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 23
           },
           {
             "data_offset": 520,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 23
           },
           {
             "data_offset": 517,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 26
           },
           {
             "data_offset": 513,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 26
           },
           {
             "data_offset": 508,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 47
           },
           {
             "data_offset": 500,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 497,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 494,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 482,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 15
           },
           {
             "data_offset": 471,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 468,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 465,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 456,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 41
           },
           {
             "data_offset": 448,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 445,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 442,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 43
           },
           {
             "data_offset": 439,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 436,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 43
           },
           {
             "data_offset": 433,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 430,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 43
           },
           {
             "data_offset": 427,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 424,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 43
           },
           {
             "data_offset": 421,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 418,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 415,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 412,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 408,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 403,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 397,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 389,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 374,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 360,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 339,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 5
           },
           {
             "data_offset": 318,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 68
           },
           {
             "data_offset": 314,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 68
           },
           {
             "data_offset": 256,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 68
           },
           {
             "data_offset": 252,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 68
           },
           {
             "data_offset": 230,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 13
           },
           {
             "data_offset": 226,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 217,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 212,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 204,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 200,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 197,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 193,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 188,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 184,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 180,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 174,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 168,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 160,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 147,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 116,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 109,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 102,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 94,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 63
           },
           {
             "data_offset": 91,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 40
           },
           {
             "data_offset": 83,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 80,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 75,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 59
           },
           {
             "data_offset": 67,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 64,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 56,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 53,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 47,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 22
           },
           {
             "data_offset": 35,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 39
           },
           {
             "data_offset": 32,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 22
           },
           {
             "data_offset": 23,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 53
           },
           {
             "data_offset": 20,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 17,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 22
           },
           {
             "data_offset": 11,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 22
           }
@@ -2852,1157 +1905,608 @@
         "subrecords": [
           {
             "data_offset": 857,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 848,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 34
           },
           {
             "data_offset": 833,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 32
           },
           {
             "data_offset": 830,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 814,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 30
           },
           {
             "data_offset": 801,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 28
           },
           {
             "data_offset": 770,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 11
           },
           {
             "data_offset": 728,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 20
           },
           {
             "data_offset": 715,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 709,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 685,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 20
           },
           {
             "data_offset": 669,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              0,
-              "F0:SEGDEF"
-            ],
+            "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Thread#1"
           },
           {
             "data_offset": 649,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 635,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 57
           },
           {
             "data_offset": 624,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 57
           },
           {
             "data_offset": 620,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 57
           },
           {
             "data_offset": 598,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 55
           },
           {
             "data_offset": 587,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 55
           },
           {
             "data_offset": 583,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 55
           },
           {
             "data_offset": 560,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 48
           },
           {
             "data_offset": 551,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 547,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 528,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 516,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 66
           },
           {
             "data_offset": 511,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 507,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 489,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 475,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 45
           },
           {
             "data_offset": 462,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 49
           },
           {
             "data_offset": 455,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 36
           },
           {
             "data_offset": 437,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 419,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 415,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 401,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 58
           },
           {
             "data_offset": 372,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 362,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 352,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 343,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 48
           },
           {
             "data_offset": 312,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 305,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 296,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 46
           },
           {
             "data_offset": 286,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 51
           },
           {
             "data_offset": 249,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 25
           },
           {
             "data_offset": 193,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 33
           },
           {
             "data_offset": 134,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 10
           },
           {
             "data_offset": 130,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 10
           },
           {
             "data_offset": 126,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 10
           },
           {
             "data_offset": 80,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 10
           },
           {
             "data_offset": 57,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 29
           },
           {
             "data_offset": 54,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 29
           },
           {
             "data_offset": 49,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 44,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 40,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 29
           },
           {
             "data_offset": 37,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 32,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 45
           },
           {
             "data_offset": 25,
-            "location": [
-              3,
-              "Ptr(16:16)"
-            ],
+            "location": "Ptr(16:16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 42
           },
           {
             "data_offset": 18,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 15,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           },
           {
             "data_offset": 12,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 7,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 64
           },
           {
             "data_offset": 3,
-            "location": [
-              1,
-              "Offset(16)"
-            ],
+            "location": "Offset(16)",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 75
           }

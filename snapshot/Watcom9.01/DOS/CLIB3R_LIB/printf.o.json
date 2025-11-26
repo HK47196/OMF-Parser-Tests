@@ -32,14 +32,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 170,
+        "comment_class": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "marker": "80386"
-        },
-        "class_name": "Easy OMF"
+        }
       },
       "type_hex": "0x88"
     },
@@ -52,13 +51,12 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 161,
+        "comment_class": "New OMF Extension",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": []
-        },
-        "class_name": "New OMF Extension"
+        }
       },
       "type_hex": "0x88"
     },
@@ -71,27 +69,17 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 155,
+        "comment_class": "Watcom Processor/Model",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "processor": [
-            "3",
-            "80386+"
-          ],
-          "mem_model": [
-            "s",
-            "Small"
-          ],
+          "processor": "80386+",
+          "mem_model": "Small",
           "optimized": true,
-          "fp_mode": [
-            "c",
-            "Emulator calls"
-          ],
+          "fp_mode": "Emulator calls",
           "pic": false
-        },
-        "class_name": "Watcom Processor/Model"
+        }
       },
       "type_hex": "0x88"
     },
@@ -104,23 +92,19 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 254,
+        "comment_class": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": [
-            "D",
-            "Source Language"
-          ],
+          "directive_code": "Source Language",
           "content": {
             "warnings": [],
             "major_version": 1,
             "minor_version": 2,
             "language": "C"
           }
-        },
-        "class_name": "Watcom Linker Directive"
+        }
       },
       "type_hex": "0x88"
     },
@@ -198,14 +182,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 40,
-        "alignment": [
-          1,
-          "Byte"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Byte",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 32,
@@ -224,22 +202,18 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 254,
+        "comment_class": "Watcom Linker Directive",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
-          "directive_code": [
-            "O",
-            "Optimize Far Calls"
-          ],
+          "directive_code": "Optimize Far Calls",
           "content": {
             "warnings": [],
             "segment_index": 1,
             "segment_name": "_TEXT"
           }
-        },
-        "class_name": "Watcom Linker Directive"
+        }
       },
       "type_hex": "0x88"
     },
@@ -275,14 +249,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -324,14 +292,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -373,14 +335,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -422,14 +378,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -516,39 +466,21 @@
         "subrecords": [
           {
             "data_offset": 13,
-            "location": [
-              105,
-              "Offset(32) [loc 5]"
-            ],
+            "location": "Offset(32) [PharLap loc 5]",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 1
           },
           {
             "data_offset": 24,
-            "location": [
-              105,
-              "Offset(32) [loc 5]"
-            ],
+            "location": "Offset(32) [PharLap loc 5]",
             "mode": "Self-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              6,
-              "T6:EXTDEF(0)"
-            ],
+            "target_method": "T6:EXTDEF(0)",
             "target_source": "Explicit",
             "target_datum": 2
           }

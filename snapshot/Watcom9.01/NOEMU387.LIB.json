@@ -51,14 +51,13 @@
       "checksum_valid": true,
       "parsed": {
         "warnings": [],
-        "comment_class": 170,
+        "comment_class": "Easy OMF",
         "no_purge": true,
         "no_list": false,
         "content": {
           "warnings": [],
           "marker": "80386"
-        },
-        "class_name": "Easy OMF"
+        }
       },
       "type_hex": "0x88"
     },
@@ -149,14 +148,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 168,
-        "alignment": [
-          5,
-          "DWord"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "DWord",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -176,14 +169,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -203,14 +190,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 6,
@@ -230,14 +211,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -257,14 +232,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -284,14 +253,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 6,
@@ -311,14 +274,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 0,
@@ -338,14 +295,8 @@
       "parsed": {
         "warnings": [],
         "acbp": 72,
-        "alignment": [
-          2,
-          "Word"
-        ],
-        "combine": [
-          2,
-          "Public"
-        ],
+        "alignment": "Word",
+        "combine": "Public",
         "big": false,
         "use32": false,
         "length": 2,
@@ -456,20 +407,11 @@
         "subrecords": [
           {
             "data_offset": 2,
-            "location": [
-              105,
-              "Offset(32) [loc 5]"
-            ],
+            "location": "Offset(32) [PharLap loc 5]",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              4,
-              "T4:SEGDEF(0)"
-            ],
+            "target_method": "T4:SEGDEF(0)",
             "target_source": "Explicit",
             "target_datum": 8
           }
@@ -508,20 +450,11 @@
         "subrecords": [
           {
             "data_offset": 2,
-            "location": [
-              105,
-              "Offset(32) [loc 5]"
-            ],
+            "location": "Offset(32) [PharLap loc 5]",
             "mode": "Segment-relative",
-            "frame_method": [
-              5,
-              "F5:Target"
-            ],
+            "frame_method": "F5:Target",
             "frame_source": "Explicit",
-            "target_method": [
-              0,
-              "T0:SEGDEF"
-            ],
+            "target_method": "T0:SEGDEF",
             "target_source": "Explicit",
             "target_datum": 8,
             "displacement": 1
