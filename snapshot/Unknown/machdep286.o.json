@@ -189,6 +189,7 @@
         "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
+        "alignment_bytes": 1,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -210,6 +211,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -231,6 +233,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -252,6 +255,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -857,6 +861,7 @@
         "segment_index": 2,
         "offset": 0,
         "data_length": 228,
+        "data_offset": 927,
         "data_preview": "420d00430d00440d00450d00460d0047"
       },
       "type_hex": "0xA0"
@@ -875,6 +880,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 751,
+        "data_offset": 1162,
         "data_preview": "c816000056c746f80000a100004024fe"
       },
       "type_hex": "0xA0"
@@ -893,6 +899,7 @@
           {
             "data_offset": 748,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -903,6 +910,7 @@
           {
             "data_offset": 743,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -913,6 +921,7 @@
           {
             "data_offset": 739,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -923,6 +932,7 @@
           {
             "data_offset": 735,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -933,6 +943,7 @@
           {
             "data_offset": 725,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -943,6 +954,7 @@
           {
             "data_offset": 718,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -953,6 +965,7 @@
           {
             "data_offset": 709,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -963,6 +976,7 @@
           {
             "data_offset": 706,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -972,6 +986,7 @@
           {
             "data_offset": 683,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -982,6 +997,7 @@
           {
             "data_offset": 680,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -991,6 +1007,7 @@
           {
             "data_offset": 671,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1001,6 +1018,7 @@
           {
             "data_offset": 656,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1011,6 +1029,7 @@
           {
             "data_offset": 653,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1020,6 +1039,7 @@
           {
             "data_offset": 639,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1030,6 +1050,7 @@
           {
             "data_offset": 629,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1040,6 +1061,7 @@
           {
             "data_offset": 622,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1050,6 +1072,7 @@
           {
             "data_offset": 617,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1060,6 +1083,7 @@
           {
             "data_offset": 613,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1070,6 +1094,7 @@
           {
             "data_offset": 599,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1080,6 +1105,7 @@
           {
             "data_offset": 595,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1090,6 +1116,7 @@
           {
             "data_offset": 592,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1100,6 +1127,7 @@
           {
             "data_offset": 587,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1110,6 +1138,7 @@
           {
             "data_offset": 568,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1120,6 +1149,7 @@
           {
             "data_offset": 560,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1130,6 +1160,7 @@
           {
             "data_offset": 556,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1140,6 +1171,7 @@
           {
             "data_offset": 539,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1150,6 +1182,7 @@
           {
             "data_offset": 534,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1160,6 +1193,7 @@
           {
             "data_offset": 528,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1170,6 +1204,7 @@
           {
             "data_offset": 524,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1180,6 +1215,7 @@
           {
             "data_offset": 520,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1190,6 +1226,7 @@
           {
             "data_offset": 517,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1200,6 +1237,7 @@
           {
             "data_offset": 513,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1210,6 +1248,7 @@
           {
             "data_offset": 508,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1220,6 +1259,7 @@
           {
             "data_offset": 500,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1230,6 +1270,7 @@
           {
             "data_offset": 497,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1239,6 +1280,7 @@
           {
             "data_offset": 494,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1249,6 +1291,7 @@
           {
             "data_offset": 482,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1259,6 +1302,7 @@
           {
             "data_offset": 471,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1269,6 +1313,7 @@
           {
             "data_offset": 468,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1278,6 +1323,7 @@
           {
             "data_offset": 465,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1288,6 +1334,7 @@
           {
             "data_offset": 456,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1298,6 +1345,7 @@
           {
             "data_offset": 448,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1308,6 +1356,7 @@
           {
             "data_offset": 445,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1317,6 +1366,7 @@
           {
             "data_offset": 442,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1327,6 +1377,7 @@
           {
             "data_offset": 439,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1337,6 +1388,7 @@
           {
             "data_offset": 436,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1347,6 +1399,7 @@
           {
             "data_offset": 433,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1357,6 +1410,7 @@
           {
             "data_offset": 430,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1367,6 +1421,7 @@
           {
             "data_offset": 427,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1377,6 +1432,7 @@
           {
             "data_offset": 424,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1387,6 +1443,7 @@
           {
             "data_offset": 421,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1397,6 +1454,7 @@
           {
             "data_offset": 418,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1407,6 +1465,7 @@
           {
             "data_offset": 415,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1417,6 +1476,7 @@
           {
             "data_offset": 412,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1427,6 +1487,7 @@
           {
             "data_offset": 408,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1437,6 +1498,7 @@
           {
             "data_offset": 403,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1447,6 +1509,7 @@
           {
             "data_offset": 397,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1457,6 +1520,7 @@
           {
             "data_offset": 389,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1467,6 +1531,7 @@
           {
             "data_offset": 374,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1477,6 +1542,7 @@
           {
             "data_offset": 360,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1487,6 +1553,7 @@
           {
             "data_offset": 339,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1497,6 +1564,7 @@
           {
             "data_offset": 318,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1507,6 +1575,7 @@
           {
             "data_offset": 314,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1517,6 +1586,7 @@
           {
             "data_offset": 256,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1527,6 +1597,7 @@
           {
             "data_offset": 252,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1537,6 +1608,7 @@
           {
             "data_offset": 230,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1547,6 +1619,7 @@
           {
             "data_offset": 226,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1557,6 +1630,7 @@
           {
             "data_offset": 217,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1567,6 +1641,7 @@
           {
             "data_offset": 212,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1577,6 +1652,7 @@
           {
             "data_offset": 204,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1587,6 +1663,7 @@
           {
             "data_offset": 200,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1597,6 +1674,7 @@
           {
             "data_offset": 197,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1607,6 +1685,7 @@
           {
             "data_offset": 193,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1617,6 +1696,7 @@
           {
             "data_offset": 188,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1627,6 +1707,7 @@
           {
             "data_offset": 184,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1637,6 +1718,7 @@
           {
             "data_offset": 180,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1647,6 +1729,7 @@
           {
             "data_offset": 174,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1657,6 +1740,7 @@
           {
             "data_offset": 168,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1667,6 +1751,7 @@
           {
             "data_offset": 160,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1677,6 +1762,7 @@
           {
             "data_offset": 147,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1687,6 +1773,7 @@
           {
             "data_offset": 116,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1697,6 +1784,7 @@
           {
             "data_offset": 109,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1707,6 +1795,7 @@
           {
             "data_offset": 102,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1717,6 +1806,7 @@
           {
             "data_offset": 94,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1727,6 +1817,7 @@
           {
             "data_offset": 91,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1737,6 +1828,7 @@
           {
             "data_offset": 83,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1747,6 +1839,7 @@
           {
             "data_offset": 80,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1756,6 +1849,7 @@
           {
             "data_offset": 75,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1766,6 +1860,7 @@
           {
             "data_offset": 67,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1776,6 +1871,7 @@
           {
             "data_offset": 64,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1785,6 +1881,7 @@
           {
             "data_offset": 56,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1795,6 +1892,7 @@
           {
             "data_offset": 53,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1804,6 +1902,7 @@
           {
             "data_offset": 47,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1814,6 +1913,7 @@
           {
             "data_offset": 35,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1824,6 +1924,7 @@
           {
             "data_offset": 32,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1834,6 +1935,7 @@
           {
             "data_offset": 23,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1844,6 +1946,7 @@
           {
             "data_offset": 20,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1853,6 +1956,7 @@
           {
             "data_offset": 17,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1863,6 +1967,7 @@
           {
             "data_offset": 11,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1888,6 +1993,7 @@
         "segment_index": 1,
         "offset": 751,
         "data_length": 863,
+        "data_offset": 2310,
         "data_preview": "740fa10000390628007306a12800a300"
       },
       "type_hex": "0xA0"
@@ -1906,6 +2012,7 @@
           {
             "data_offset": 857,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1916,6 +2023,7 @@
           {
             "data_offset": 848,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1926,6 +2034,7 @@
           {
             "data_offset": 833,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1936,6 +2045,7 @@
           {
             "data_offset": 830,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1946,6 +2056,7 @@
           {
             "data_offset": 814,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1956,6 +2067,7 @@
           {
             "data_offset": 801,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1966,6 +2078,7 @@
           {
             "data_offset": 770,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1976,6 +2089,7 @@
           {
             "data_offset": 728,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1986,6 +2100,7 @@
           {
             "data_offset": 715,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -1995,6 +2110,7 @@
           {
             "data_offset": 709,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -2004,6 +2120,7 @@
           {
             "data_offset": 685,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2014,6 +2131,7 @@
           {
             "data_offset": 669,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#1",
@@ -2023,6 +2141,7 @@
           {
             "data_offset": 649,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2033,6 +2152,7 @@
           {
             "data_offset": 635,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2043,6 +2163,7 @@
           {
             "data_offset": 624,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2053,6 +2174,7 @@
           {
             "data_offset": 620,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2063,6 +2185,7 @@
           {
             "data_offset": 598,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2073,6 +2196,7 @@
           {
             "data_offset": 587,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2083,6 +2207,7 @@
           {
             "data_offset": 583,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2093,6 +2218,7 @@
           {
             "data_offset": 560,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2103,6 +2229,7 @@
           {
             "data_offset": 551,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2113,6 +2240,7 @@
           {
             "data_offset": 547,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2123,6 +2251,7 @@
           {
             "data_offset": 528,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2133,6 +2262,7 @@
           {
             "data_offset": 516,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2143,6 +2273,7 @@
           {
             "data_offset": 511,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2153,6 +2284,7 @@
           {
             "data_offset": 507,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2163,6 +2295,7 @@
           {
             "data_offset": 489,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2173,6 +2306,7 @@
           {
             "data_offset": 475,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2183,6 +2317,7 @@
           {
             "data_offset": 462,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2193,6 +2328,7 @@
           {
             "data_offset": 455,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2203,6 +2339,7 @@
           {
             "data_offset": 437,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2213,6 +2350,7 @@
           {
             "data_offset": 419,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2223,6 +2361,7 @@
           {
             "data_offset": 415,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2233,6 +2372,7 @@
           {
             "data_offset": 401,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2243,6 +2383,7 @@
           {
             "data_offset": 372,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2253,6 +2394,7 @@
           {
             "data_offset": 362,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2263,6 +2405,7 @@
           {
             "data_offset": 352,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2273,6 +2416,7 @@
           {
             "data_offset": 343,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2283,6 +2427,7 @@
           {
             "data_offset": 312,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2293,6 +2438,7 @@
           {
             "data_offset": 305,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2303,6 +2449,7 @@
           {
             "data_offset": 296,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2313,6 +2460,7 @@
           {
             "data_offset": 286,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2323,6 +2471,7 @@
           {
             "data_offset": 249,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2333,6 +2482,7 @@
           {
             "data_offset": 193,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2343,6 +2493,7 @@
           {
             "data_offset": 134,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2353,6 +2504,7 @@
           {
             "data_offset": 130,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2363,6 +2515,7 @@
           {
             "data_offset": 126,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2373,6 +2526,7 @@
           {
             "data_offset": 80,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2383,6 +2537,7 @@
           {
             "data_offset": 57,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2393,6 +2548,7 @@
           {
             "data_offset": 54,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2403,6 +2559,7 @@
           {
             "data_offset": 49,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2413,6 +2570,7 @@
           {
             "data_offset": 44,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2423,6 +2581,7 @@
           {
             "data_offset": 40,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2433,6 +2592,7 @@
           {
             "data_offset": 37,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2443,6 +2603,7 @@
           {
             "data_offset": 32,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2453,6 +2614,7 @@
           {
             "data_offset": 25,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2463,6 +2625,7 @@
           {
             "data_offset": 18,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2473,6 +2636,7 @@
           {
             "data_offset": 15,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2483,6 +2647,7 @@
           {
             "data_offset": 12,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2493,6 +2658,7 @@
           {
             "data_offset": 7,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -2503,6 +2669,7 @@
           {
             "data_offset": 3,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",

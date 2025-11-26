@@ -183,6 +183,7 @@
         "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
+        "alignment_bytes": 1,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -250,6 +251,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -293,6 +295,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -336,6 +339,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -379,6 +383,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -449,6 +454,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 32,
+        "data_offset": 235,
         "data_preview": "53525589e5508d5d14895dfcb81a0000"
       },
       "type_hex": "0xA0"
@@ -467,6 +473,7 @@
           {
             "data_offset": 13,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -477,6 +484,7 @@
           {
             "data_offset": 24,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",

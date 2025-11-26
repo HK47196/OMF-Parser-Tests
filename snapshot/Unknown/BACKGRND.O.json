@@ -132,6 +132,7 @@
         "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": true,
@@ -153,6 +154,7 @@
         "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": true,
@@ -174,6 +176,7 @@
         "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": true,
@@ -195,6 +198,7 @@
         "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": true,
@@ -216,6 +220,7 @@
         "warnings": [],
         "acbp": 169,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": true,
@@ -372,6 +377,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 188,
+        "data_offset": 320,
         "data_preview": "3c57505f4445534b544f503e00424143"
       },
       "type_hex": "0xA0"
@@ -397,6 +403,7 @@
           {
             "data_offset": 45,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -408,6 +415,7 @@
           {
             "data_offset": 52,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -419,6 +427,7 @@
           {
             "data_offset": 62,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -443,6 +452,7 @@
           {
             "data_offset": 164,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F4:Location",
             "frame_source": "Explicit",
@@ -452,6 +462,7 @@
           {
             "data_offset": 516,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Self-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#2",
@@ -462,6 +473,7 @@
           {
             "data_offset": 228,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F6:Invalid",
             "frame_source": "Explicit",
@@ -472,6 +484,7 @@
           {
             "data_offset": 127,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -482,6 +495,7 @@
           {
             "data_offset": 146,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -493,6 +507,7 @@
           {
             "data_offset": 153,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -504,6 +519,7 @@
           {
             "data_offset": 167,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -515,6 +531,7 @@
           {
             "data_offset": 173,
             "location": "Offset(32)",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Thread#0",
@@ -541,6 +558,7 @@
         "segment_index": 4,
         "offset": 0,
         "data_length": 17,
+        "data_offset": 570,
         "data_preview": "1040010420202020000f0d0700170bca"
       },
       "type_hex": "0xA0"
@@ -559,6 +577,7 @@
         "segment_index": 4,
         "offset": 17,
         "data_length": 6,
+        "data_offset": 594,
         "data_preview": "051100000000"
       },
       "type_hex": "0xA0"
@@ -577,6 +596,7 @@
           {
             "data_offset": 2,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Thread#0",

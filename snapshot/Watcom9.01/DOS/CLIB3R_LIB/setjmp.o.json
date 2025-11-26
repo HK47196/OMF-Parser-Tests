@@ -85,6 +85,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -155,6 +156,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 93,
+        "data_offset": 98,
         "data_preview": "891889480489500889700c8978108968"
       },
       "type_hex": "0xA0"

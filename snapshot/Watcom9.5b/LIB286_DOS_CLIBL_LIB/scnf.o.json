@@ -161,6 +161,7 @@
         "warnings": [],
         "acbp": 40,
         "alignment": "Byte",
+        "alignment_bytes": 1,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -228,6 +229,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -271,6 +273,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -314,6 +317,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -357,6 +361,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -402,6 +407,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 8,
+        "data_offset": 193,
         "data_preview": "0102040810204080"
       },
       "type_hex": "0xA0"
@@ -465,6 +471,7 @@
         "segment_index": 1,
         "offset": 8,
         "data_length": 182,
+        "data_offset": 236,
         "data_preview": "56571e065589e583ec0a8b7e0e89c68e"
       },
       "type_hex": "0xA0"
@@ -483,6 +490,7 @@
           {
             "data_offset": 54,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -494,6 +502,7 @@
           {
             "data_offset": 68,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -542,6 +551,7 @@
         "segment_index": 1,
         "offset": 190,
         "data_length": 182,
+        "data_offset": 456,
         "data_preview": "837efa75720b7646837efa787453e921"
       },
       "type_hex": "0xA0"
@@ -560,6 +570,7 @@
         "segment_index": 1,
         "offset": 372,
         "data_length": 181,
+        "data_offset": 646,
         "data_preview": "8b4e10b801008cda50b81000ebb98b4e"
       },
       "type_hex": "0xA0"
@@ -578,6 +589,7 @@
         "segment_index": 1,
         "offset": 553,
         "data_length": 183,
+        "data_offset": 835,
         "data_preview": "8cda89fbe81303837efc00750bf6440e"
       },
       "type_hex": "0xA0"
@@ -596,6 +608,7 @@
           {
             "data_offset": 111,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -607,6 +620,7 @@
           {
             "data_offset": 128,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -617,6 +631,7 @@
           {
             "data_offset": 161,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -628,6 +643,7 @@
           {
             "data_offset": 171,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -653,6 +669,7 @@
         "segment_index": 1,
         "offset": 736,
         "data_length": 182,
+        "data_offset": 1048,
         "data_preview": "8d4401803c4e750c8e46fc89c626804f"
       },
       "type_hex": "0xA0"
@@ -671,6 +688,7 @@
           {
             "data_offset": 134,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -682,6 +700,7 @@
           {
             "data_offset": 143,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -707,6 +726,7 @@
         "segment_index": 1,
         "offset": 918,
         "data_length": 183,
+        "data_offset": 1251,
         "data_preview": "83ec028eda89c689d8f6440e017440f6"
       },
       "type_hex": "0xA0"
@@ -725,6 +745,7 @@
           {
             "data_offset": 45,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -751,6 +772,7 @@
         "segment_index": 1,
         "offset": 1101,
         "data_length": 181,
+        "data_offset": 1451,
         "data_preview": "f6440e01743af6440e04751df6440e08"
       },
       "type_hex": "0xA0"
@@ -769,6 +791,7 @@
           {
             "data_offset": 34,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -780,6 +803,7 @@
           {
             "data_offset": 82,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -791,6 +815,7 @@
           {
             "data_offset": 93,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -816,6 +841,7 @@
         "segment_index": 1,
         "offset": 1282,
         "data_length": 182,
+        "data_offset": 1658,
         "data_preview": "741eb8000088da30f6fec28ec089d726"
       },
       "type_hex": "0xA0"
@@ -834,6 +860,7 @@
           {
             "data_offset": 3,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -845,6 +872,7 @@
           {
             "data_offset": 18,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -855,6 +883,7 @@
           {
             "data_offset": 108,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -901,6 +930,7 @@
         "segment_index": 1,
         "offset": 1464,
         "data_length": 181,
+        "data_offset": 1879,
         "data_preview": "89cab9200031db9a00000000268a0430"
       },
       "type_hex": "0xA0"
@@ -919,6 +949,7 @@
           {
             "data_offset": 8,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -929,6 +960,7 @@
           {
             "data_offset": 44,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -954,6 +986,7 @@
         "segment_index": 1,
         "offset": 1645,
         "data_length": 182,
+        "data_offset": 2080,
         "data_preview": "268b5ffec746fe0000895efceb188e46"
       },
       "type_hex": "0xA0"
@@ -972,6 +1005,7 @@
           {
             "data_offset": 7,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -983,6 +1017,7 @@
           {
             "data_offset": 90,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1008,6 +1043,7 @@
         "segment_index": 1,
         "offset": 1827,
         "data_length": 181,
+        "data_offset": 2283,
         "data_preview": "894ef88d7e8e31c08c56f28946ea8946"
       },
       "type_hex": "0xA0"
@@ -1026,6 +1062,7 @@
           {
             "data_offset": 33,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1037,6 +1074,7 @@
           {
             "data_offset": 45,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1047,6 +1085,7 @@
           {
             "data_offset": 134,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1058,6 +1097,7 @@
           {
             "data_offset": 148,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1083,6 +1123,7 @@
         "segment_index": 1,
         "offset": 2008,
         "data_length": 182,
+        "data_offset": 2494,
         "data_preview": "b80000fec38ec026f6870000207457c7"
       },
       "type_hex": "0xA0"
@@ -1101,6 +1142,7 @@
           {
             "data_offset": 1,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1112,6 +1154,7 @@
           {
             "data_offset": 10,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1122,6 +1165,7 @@
           {
             "data_offset": 83,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1133,6 +1177,7 @@
           {
             "data_offset": 97,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1143,6 +1188,7 @@
           {
             "data_offset": 157,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1154,6 +1200,7 @@
           {
             "data_offset": 171,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1199,6 +1246,7 @@
         "segment_index": 1,
         "offset": 2190,
         "data_length": 183,
+        "data_offset": 2726,
         "data_preview": "b800008a5ef030fffec38ec026f68700"
       },
       "type_hex": "0xA0"
@@ -1217,6 +1265,7 @@
           {
             "data_offset": 1,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1228,6 +1277,7 @@
           {
             "data_offset": 15,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1238,6 +1288,7 @@
           {
             "data_offset": 103,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1263,6 +1314,7 @@
         "segment_index": 1,
         "offset": 2373,
         "data_length": 181,
+        "data_offset": 2934,
         "data_preview": "89c38946f083faff75053dffff74b985"
       },
       "type_hex": "0xA0"
@@ -1281,6 +1333,7 @@
           {
             "data_offset": 67,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1292,6 +1345,7 @@
           {
             "data_offset": 81,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1302,6 +1356,7 @@
           {
             "data_offset": 127,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1313,6 +1368,7 @@
           {
             "data_offset": 141,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1358,6 +1414,7 @@
         "segment_index": 1,
         "offset": 2554,
         "data_length": 182,
+        "data_offset": 3163,
         "data_preview": "f6440e107412807e8e2d7530f75eeef7"
       },
       "type_hex": "0xA0"
@@ -1376,6 +1433,7 @@
           {
             "data_offset": 31,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1387,6 +1445,7 @@
           {
             "data_offset": 42,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1397,6 +1456,7 @@
           {
             "data_offset": 98,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1443,6 +1503,7 @@
         "segment_index": 1,
         "offset": 2736,
         "data_length": 181,
+        "data_offset": 3383,
         "data_preview": "eb198b46e48b5ee28b4ee08b56de9a00"
       },
       "type_hex": "0xA0"
@@ -1461,6 +1522,7 @@
           {
             "data_offset": 15,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1471,6 +1533,7 @@
           {
             "data_offset": 83,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1482,6 +1545,7 @@
           {
             "data_offset": 92,
             "location": "Offset(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1507,6 +1571,7 @@
         "segment_index": 1,
         "offset": 2917,
         "data_length": 182,
+        "data_offset": 3589,
         "data_preview": "837ef430755489f08cdae8eb0189c389"
       },
       "type_hex": "0xA0"
@@ -1545,6 +1610,7 @@
         "segment_index": 1,
         "offset": 3099,
         "data_length": 182,
+        "data_offset": 3790,
         "data_preview": "8b46f4e817018946ee3b460c7d318b46"
       },
       "type_hex": "0xA0"
@@ -1563,6 +1629,7 @@
           {
             "data_offset": 28,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1573,6 +1640,7 @@
           {
             "data_offset": 128,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1618,6 +1686,7 @@
         "segment_index": 1,
         "offset": 3281,
         "data_length": 177,
+        "data_offset": 4006,
         "data_preview": "0146f8f6440e017458f6440e04751bf6"
       },
       "type_hex": "0xA0"
@@ -1636,6 +1705,7 @@
           {
             "data_offset": 34,
             "location": "Segment(16)",
+            "location_size": 2,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1647,6 +1717,7 @@
           {
             "data_offset": 118,
             "location": "Ptr(16:16)",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",

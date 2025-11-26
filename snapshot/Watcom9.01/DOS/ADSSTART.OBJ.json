@@ -180,6 +180,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -201,6 +202,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -222,6 +224,7 @@
         "warnings": [],
         "acbp": 104,
         "alignment": "Paragraph",
+        "alignment_bytes": 16,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -243,6 +246,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -264,6 +268,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -285,6 +290,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -306,6 +312,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -327,6 +334,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -348,6 +356,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -369,6 +378,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -390,6 +400,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -411,6 +422,7 @@
         "warnings": [],
         "acbp": 168,
         "alignment": "DWord",
+        "alignment_bytes": 4,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -432,6 +444,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -453,6 +466,7 @@
         "warnings": [],
         "acbp": 72,
         "alignment": "Word",
+        "alignment_bytes": 2,
         "combine": "Public",
         "big": false,
         "use32": false,
@@ -474,6 +488,7 @@
         "warnings": [],
         "acbp": 116,
         "alignment": "Paragraph",
+        "alignment_bytes": 16,
         "combine": "Stack",
         "big": false,
         "use32": false,
@@ -1166,6 +1181,7 @@
         "segment_index": 1,
         "offset": 0,
         "data_length": 2,
+        "data_offset": 868,
         "data_preview": "ebfe"
       },
       "type_hex": "0xA0"
@@ -1184,6 +1200,7 @@
         "segment_index": 3,
         "offset": 0,
         "data_length": 4,
+        "data_offset": 879,
         "data_preview": "01010100"
       },
       "type_hex": "0xA0"
@@ -1202,6 +1219,7 @@
         "segment_index": 12,
         "offset": 0,
         "data_length": 63,
+        "data_offset": 892,
         "data_preview": "00000000000000000000000000000000"
       },
       "type_hex": "0xA0"
@@ -1220,6 +1238,7 @@
         "segment_index": 2,
         "offset": 0,
         "data_length": 724,
+        "data_offset": 964,
         "data_preview": "eb67574154434f4d2043203338362052"
       },
       "type_hex": "0xA0"
@@ -1238,6 +1257,7 @@
           {
             "data_offset": 108,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1250,6 +1270,7 @@
           {
             "data_offset": 125,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1261,6 +1282,7 @@
           {
             "data_offset": 141,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1273,6 +1295,7 @@
           {
             "data_offset": 148,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1285,6 +1308,7 @@
           {
             "data_offset": 159,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1297,6 +1321,7 @@
           {
             "data_offset": 169,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1309,6 +1334,7 @@
           {
             "data_offset": 177,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1321,6 +1347,7 @@
           {
             "data_offset": 183,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1333,6 +1360,7 @@
           {
             "data_offset": 193,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1344,6 +1372,7 @@
           {
             "data_offset": 206,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1355,6 +1384,7 @@
           {
             "data_offset": 212,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1366,6 +1396,7 @@
           {
             "data_offset": 228,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1377,6 +1408,7 @@
           {
             "data_offset": 234,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1388,6 +1420,7 @@
           {
             "data_offset": 291,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1399,6 +1432,7 @@
           {
             "data_offset": 296,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1410,6 +1444,7 @@
           {
             "data_offset": 302,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1421,6 +1456,7 @@
           {
             "data_offset": 307,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1432,6 +1468,7 @@
           {
             "data_offset": 368,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1443,6 +1480,7 @@
           {
             "data_offset": 398,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1453,6 +1491,7 @@
           {
             "data_offset": 411,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1463,6 +1502,7 @@
           {
             "data_offset": 463,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1474,6 +1514,7 @@
           {
             "data_offset": 469,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1485,6 +1526,7 @@
           {
             "data_offset": 490,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1495,6 +1537,7 @@
           {
             "data_offset": 502,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1506,6 +1549,7 @@
           {
             "data_offset": 508,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1517,6 +1561,7 @@
           {
             "data_offset": 513,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1528,6 +1573,7 @@
           {
             "data_offset": 518,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1539,6 +1585,7 @@
           {
             "data_offset": 541,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1550,6 +1597,7 @@
           {
             "data_offset": 553,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1561,6 +1609,7 @@
           {
             "data_offset": 559,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1572,6 +1621,7 @@
           {
             "data_offset": 564,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1582,6 +1632,7 @@
           {
             "data_offset": 571,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1594,6 +1645,7 @@
           {
             "data_offset": 578,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F1:GRPDEF",
             "frame_source": "Explicit",
@@ -1606,6 +1658,7 @@
           {
             "data_offset": 583,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1616,6 +1669,7 @@
           {
             "data_offset": 662,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1626,6 +1680,7 @@
           {
             "data_offset": 671,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1637,6 +1692,7 @@
           {
             "data_offset": 705,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F5:Target",
             "frame_source": "Explicit",
@@ -1647,6 +1703,7 @@
           {
             "data_offset": 711,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Self-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Explicit",
@@ -1658,6 +1715,7 @@
           {
             "data_offset": 719,
             "location": "Offset(32) [PharLap loc 5]",
+            "location_size": 4,
             "mode": "Segment-relative",
             "frame_method": "F0:SEGDEF",
             "frame_source": "Explicit",
